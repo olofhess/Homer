@@ -1,0 +1,2458 @@
+{
+  "work": "iliad",
+  "lang": "sv",
+  "translator": "Erland Lagerlöf",
+  "book": 21,
+  "status": "REVIEWED_OCR_SEGMENTATION_UNVERIFIED_ALIGNMENT",
+  "warning": "OCR-brytningar granskade; verskopplingen är fortfarande preliminär och inte verifierad mot tryckt utgåva.",
+  "expectedGreekVerses": 611,
+  "countMatchesGreek": true,
+  "heading": "TJUGUFÖRSTA SÅNGEN.",
+  "argument": "Kampen vid floden.",
+  "verses": [
+    {
+      "line": 1,
+      "text": "Men när de komrao till vadct,  som är i den hvirflande"
+    },
+    {
+      "line": 2,
+      "text": "Xanthos, floden som rinner så skönt och af Zeus den odödlige föddes,"
+    },
+    {
+      "line": 3,
+      "text": "skilde Achilies dem åt och dref somliga hän öfver slätten"
+    },
+    {
+      "line": 4,
+      "text": "in emot staden, den väg, där achaierna bäfvande flyktat"
+    },
+    {
+      "line": 5,
+      "text": "dagen förut,  då mot dem framstormade strålande Hektor;"
+    },
+    {
+      "line": 6,
+      "text": "dit i förvirring de strömmade hän, dock liera i vägen"
+    },
+    {
+      "line": 7,
+      "text": "bredde det tjockaste moln, som hämmade flykten.  De andra,"
+    },
+    {
+      "line": 8,
+      "text": "trängda till  floden ner,  den silfverhvirflande, djupa,"
+    },
+    {
+      "line": 9,
+      "text": "störtade i med bedöfvande larm, och böljorna fräste,"
+    },
+    {
+      "line": 10,
+      "text": "stränderna rundtorn skållade högt, och de själf va med nödrop"
+    },
+    {
+      "line": 11,
+      "text": "simmade hit och dit, i hvirflarna snurrade rundtorn."
+    },
+    {
+      "line": 12,
+      "text": "Som när en gräshoppsvärm, af häftiga lågorna ansatt,"
+    },
+    {
+      "line": 13,
+      "text": "fladdrande flyr till en flod och den outtröttliga elden"
+    },
+    {
+      "line": 14,
+      "text": "sveder dem, blossad så plötsligen upp, och de dimpa i vattnet:"
+    },
+    {
+      "line": 15,
+      "text": "så blef af skräck för Achilies i hast djuphvirflande Xanthos"
+    },
+    {
+      "line": 16,
+      "text": "fylld i sin brusande ström med ett myller af hästar och kämpar."
+    },
+    {
+      "line": 17,
+      "text": "Där uppå stranden sin lans Zeusättade hjälten lät kvarstå,"
+    },
+    {
+      "line": 18,
+      "text": "mot tamariskerna stödd, och sprang i, så stark som en gudom,"
+    },
+    {
+      "line": 19,
+      "text": "endast med svärdet i hand och betänkt på förskräckliga bragder."
+    },
+    {
+      "line": 20,
+      "text": "Rundt omkring sig han högg, och grufliga rosslingar ljödo"
+    },
+    {
+      "line": 21,
+      "text": "under hans mördande svärd, och af blod rödfärgades vattnet."
+    },
+    {
+      "line": 22,
+      "text": "Såsom när öfriga fiskar af skräck för den stora delfinen"
+    },
+    {
+      "line": 23,
+      "text": "flykta och fylla de innersta vrår i den skyddande hamnen,"
+    },
+    {
+      "line": 24,
+      "text": "efter han glupande äter dem upp, så många han träffar;"
+    },
+    {
+      "line": 25,
+      "text": "likaså troerna flydde  med  skräck i den  mäktiga"
+    },
+    {
+      "line": 26,
+      "text": "strömmenin under strändernas brant. Men då armarna tiöttnat att hugga,"
+    },
+    {
+      "line": 27,
+      "text": "valde i floden han ut tolf lefvande trolska svenner"
+    },
+    {
+      "line": 28,
+      "text": "till att försoningen bli för den fallne Menoitiossonen."
+    },
+    {
+      "line": 29,
+      "text": "Dem drog ur floden han upp, från besinningen skrämda som"
+    },
+    {
+      "line": 30,
+      "text": "råkid, band deras händer på rygg med de välutsnidade remmar,"
+    },
+    {
+      "line": 31,
+      "text": "hvilka de efter sin sed öfver flätade brynjorna buro,"
+    },
+    {
+      "line": 32,
+      "text": "och dem lemnade se'n åt de sina att föra till skeppen."
+    },
+    {
+      "line": 33,
+      "text": "Själf han stormade framåt på nytt i sin ifver att mörda."
+    },
+    {
+      "line": 34,
+      "text": "Nu han Lykaon, en son till Priamos, Dardanos' ättling,"
+    },
+    {
+      "line": 35,
+      "text": "mötte, som flydde från floden. En natt utgången på ströftåg"
+    },
+    {
+      "line": 36,
+      "text": "hade han själf honom släpat med våld ur Priamos' trädgård,"
+    },
+    {
+      "line": 37,
+      "text": "tdär vid ett fikonaträd han sorglös  stod  och med knifven"
+    },
+    {
+      "line": 38,
+      "text": "telningar skar för att göra af dem uppå vagnen en stöd stång;"
+    },
+    {
+      "line": 39,
+      "text": "oförmodadt då kom till hans ofärd hjälten Achules."
+    },
+    {
+      "line": 40,
+      "text": "Denne lät honom på skepp till det välbefolkade Lemnos"
+    },
+    {
+      "line": 41,
+      "text": "föra till salu, och där blef han köpt af en son till iason;"
+    },
+    {
+      "line": 42,
+      "text": "men af Eetion, Imbros' drott, sin redlige gästvän,"
+    },
+    {
+      "line": 43,
+      "text": "köptes han fri för betydande pris och blef sänd till Arisbe;"
+    },
+    {
+      "line": 44,
+      "text": "därifrån flyktad i lön, kom han åter till fädernehuset."
+    },
+    {
+      "line": 45,
+      "text": "Elfva dagar han fröjda sig fick ibland älskade fränder,"
+    },
+    {
+      "line": 46,
+      "text": "kommen från Lernnos igen, men på tolfte dagen en gudom"
+    },
+    {
+      "line": 47,
+      "text": "gaf honom åter Achules i våld, som skulle den unge"
+    },
+    {
+      "line": 48,
+      "text": "sända till Hades ner, hur gärna han än ville slippa."
+    },
+    {
+      "line": 49,
+      "text": "Knappt honom varsnade nu  snabbfotade hjälten Achules"
+    },
+    {
+      "line": 50,
+      "text": "obetäckt, utan hjälm eller sköld och lansen förutan —"
+    },
+    {
+      "line": 51,
+      "text": "ty alltsammans på marken han slängt under flykten från floden,"
+    },
+    {
+      "line": 52,
+      "text": "plågad af rinnande svett och i knäna förlamad af trötthet —,"
+    },
+    {
+      "line": 53,
+      "text": "förrän förbittrad han talade så till sitt manliga hjärta:"
+    },
+    {
+      "line": 54,
+      "text": "»Ack, en mäkta förunderlig syn mina ögon få skåda!"
+    },
+    {
+      "line": 55,
+      "text": "Nu jag tror då minsann, att de modige troer, jag dödat,"
+    },
+    {
+      "line": 56,
+      "text": "skola stå upp  igen  från det underjordiska mörkret,"
+    },
+    {
+      "line": 57,
+      "text": "såsom nu denne är kommen igen och fördärfvelsen undgått,"
+    },
+    {
+      "line": 58,
+      "text": "som till det heliga Lemnos blef såld, och ej hejdade honom"
+    },
+    {
+      "line": 59,
+      "text": "svallande hafvets djup, som tvingar så mången tillbaka."
+    },
+    {
+      "line": 60,
+      "text": "Men välan då, så skall han jämväl få att smaka min lansudd,"
+    },
+    {
+      "line": 61,
+      "text": "för att förnimma jag må i min själ och veta det säkert,"
+    },
+    {
+      "line": 62,
+      "text": "om han ock sedan skall slippa så lätt eller honom behålla"
+    },
+    {
+      "line": 63,
+      "text": "näringsalstrande jorden,  som kvar den starkaste håller.»"
+    },
+    {
+      "line": 64,
+      "text": "Uti de tankar han stod.   Då nalkades honom Lykaonångestfull"
+    },
+    {
+      "line": 65,
+      "text": "för aft famna hans knän, ty af hela sitt hjärta"
+    },
+    {
+      "line": 66,
+      "text": "ville han slippa den rysliga död och förgängelsens mörker."
+    },
+    {
+      "line": 67,
+      "text": "Genast sin väldiga lans snabbfotade hjälten Achilles"
+    },
+    {
+      "line": 68,
+      "text": "höjde till stöt, men han böjde sig ner, sprang inunder och"
+    },
+    {
+      "line": 69,
+      "text": "famnen slog om hans knän, medan öfver hans rygg gick lansen och"
+    },
+    {
+      "line": 70,
+      "text": "stod där borrad i jorden ner och fikade än efter hullet."
+    },
+    {
+      "line": 71,
+      "text": "Nu med sin ena arm om Achilles' knän han sig klängde"
+    },
+    {
+      "line": 72,
+      "text": "och med den andra i lansen holl fast och släppte den icke"
+    },
+    {
+      "line": 73,
+      "text": "och med bevingade ord till Achilles talte och sade:"
+    },
+    {
+      "line": 74,
+      "text": "»Vid dina knän jag dig ber!   Dig förbarma, Achilles, och"
+    },
+    {
+      "line": 75,
+      "text": "skona! Akta du bör mig, o drott, som en hjälpbegärande skyddsling,"
+    },
+    {
+      "line": 76,
+      "text": "ty hos dig jag smakade först af gudinnan Demeters"
+    },
+    {
+      "line": 77,
+      "text": "håfvor den dag, du till fånga mig tog i vår ansade trädgård."
+    },
+    {
+      "line": 78,
+      "text": "Och du lät föra mig bort till det heliga Lemnos och sälja,"
+    },
+    {
+      "line": 79,
+      "text": "fjärran från fader och släkt, och jag köptes för hundrade oxar."
+    },
+    {
+      "line": 80,
+      "text": "Nu vill jag köpa mig fri tre gånger så dyrt.   Det är tolfte"
+    },
+    {
+      "line": 81,
+      "text": "dagen allenast i dag, se'n jag lände till Ilion åter"
+    },
+    {
+      "line": 82,
+      "text": "efter mångfaldiga kval, och det grymma ödet nu redan"
+    },
+    {
+      "line": 83,
+      "text": "bragt mig igen i ditt våld. Jag för Zeus är väl vorden förhatlig,"
+    },
+    {
+      "line": 84,
+      "text": "efter han gaf mig på nytt i din hand, och till kortaste lefnad"
+    },
+    {
+      "line": 85,
+      "text": "månde min moder mig födt, Laothoe, dotter af Altes,"
+    },
+    {
+      "line": 86,
+      "text": "åldrige drotten, som styr Lelegernas krigiska stammar"
+    },
+    {
+      "line": 87,
+      "text": "och i det bergiga Pedasos bor vid Satnioeis' stränder."
+    },
+    {
+      "line": 88,
+      "text": "Dennes dotter vardt en af Priamos' många gemåler;"
+    },
+    {
+      "line": 89,
+      "text": "söner födde hon två, och oss vill bägge du mörda."
+    },
+    {
+      "line": 90,
+      "text": "Redan den ene du dräpt, Polydoros, gudarnes like;"
+    },
+    {
+      "line": 91,
+      "text": "främst bland vårt fotfolk stupad han är for din hvässade glafven;"
+    },
+    {
+      "line": 92,
+      "text": "nu skall du här bli mitt eget fördärf, ty jag hoppas ej mera"
+    },
+    {
+      "line": 93,
+      "text": "undanslippa din hand, då en gud mig fört i dm närhet."
+    },
+    {
+      "line": 94,
+      "text": "Dock vill jag säga en sak, som jag beder dig lägga på hjärtat:"
+    },
+    {
+      "line": 95,
+      "text": "spara mitt lif, ty på mödernet ej är jag broder till Hektoir,"
+    },
+    {
+      "line": 96,
+      "text": "han som har dödat din vän, den hjärtemilde och starke.»"
+    },
+    {
+      "line": 97,
+      "text": "Sålunda Priamos' strålande son till den snabbe Achilles"
+    },
+    {
+      "line": 98,
+      "text": "talte med bedjande ord, men ett omildt svar fick han höra:"
+    },
+    {
+      "line": 99,
+      "text": "»Tala ej, dåre, om lösen till mig; dina ord kan du spara."
+    },
+    {
+      "line": 100,
+      "text": "Förr, innan ännu sin skickelsestund hade hunnit Patroklos,"
+    },
+    {
+      "line": 101,
+      "text": "då var jag snarare böjd för att troerna någon försköning"
+    },
+    {
+      "line": 102,
+      "text": "visa, och. många jag lefvande tog och lät fjärran försälja;"
+    },
+    {
+      "line": 103,
+      "text": "nn ej en enda likväl skall undanslippa för döden,"
+    },
+    {
+      "line": 104,
+      "text": "sedan en gud honom gett i mitt våld framför Ilions murar,"
+    },
+    {
+      "line": 105,
+      "text": "ingen af samtliga troer och minst af Priamos söner."
+    },
+    {
+      "line": 106,
+      "text": "Därför så dö äfven du, min vän ! Hvarför klaga så häftigt?"
+    },
+    {
+      "line": 107,
+      "text": "Äfven Patroklos dog, som dig öfverträffade vida."
+    },
+    {
+      "line": 108,
+      "text": "Skåda mig själf, hvilken hjälte jag är, så reslig och fager;"
+    },
+    {
+      "line": 109,
+      "text": "ädlaste fader mig födt, och till moder jag har en gudinna;"
+    },
+    {
+      "line": 110,
+      "text": "ändå förbida ock mig den mäktiga Moiran och döden."
+    },
+    {
+      "line": 111,
+      "text": "Kommande varder den gryningsstund eller kväll eller middag,"
+    },
+    {
+      "line": 112,
+      "text": "då äfven mig en man skall i drabbningen lifvet beröfva,"
+    },
+    {
+      "line": 113,
+      "text": "träffande mig med sin lans eller ock med en pil ifrån strängen.»"
+    },
+    {
+      "line": 114,
+      "text": "Sade.  Då domnade hjärta och knän med ens på Lykaon,"
+    },
+    {
+      "line": 115,
+      "text": "lansen han släppte ur hand och med båda armarna bredda"
+    },
+    {
+      "line": 116,
+      "text": "segnade hop, men Achilles drog ut det eggade svärdet"
+    },
+    {
+      "line": 117,
+      "text": "och genom nyckelbenet det stack invid halsen, och hela"
+    },
+    {
+      "line": 118,
+      "text": "dubbeleggade klingan sjönk in, och framstupa på jorden"
+    },
+    {
+      "line": 119,
+      "text": "fallen han låg, medan bloden rann ut och fuktade marken."
+    },
+    {
+      "line": 120,
+      "text": "Honom Achilles i foten då tog och slängde i floden,"
+    },
+    {
+      "line": 121,
+      "text": "och med bevingade ord han jublande ropte och sade: ,"
+    },
+    {
+      "line": 122,
+      "text": "»Ligg nu bland fiskarna där, som skola dig bloden af såret"
+    },
+    {
+      "line": 123,
+      "text": "slicka helt misskundslöst.  Ty ej skall din vördade moder"
+    },
+    {
+      "line": 124,
+      "text": "klagande lägga ditt lik uppå bår, nej i stället Skamandros"
+    },
+    {
+      "line": 125,
+      "text": "hvirflande bära dig ner till hafvets rymliga sköte."
+    },
+    {
+      "line": 126,
+      "text": "Mången fisk på sin färd skall till mörka och krusade ytan"
+    },
+    {
+      "line": 127,
+      "text": "taga ett språng för att äta på dig hvitglänsande fettet."
+    },
+    {
+      "line": 128,
+      "text": "Stupen, I troer, blott än, tills vi hinna till heliga Troja,"
+    },
+    {
+      "line": 129,
+      "text": "I under bäfvande flykt, och jag själf med förgörelsen bakom."
+    },
+    {
+      "line": 130,
+      "text": "Ej skall er floden ens, den silfverhvirflande, sköna,"
+    },
+    {
+      "line": 131,
+      "text": "rädda, åt hvilken I tjurar i mängd ju offren af gammalt,"
+    },
+    {
+      "line": 132,
+      "text": "och i hvars hvirflande ström I störten ock lefvande hästar."
+    },
+    {
+      "line": 133,
+      "text": "Nej, utan ömkligen skolen I dö, till dess att I alla"
+    },
+    {
+      "line": 134,
+      "text": "sonat Patroklos' blod  och achaiernas grufliga jämmer,"
+    },
+    {
+      "line": 135,
+      "text": "hvilka vid skeppen I nedergjort, då jag höll mig från striden.»"
+    },
+    {
+      "line": 136,
+      "text": "Så han sade; men floden blef vred i  sitt hjärta på allvar"
+    },
+    {
+      "line": 137,
+      "text": "och i sitt sinne nu tänkte uppå, hur han skulle från kampen"
+    },
+    {
+      "line": 138,
+      "text": "stäfja Peliden och värja utaf ifrån troerna döden."
+    },
+    {
+      "line": 139,
+      "text": "Då sprang Achilles fram, i sin häftiga ifver att döda,"
+    },
+    {
+      "line": 140,
+      "text": "med långskuggande lansen i   hand mot Asteropaios,"
+    },
+    {
+      "line": 141,
+      "text": "sonen till Pelegon båld, som af breda Axiosströmmen"
+    },
+    {
+      "line": 142,
+      "text": "och Periboia var född; hon var Akessamenos, äldsta"
+    },
+    {
+      "line": 143,
+      "text": "dotter, och henne i famn slöt djupa och hvirflande floden."
+    },
+    {
+      "line": 144,
+      "text": "Alltså mot honom Achilles sprang fram, men ur floden till"
+    },
+    {
+      "line": 145,
+      "text": "mötes steg han med tvänne spjut, och mod göt in i hans hjärta"
+    },
+    {
+      "line": 146,
+      "text": "Xanthos, som vredgad var för de mördade ynglingar alla,"
+    },
+    {
+      "line": 147,
+      "text": "hvilka Achilles dräpt i hans ström utan ringaste misskund."
+    },
+    {
+      "line": 148,
+      "text": "När de nu skyndande fram hade hunnit hvarandra helt nära,"
+    },
+    {
+      "line": 149,
+      "text": "talte till honom först snahbfotade hjälten Achilles:"
+    },
+    {
+      "line": 150,
+      "text": "»Hvem och hvadan är du, som djärfves att träda emot mig?"
+    },
+    {
+      "line": 151,
+      "text": "Söner af olycksaliga blott gå min glafven till mötes.»"
+    },
+    {
+      "line": 152,
+      "text": "Svarade Pelegons lysande son och sade till honom:"
+    },
+    {
+      "line": 153,
+      "text": "»Peleus' modige son, hvi frågar du efter min härkomst?"
+    },
+    {
+      "line": 154,
+      "text": "Fjärran ifrån jag är, från Paioniens bördiga rike,"
+    },
+    {
+      "line": 155,
+      "text": "och är som höfding följd af paioniske kämpar med långspjut"
+    },
+    {
+      "line": 156,
+      "text": "Detta den elfte dagningen är, se'n jag lände till Troja."
+    },
+    {
+      "line": 157,
+      "text": "Vet, att jag leder min ätt från den breda Axiosströmmen,"
+    },
+    {
+      "line": 158,
+      "text": "floden, hvars vatten det skönaste är, som rinner på jorden."
+    },
+    {
+      "line": 159,
+      "text": "Pelegon hette hans son, berömd för sitt spjut, och af denne,"
+    },
+    {
+      "line": 160,
+      "text": "säger man, föddes jag själf. Dock, nu låt oss strida, Achilles!»"
+    },
+    {
+      "line": 161,
+      "text": "Så han talte med hot.   Då höjde den ädle Achilles"
+    },
+    {
+      "line": 162,
+      "text": "lansen af Pelions ask, men ett spjut i hvardera handen"
+    },
+    {
+      "line": 163,
+      "text": "Asteropaios svang, ty hans vänstra var flink som den högra;"
+    },
+    {
+      "line": 164,
+      "text": "och med det ena han råkte hans sköld, men udden ej skölden"
+    },
+    {
+      "line": 165,
+      "text": "bräckte, ty hejdad den blef af guldet, den eviges gåfva;"
+    },
+    {
+      "line": 166,
+      "text": "och med det andra han rispade lätt hans arm invid högra"
+    },
+    {
+      "line": 167,
+      "text": "handen, och bloden spratt ut, men spjutet flög bort öfver hjälten"
+    },
+    {
+      "line": 168,
+      "text": "och bet i marken sig fast och fikade än efter hullet."
+    },
+    {
+      "line": 169,
+      "text": "Sände därefter Achilles åstad rakflygande lansen,"
+    },
+    {
+      "line": 170,
+      "text": "spännande hela sin kraft för att Asteropaios förgöra;"
+    },
+    {
+      "line": 171,
+      "text": "miste han kastade dock och träffade brinken af stranden"
+    },
+    {
+      "line": 172,
+      "text": "så att i denna for in hans askspjut ända till midten."
+    },
+    {
+      "line": 173,
+      "text": "Då drog Peliden ut från sin sida det eggade svärdet"
+    },
+    {
+      "line": 174,
+      "text": "och for den andre till lifs, som försökte med seniga handen"
+    },
+    {
+      "line": 175,
+      "text": "rycka Achilles' lans ur jorden, men orkade icke."
+    },
+    {
+      "line": 176,
+      "text": "Trenne gånger han ryste den hårdt i sin väldiga ifver,"
+    },
+    {
+      "line": 177,
+      "text": "trenne gånger hans styrka gaf tappt, men han ville dock ännu"
+    },
+    {
+      "line": 178,
+      "text": "böja och bryta utaf Aiakidens väldiga askspjut;"
+    },
+    {
+      "line": 179,
+      "text": "dock, honom dräpte Achilles förut med svärdet på närhåll;"
+    },
+    {
+      "line": 180,
+      "text": "ty han i buken högg till invid nafveln, och tarmarna alla"
+    },
+    {
+      "line": 181,
+      "text": "vällde på jorden ut, och af mörker den rosslandes ögon"
+    },
+    {
+      "line": 182,
+      "text": "höljdes; men öfver hans bröst sig störtade genast Achules,"
+    },
+    {
+      "line": 183,
+      "text": "drog honom rustningen af och jublande talte och sade:"
+    },
+    {
+      "line": 184,
+      "text": "»Ligg du där!   Det är vanskligt minsann att med, starke Kronions"
+    },
+    {
+      "line": 185,
+      "text": "söner sig mäta i strid, om ock ättling man är af en flodgud."
+    },
+    {
+      "line": 186,
+      "text": "Såsom din ättefader du nämnt bredströmmande floden;"
+    },
+    {
+      "line": 187,
+      "text": "jag kan berömma mig af att från Zeus allsvåldige stamma."
+    },
+    {
+      "line": 188,
+      "text": "Fader till mig är den mannen, som styr Myrmidonernas rike,"
+    },
+    {
+      "line": 189,
+      "text": "Peleus, Aiakos' son, och till Aiakos Zeus var ju fader."
+    },
+    {
+      "line": 190,
+      "text": "Minns, att Zeus är för mer än de floder, som rinna till hafvet,"
+    },
+    {
+      "line": 191,
+      "text": "och Zeus' ättlingar alltså för mer än flodernas söner."
+    },
+    {
+      "line": 192,
+      "text": "Här står ju också dig bi en betydande flod, om nu hjälpa"
+    },
+    {
+      "line": 193,
+      "text": "alls han förmår, ty omöjligt det är mot Kronion att strida."
+    },
+    {
+      "line": 194,
+      "text": "Ej kan med honom sig ens Acheloos, den mäktige, mäta,"
+    },
+    {
+      "line": 195,
+      "text": "ej i sin väldiga kraft den djupa Okeanosströmmen,"
+    },
+    {
+      "line": 196,
+      "text": "fast ifrån honom det är, som floderna alla och hafvet"
+    },
+    {
+      "line": 197,
+      "text": "flyta och källorna alla på jord och brunnarna djupa."
+    },
+    {
+      "line": 198,
+      "text": "Denne han bäfvar likväl för den höge Olympierns blixtar"
+    },
+    {
+      "line": 199,
+      "text": "och hans förfärliga tordönsbrak, när det skallar från himlen.»"
+    },
+    {
+      "line": 200,
+      "text": "Sade och ryckte så upp sin kopparlans utur brinken"
+    },
+    {
+      "line": 201,
+      "text": "och lät den fallne där liggande bli, som han lifvet heröfvät,"
+    },
+    {
+      "line": 202,
+      "text": "sträckt uppå sanden och sköljd af det mörka och skimrande"
+    },
+    {
+      "line": 203,
+      "text": "vattnet. Kommo då myllrande fram kring liket ålar och fiskar,"
+    },
+    {
+      "line": 204,
+      "text": "hvilka med giriga bett afgnagde på njurarna fettet."
+    },
+    {
+      "line": 205,
+      "text": "Nu han förföljde med hast Paioniens stridsvagnskämpar,"
+    },
+    {
+      "line": 206,
+      "text": "som voro stadda på flykt längs stranden af hvirflande floden,"
+    },
+    {
+      "line": 207,
+      "text": "sedan i blodiga stridens tumult sin ypperste kämpe"
+    },
+    {
+      "line": 208,
+      "text": "stupa de sett för Pelidens hand och förgörande klinga."
+    },
+    {
+      "line": 209,
+      "text": "Där han Thersilochos drap och Astypylos sedan och Mydon,"
+    },
+    {
+      "line": 210,
+      "text": "Ainios, Mnesos och Thrasios se'n och till slut Ofelestes;"
+    },
+    {
+      "line": 211,
+      "text": "och nu den snabbe Achules väl fler af Paionerna dödat,"
+    },
+    {
+      "line": 212,
+      "text": "om ej i mänskogestalt djuphvirflande floden till honom"
+    },
+    {
+      "line": 213,
+      "text": "talat förgrymmade ord och ropat från hvirflande djupet:"
+    },
+    {
+      "line": 214,
+      "text": "»Främst bland människor alla i kraft och tillika i illdåd"
+    },
+    {
+      "line": 215,
+      "text": "är du Achules, ty jämt dig gudarne själfva beskydda."
+    },
+    {
+      "line": 216,
+      "text": "Om dig Kronion beskärt, att du samtliga troer skall döda,"
+    },
+    {
+      "line": 217,
+      "text": "drif dem då bort ifrån mig och föröfva på fältet din mordbragd!"
+    },
+    {
+      "line": 218,
+      "text": "Fullt är redan af stupades lik mitt älskliga flöde,"
+    },
+    {
+      "line": 219,
+      "text": "ej är jag längre i stånd att hvälfva min bölja mot hafvet,"
+    },
+    {
+      "line": 220,
+      "text": "packad med lik som jag är; ty förgörande rasar din glafven."
+    },
+    {
+      "line": 221,
+      "text": "Därför, välan, så bör upp! Du förfärar mig, väldige härdrott.»"
+    },
+    {
+      "line": 222,
+      "text": "Honom svarade då snabbfotade hjälten Achilles:"
+    },
+    {
+      "line": 223,
+      "text": "»Ja, Skam andros, du ättling af Zeus, ditt bud vill jag lyda."
+    },
+    {
+      "line": 224,
+      "text": "Icke jag slutar dock upp att de trotsiga troerna mörda,"
+    },
+    {
+      "line": 225,
+      "text": "innan till staden jag drifvit dem hän och fått Hektori tvekamp"
+    },
+    {
+      "line": 226,
+      "text": "pröfva, om denne skall mig, eller jag skall honom betvinga.»"
+    },
+    {
+      "line": 227,
+      "text": "Sade och rusade hän efter troerna, stark som en gudom."
+    },
+    {
+      "line": 228,
+      "text": "Men till Apollo då talade så djuphvirflande floden:"
+    },
+    {
+      "line": 229,
+      "text": "»Ve oss, du son af Zeus, med din silfverbåge på skuldran!"
+    },
+    {
+      "line": 230,
+      "text": "Intet du aktat Kronions beslut, fastän ifrigt han bjöd dig"
+    },
+    {
+      "line": 231,
+      "text": "troerna skydda och vara till hjälp, tills skymmande kvällen"
+    },
+    {
+      "line": 232,
+      "text": "sänkte sig ändtligen ner och beskuggade bördiga fälten.»"
+    },
+    {
+      "line": 233,
+      "text": "Sagdt. Men från strandens brink den spjutberömde Achilles"
+    },
+    {
+      "line": 234,
+      "text": "midt i hans fåra sprang ut; men vildt uppbrusade floden,"
+    },
+    {
+      "line": 235,
+      "text": "hvirflande sjöd han i hela sitt djup och tumlade liken,"
+    },
+    {
+      "line": 236,
+      "text": "hvilka i myckenhet lågo  däri,  af Achilles förgjorda;"
+    },
+    {
+      "line": 237,
+      "text": "dessa han vräkte i land med ett vrålande sådant som tjurens,"
+    },
+    {
+      "line": 238,
+      "text": "men dem som lefde, dem räddade han i sitt däjliga flöde,"
+    },
+    {
+      "line": 239,
+      "text": "gömmande undan dem väl inom hvirflarna djupa och stora."
+    },
+    {
+      "line": 240,
+      "text": "Vågen med brusande dån sig tornade upp kring Achilles,"
+    },
+    {
+      "line": 241,
+      "text": "drabbade häftigt ner på hans sköld och lät icke hans fötter"
+    },
+    {
+      "line": 242,
+      "text": "finna ett säkert stöd.    I ett almträd, resligt och lummigt,"
+    },
+    {
+      "line": 243,
+      "text": "fattade hjälten då tag, men trädet med rötterna uppryckt"
+    },
+    {
+      "line": 244,
+      "text": "föll och ref brinken med och blef liggande tvärs öfver floden"
+    },
+    {
+      "line": 245,
+      "text": "såsom en hämmande damm i dess våg med de yfviga grenar,"
+    },
+    {
+      "line": 246,
+      "text": "helt nedstörtadt däri.   Men Achilles ur hvirfvlarna uppsprang"
+    },
+    {
+      "line": 247,
+      "text": "och öfver slätten flög hän uppå ilande fötter förfärad."
+    },
+    {
+      "line": 248,
+      "text": "Mäktige guden ej slutade dock, utan rusade efter"
+    },
+    {
+      "line": 249,
+      "text": "med svartglänsande svall för att stäfja från mödande kampen"
+    },
+    {
+      "line": 250,
+      "text": "Peleus' gudomlige son och från troerna värja fördärfvet."
+    },
+    {
+      "line": 251,
+      "text": "Undan Achilles sprang och var före så långt som ett spjutkast,"
+    },
+    {
+      "line": 252,
+      "text": "liknande örnen i fart, den mörkbefjädrade jägarn,"
+    },
+    {
+      "line": 253,
+      "text": "som ibland fåglar den starkaste är och den snabbaste äfven;"
+    },
+    {
+      "line": 254,
+      "text": "så han störtade fram, och hans kopparbrynja kring bröstet"
+    },
+    {
+      "line": 255,
+      "text": "skramlade fruktansvärdt; och åt sidan han Vek och för floden"
+    },
+    {
+      "line": 256,
+      "text": "flydde, men denne med brusande larm kom rullande efter."
+    },
+    {
+      "line": 257,
+      "text": "Som när en vattnande man ifrån mörka och skimrande källan"
+    },
+    {
+      "line": 258,
+      "text": "leder en rännil ut för att vattna plantering och trädgård"
+    },
+    {
+      "line": 259,
+      "text": "och mied sin hacka i hand bortröjer hvart hinder ur rännan;"
+    },
+    {
+      "line": 260,
+      "text": "vattnet då rinner där fram, så att kiselstenarna alla"
+    },
+    {
+      "line": 261,
+      "text": "vältras på bottnen åstad, och därefter för sluttningen brådstört"
+    },
+    {
+      "line": 262,
+      "text": "flödar det sorlande ner och förbi sin ledare hinner:"
+    },
+    {
+      "line": 263,
+      "text": "sålunda upphann jämt den böljande strömmen Achilles,"
+    },
+    {
+      "line": 264,
+      "text": "fastän så hurtig han var, ty en gud är för mer än en mänska."
+    },
+    {
+      "line": 265,
+      "text": "Och så ofta som där snabbfotade hjälten Achilles"
+    },
+    {
+      "line": 266,
+      "text": "ville stå floden emot för att röna, om honom förföljde"
+    },
+    {
+      "line": 267,
+      "text": "alla de evige gudar, som bo i himmelens rymder,"
+    },
+    {
+      "line": 268,
+      "text": "sköljde med vågorna stora den himlaammade floden"
+    },
+    {
+      "line": 269,
+      "text": "öfver hans axlar på stund; och han hoppade högt ifrån marken,"
+    },
+    {
+      "line": 270,
+      "text": "ångestfull i sin själ, ty den vildt påströmmande floden"
+    },
+    {
+      "line": 271,
+      "text": "mattade ut hans knän och ref jorden för fötterna undan."
+    },
+    {
+      "line": 272,
+      "text": "Då såg Peliden mot himmelen upp och klagande utbrast:"
+    },
+    {
+      "line": 273,
+      "text": "Evige Zeus, att ej en ibland gudarne gitter mig arme"
+    },
+    {
+      "line": 274,
+      "text": "frälsa från floden!  Jag gärna ju se'n skulle allting fördraga."
+    },
+    {
+      "line": 275,
+      "text": "Icke en annan är vållande dock af de himmelske gudar,"
+    },
+    {
+      "line": 276,
+      "text": "utan min moder huld, som med svikliga ord har mig dårat,"
+    },
+    {
+      "line": 277,
+      "text": "då hon förkunnade mig, att jag skulle vid Ilions murar"
+    },
+    {
+      "line": 278,
+      "text": "komma att mista mitt lif för Apollos ilande pilar."
+    },
+    {
+      "line": 279,
+      "text": "Ack att mig Hektor förgjort, som är Ilions ypperste telning!"
+    },
+    {
+      "line": 280,
+      "text": "Då för en hjältes hand jag hade fått dö som en hjälte."
+    },
+    {
+      "line": 281,
+      "text": "Nu blef min lott att i jämmerlig död utan ära gå under,"
+    },
+    {
+      "line": 282,
+      "text": "dragen af böljorna ner, såsom herdegossen om vintern"
+    },
+    {
+      "line": 283,
+      "text": "ryckes al strömmen bort, som han öfvervadar med svinen.»"
+    },
+    {
+      "line": 284,
+      "text": "Talade så.  Men Poseidon med hast och gudinnan Athene"
+    },
+    {
+      "line": 285,
+      "text": "trädde helt nära till honom då fram i människoskepnad,"
+    },
+    {
+      "line": 286,
+      "text": "fattade honom i hand och begynte att lugnande tala."
+    },
+    {
+      "line": 287,
+      "text": "Först tog till orda af dem jordskakande guden Poseidon:"
+    },
+    {
+      "line": 288,
+      "text": "»Sluta då, Peleus' son, att så grufligen darra och bäfva!"
+    },
+    {
+      "line": 289,
+      "text": "Sådana hjälpare har du i oss bland de himmelske gudar,"
+    },
+    {
+      "line": 290,
+      "text": "Pallas Athene och mig, och Zeus har oss gifvit sitt bifall."
+    },
+    {
+      "line": 291,
+      "text": "Ingalunda ditt öde det är att gå under i floden;"
+    },
+    {
+      "line": 292,
+      "text": "snart skall han sjunka till hvila igen, som du själf skall bli"
+    },
+    {
+      "line": 293,
+      "text": "varse. Och nu ett dugande råd till dig själf, om du ville det följa:"
+    },
+    {
+      "line": 294,
+      "text": "hvila ej händerna förr från den allförgörande striden,"
+    },
+    {
+      "line": 295,
+      "text": "förrän du inne har stängt inom Ilions frejdade murar"
+    },
+    {
+      "line": 296,
+      "text": "alla de troer, som lyckas att fly; men när Hektor du dödat,"
+    },
+    {
+      "line": 297,
+      "text": "vänd då till skeppen igea. Vi beskära dig seger och"
+    },
+    {
+      "line": 298,
+      "text": "ära.»Så de talte och gingo så hän till de öfrige gudar,"
+    },
+    {
+      "line": 299,
+      "text": "medan Achilles, besjälad med mod af de eviges maning,"
+    },
+    {
+      "line": 300,
+      "text": "trängde på slätten fram. Den var öfversvämmad af vatten,"
+    },
+    {
+      "line": 301,
+      "text": "präktiga vapen i mängd, som de stupade kämpar ne burit,"
+    },
+    {
+      "line": 302,
+      "text": "flöto omkring ibland lik, och högt han lyftade knäna,"
+    },
+    {
+      "line": 303,
+      "text": "under det rakt emot strömmen han sprang, och ej hejdade honom"
+    },
+    {
+      "line": 304,
+      "text": "väldiga floden, ty stor var den kraft, honom skänkte Athene."
+    },
+    {
+      "line": 305,
+      "text": "Ej lät Skamandros dock hvila sin harm, utan endast dess mera"
+    },
+    {
+      "line": 306,
+      "text": "vardt på Peliden han vred och svallade högre och rysligt"
+    },
+    {
+      "line": 307,
+      "text": "tornade vågorna upp och till Simois ropade ljudligt:"
+    },
+    {
+      "line": 308,
+      "text": "»Broder, nu gäller för oss att den mannens styrka gemensamt"
+    },
+    {
+      "line": 309,
+      "text": "stäfja, ty annars han snart skall den stora Priamosstaden"
+    },
+    {
+      "line": 310,
+      "text": "grusa, ty troerna hålla ej stånd emot honom i striden."
+    },
+    {
+      "line": 311,
+      "text": "Därför nu skynda till hjälp och med vattnet ur källorna uppfyll"
+    },
+    {
+      "line": 312,
+      "text": "hela din strömbädd fort och låt samtliga bäckarna svälla,"
+    },
+    {
+      "line": 313,
+      "text": "torna upp vågorna högt och vältra med brakande dunder"
+    },
+    {
+      "line": 314,
+      "text": "stockar och stenar åstad, att vi måtte den rasande stäfja,"
+    },
+    {
+      "line": 315,
+      "text": "som har nu öfverhand och försöker att gudarne härma."
+    },
+    {
+      "line": 316,
+      "text": "Icke lär alls likväl honom båta hans kraft eller fägring"
+    },
+    {
+      "line": 317,
+      "text": "eller den rustningen skön, som väl kommer att nere på bottnen"
+    },
+    {
+      "line": 318,
+      "text": "ligga i gyttja begrafd.   Och Peliden själf skall jag också"
+    },
+    {
+      "line": 319,
+      "text": "öfverhölja med sand och häfva på honom i massa"
+    },
+    {
+      "line": 320,
+      "text": "snäckor och kiselgrus, och achaierna skola ej benen"
+    },
+    {
+      "line": 321,
+      "text": "mäkta att samla ur all den dy, som jag hopar på honom."
+    },
+    {
+      "line": 322,
+      "text": "Där skall han hafva sin vård, och det lärer ej blifva af nöden"
+    },
+    {
+      "line": 323,
+      "text": "att honom resa en hög, när achaierna fira hans graföl.»"
+    },
+    {
+      "line": 324,
+      "text": "Sade och svallade högt och for brusande fram mot Achilles,"
+    },
+    {
+      "line": 325,
+      "text": "sköljande med sig fragga och blod och de dödades kroppar."
+    },
+    {
+      "line": 326,
+      "text": "Vågen med fräsande skum på den himlaammade floden"
+    },
+    {
+      "line": 327,
+      "text": "reste sig jättehög och var färdig att gripa Peliden."
+    },
+    {
+      "line": 328,
+      "text": "Högt skrek Hera då till i sin ångest, att hjälten Achilles"
+    },
+    {
+      "line": 329,
+      "text": "skulle bli nedersköljd af den stora och hvirflande floden,"
+    },
+    {
+      "line": 330,
+      "text": "och till Hefaistos, sin älskade son, hon brådskande ropte:"
+    },
+    {
+      "line": 331,
+      "text": "»Upp till strid, lamfbtade son!  Ty vi tänkt, att en värdig"
+    },
+    {
+      "line": 332,
+      "text": "fiende vore att möta för dig den hvirflande Xanthos;"
+    },
+    {
+      "line": 333,
+      "text": "därför nu skynda till hjälp och låt se dina blossande lågor!"
+    },
+    {
+      "line": 334,
+      "text": "Själf att väcka jag går blekskimrande sunnan och västan,"
+    },
+    {
+      "line": 335,
+      "text": "att de från hafvet må störta sig fram i en rasande stormil,"
+    },
+    {
+      "line": 336,
+      "text": "sprida förtärande glöden omkring och förbränna till aska"
+    },
+    {
+      "line": 337,
+      "text": "troernas vapen och män.   Du själf längs stranden af"
+    },
+    {
+      "line": 338,
+      "text": "flodenträden bränn upp, gör för Xanthos det hett och låt dig för"
+    },
+    {
+      "line": 339,
+      "text": "all del ej af bevekande ord eller hotelser hålla tillbaka."
+    },
+    {
+      "line": 340,
+      "text": "Hämma ej heller din rasande kraft, förrn mig du hör ljudligt"
+    },
+    {
+      "line": 341,
+      "text": "ropa dig till, men hejda då (strax otröttliga elden.»"
+    },
+    {
+      "line": 342,
+      "text": "Sagdt; och Hefaistos då skickade fram den blossande elden."
+    },
+    {
+      "line": 343,
+      "text": "Först uppå slätten den flammade upp och förbrände de döda,"
+    },
+    {
+      "line": 344,
+      "text": "hvilka där lågo i mängd, förgjorda af hjälten Achilles."
+    },
+    {
+      "line": 345,
+      "text": "Slätten blef torr öfverallt,  och det skimrande vattnet var"
+    },
+    {
+      "line": 346,
+      "text": "hämmadt. Såsom när nordanvinden om höst nyvattnade hagen"
+    },
+    {
+      "line": 347,
+      "text": "torkar så hastigt igen, och trådgårdsmästaren glades,"
+    },
+    {
+      "line": 348,
+      "text": "sålunda torkade slätten i hast och förbrändes de döda."
+    },
+    {
+      "line": 349,
+      "text": "Därpå mot floden själf han vände sin lysande låga;"
+    },
+    {
+      "line": 350,
+      "text": "brinnande stodo med ens tamarisker och almar och vide,"
+    },
+    {
+      "line": 351,
+      "text": "brinnande cypergräset jämväl och Vassen och klöfvern,"
+    },
+    {
+      "line": 352,
+      "text": "hvilka där växte i mängd kring strömmens behagliga flöde."
+    },
+    {
+      "line": 353,
+      "text": "Ålar och fiskar, som summo däri, voro stadda i vånda,"
+    },
+    {
+      "line": 354,
+      "text": "och de sig tumlade häftigt omkring i det däjliga vattnet,"
+    },
+    {
+      "line": 355,
+      "text": "efter de plågades hårdt af Hefaistos' glödande anda."
+    },
+    {
+      "line": 356,
+      "text": "Mäktiga floden själf kom i brand, och han ropte och sade:"
+    },
+    {
+      "line": 357,
+      "text": "»Ingen af gudarne mäktar bestå mot dig, o Hefaistos,"
+    },
+    {
+      "line": 358,
+      "text": "jag ej heller vill kämpa mot dig, som du flammar i lågor."
+    },
+    {
+      "line": 359,
+      "text": "Sluta blott upp, och må troerna strax af den bålde Achilles"
+    },
+    {
+      "line": 360,
+      "text": "drifvas ur staden. Hvad sköter väl jag om att kriga och hjälpa?»"
+    },
+    {
+      "line": 361,
+      "text": "Så han talte i brand, och sjudande svällde hans flöde."
+    },
+    {
+      "line": 362,
+      "text": "Såsom en sjudande kittel, som står öfver blossande elden,"
+    },
+    {
+      "line": 363,
+      "text": "kokande fettet isär af ett gödsvin, allt hvad den hinner,"
+    },
+    {
+      "line": 364,
+      "text": "stänkande bubblor omkring och med torraste bränsle inunder:"
+    },
+    {
+      "line": 365,
+      "text": "sålunda kokade floden af eld och bubblade vattnet."
+    },
+    {
+      "line": 366,
+      "text": "Rinna han gitte ej mer, utan stannade, pinad af glöden"
+    },
+    {
+      "line": 367,
+      "text": "genom den sluge Hefaistos' kraft, men till Hera han ropte"
+    },
+    {
+      "line": 368,
+      "text": "ifrigt med bedjande röst och talte bevingade orden:"
+    },
+    {
+      "line": 369,
+      "text": "»Hera, hvi skulle din son mitt flöde väl mera än andras"
+    },
+    {
+      "line": 370,
+      "text": "komma och pina? Ty jag har mot dig långt mindre förbrutit,"
+    },
+    {
+      "line": 371,
+      "text": "än hvad de öfriga alla ha gjort, som troerna bistå."
+    },
+    {
+      "line": 372,
+      "text": "Men jag skall sluta förvisso nu jag, ifall du så bjuder,"
+    },
+    {
+      "line": 373,
+      "text": "och må han sluta han med, och svära jag skall dig tillika,"
+    },
+    {
+      "line": 374,
+      "text": "att jag förgörelsens dag skall aldrig från troerna värja,"
+    },
+    {
+      "line": 375,
+      "text": "ej om så hela det troiska land i förhärjande lågor"
+    },
+    {
+      "line": 376,
+      "text": "flammade, stucket i brand af acbaiernas krigiska söner.»"
+    },
+    {
+      "line": 377,
+      "text": "Men när hon hörde hans ord, den liljearmade Hera,"
+    },
+    {
+      "line": 378,
+      "text": "strax till Hefaistos, sin älskade son, hon ropte och sade:"
+    },
+    {
+      "line": 379,
+      "text": "»Sluta, Hefaistos, mitt frejdade barn, ty det höfves dig icke"
+    },
+    {
+      "line": 380,
+      "text": "att för de dödliges skull den odödlige plåga så grufligt.»"
+    },
+    {
+      "line": 381,
+      "text": "Sagdt, och Hefaistos släckte då ut sina blossande lågor,"
+    },
+    {
+      "line": 382,
+      "text": "under det vågen igen rann ner i den däjliga floden."
+    },
+    {
+      "line": 383,
+      "text": "Sedan nu Xanthos' kraft var kufvad, höllo sig dessa"
+    },
+    {
+      "line": 384,
+      "text": "stilla, ty Hera, så vred hon än var, höll bägge tillbaka."
+    },
+    {
+      "line": 385,
+      "text": "Men bland de öfriga gudar bröt ut en hård och förfärlig"
+    },
+    {
+      "line": 386,
+      "text": "äflan, ty hjärtat i bröstet på dem blott andades tvedräkt."
+    },
+    {
+      "line": 387,
+      "text": "Samman de stötte med brak, och under dem dånade jorden,"
+    },
+    {
+      "line": 388,
+      "text": "rundtorn skållade himmel ens hvalf, och Kronion det hörde,"
+    },
+    {
+      "line": 389,
+      "text": "där på Olympos han satt, och hjärtat af innerlig glädje"
+    },
+    {
+      "line": 390,
+      "text": "log i hans bröst, då han såg, hur gudarne drabbade samman."
+    },
+    {
+      "line": 391,
+      "text": "Länge de höllo sig ej från hvarann; sköldbräckaren Ares"
+    },
+    {
+      "line": 392,
+      "text": "rände i spetsen och rusade fram mot Pallas Athene,"
+    },
+    {
+      "line": 393,
+      "text": "hållande kopparlansen i hand,  och ropade hånligt:"
+    },
+    {
+      "line": 394,
+      "text": "»Etterfluga, hvi hetsar på nytt du de evige samman,"
+    },
+    {
+      "line": 395,
+      "text": "hejdlöst fräck, som du är, och besjälad af argaste ifver?"
+    },
+    {
+      "line": 396,
+      "text": "Minnes du ej, när du eggade upp Diomedes Tydiden"
+    },
+    {
+      "line": 397,
+      "text": "till att mig stinga och själf inför allas ögon i lansen"
+    },
+    {
+      "line": 398,
+      "text": "tog och den styrde mot mig, så att däjliga huden blef uppflängd?"
+    },
+    {
+      "line": 399,
+      "text": "Nu tror jag ändå, att böta du skall för det myckna, du gjort mig.»"
+    },
+    {
+      "line": 400,
+      "text": "Sade och stötte så till på den fransbehängda egiden,"
+    },
+    {
+      "line": 401,
+      "text": "grufliga skölden, som icke ens Zeus kan bräcka med blixten;"
+    },
+    {
+      "line": 402,
+      "text": "där henne stötte nu till med sin lans blodsölade Ares."
+    },
+    {
+      "line": 403,
+      "text": "Pallas tillbaka då steg och med seniga handen en fältsten"
+    },
+    {
+      "line": 404,
+      "text": "grep, som på slätten låg väldig och svart och med skrofliga"
+    },
+    {
+      "line": 405,
+      "text": "kanter, hvilken af forntidsmän till en åkerskillnad var ditsatt,"
+    },
+    {
+      "line": 406,
+      "text": "träffade därmed den stormandes hals, och domnad han nedföll,"
+    },
+    {
+      "line": 407,
+      "text": "täckande tegar sju i sitt fall, och hans hår blef i stoftet"
+    },
+    {
+      "line": 408,
+      "text": "söladt, och rustningen klang.  Då skrattade Pallas Athene,"
+    },
+    {
+      "line": 409,
+      "text": "och med bevingade ord hon jublande talte och sade:"
+    },
+    {
+      "line": 410,
+      "text": "»Dåre, förvisso du aldrig betänkt, hur högt jag i krafter"
+    },
+    {
+      "line": 411,
+      "text": "kan mig berömma mot dig, då du vågar dig mäta i styrka."
+    },
+    {
+      "line": 412,
+      "text": "Lid nu det skäliga straff, som din moders förbannelser vållat,"
+    },
+    {
+      "line": 413,
+      "text": "som är dig gramse och lagar dig ondt, för det att du svikit"
+    },
+    {
+      "line": 414,
+      "text": "bålde achaiernas folk och försvarar de trotsiga troer.»"
+    },
+    {
+      "line": 415,
+      "text": "Och som hon talade, vände hon bort sina strålande ögon."
+    },
+    {
+      "line": 416,
+      "text": "Förde då dottern af Zeus Afrodite honom vid handen"
+    },
+    {
+      "line": 417,
+      "text": "undan, som stönade tungt och med möda sig sansade åter."
+    },
+    {
+      "line": 418,
+      "text": "Men när då henne fick se den liljearmade Hera,"
+    },
+    {
+      "line": 419,
+      "text": "strax med bevingade ord hon talade så till Athene:"
+    },
+    {
+      "line": 420,
+      "text": "»Obetvingliga, se, du dotter af Zeus med egiden!"
+    },
+    {
+      "line": 421,
+      "text": "Etterflugan är framme igen och för bort genom vimlet"
+    },
+    {
+      "line": 422,
+      "text": "mordiske Ares ur stridens tumult.  Välan, så förfölj dem!»"
+    },
+    {
+      "line": 423,
+      "text": "Sagdt, och Athene på stund dem rusade efter med glädje"
+    },
+    {
+      "line": 424,
+      "text": "och sprang inpå dem brådt och med seniga handen för bröstet"
+    },
+    {
+      "line": 425,
+      "text": "slog Afrodite, då domnade knän och hjärta på henne."
+    },
+    {
+      "line": 426,
+      "text": "Sålunda segnade bägge de ner på den alstrande jorden."
+    },
+    {
+      "line": 427,
+      "text": "Själf med bevingade ord hon jublande talte och sade:"
+    },
+    {
+      "line": 428,
+      "text": "»Sådana skulle de alla minsann blott vara, som hjälpa"
+    },
+    {
+      "line": 429,
+      "text": "troernas kämpar i strid mot de brynjeklädda achaier,"
+    },
+    {
+      "line": 430,
+      "text": "lika så käcka och sega i kamp, som här kom Afrodite"
+    },
+    {
+      "line": 431,
+      "text": "skyndande Ares till hjälp för att mötas med mig i min styrka"
+    },
+    {
+      "line": 432,
+      "text": "Då skulle krigets besvär för längesedan vi sluppit,"
+    },
+    {
+      "line": 433,
+      "text": "sedan vi Ilions stad, den människorika, förhärjat.»"
+    },
+    {
+      "line": 434,
+      "text": "Så hon sade; då log den liljearmade Hera."
+    },
+    {
+      "line": 435,
+      "text": "Men till Apollo talade nu jordskakaren starke:"
+    },
+    {
+      "line": 436,
+      "text": "»Foibos, hvi stånda vi två så i sär?   Ej skickar sig detta,"
+    },
+    {
+      "line": 437,
+      "text": "sedan de andra begynt. Det är skam, om vi utan att strida"
+    },
+    {
+      "line": 438,
+      "text": "komma tillbaka till Zeus i olympiska kopparpalatset."
+    },
+    {
+      "line": 439,
+      "text": "Börja då du, som är yngre till år!   Mig själf det ej anstår,"
+    },
+    {
+      "line": 440,
+      "text": "därför att både jag föddes förut och har mera förfarit."
+    },
+    {
+      "line": 441,
+      "text": "Dåre, hur tanklöst hjärta du har!   Du har alltså förgätit"
+    },
+    {
+      "line": 442,
+      "text": "allt det onda, som ensamma vi bland odödlige gudar"
+    },
+    {
+      "line": 443,
+      "text": "ledo kring Ilions stad, då vi tjänade året igenom,"
+    },
+    {
+      "line": 444,
+      "text": "sända hit neder af Zeus, under stolte Laomedon drotten,"
+    },
+    {
+      "line": 445,
+      "text": "stadda för aftald lön, och oss människan myndigt befallde."
+    },
+    {
+      "line": 446,
+      "text": "Jag då måste en mur åt troerna rimdt omkring staden"
+    },
+    {
+      "line": 447,
+      "text": "bygga helt ståtlig och bred, så att ointaglig den blefve;"
+    },
+    {
+      "line": 448,
+      "text": "Foibos, och du gick i vall med de tungt fotsläpande oxar"
+    },
+    {
+      "line": 449,
+      "text": "uti de slingrande dälderna jämt på det skogiga Ida."
+    },
+    {
+      "line": 450,
+      "text": "Men när omsider till slut de glädjebringande horer"
+    },
+    {
+      "line": 451,
+      "text": "bragte betalningens dag, då förhöll oss den faslige drotten"
+    },
+    {
+      "line": 452,
+      "text": "hela vår lön med våld och med hotelser jagade bort oss."
+    },
+    {
+      "line": 453,
+      "text": "Minns du, han hotade med att oss binda till händer och fötter"
+    },
+    {
+      "line": 454,
+      "text": "och att försälja oss bort till fjärran liggande öar;"
+    },
+    {
+      "line": 455,
+      "text": "ja, han var färdig att hugga utaf våra öron med svärdet."
+    },
+    {
+      "line": 456,
+      "text": "Vi då gingo från honom vår väg med förbittrade sinnen,"
+    },
+    {
+      "line": 457,
+      "text": "harmsna för lönen, som icke han gaf, fast han hade den lofvat."
+    },
+    {
+      "line": 458,
+      "text": "Och emot dennes folk är du gunstig, och ej med oss andra"
+    },
+    {
+      "line": 459,
+      "text": "eftertrakta du vill, att de öfvermodiga troer"
+    },
+    {
+      "line": 460,
+      "text": "blifva förgjorda i grund med barn och tuktiga makar.»"
+    },
+    {
+      "line": 461,
+      "text": "Honom svarade då fj ärrskjutande guden Apollo:"
+    },
+    {
+      "line": 462,
+      "text": "»Ej vid mitt sunda förstånd du skulle förmena mig Vara,"
+    },
+    {
+      "line": 463,
+      "text": "därest jag strede mot dig, jordskakare, blott för de arma,"
+    },
+    {
+      "line": 464,
+      "text": "dödliga människors skull, de där likna ju löfven på träden:"
+    },
+    {
+      "line": 465,
+      "text": "kraftigt de frodas en tid och af jordens frukter sig nära,"
+    },
+    {
+      "line": 466,
+      "text": "men i den nästa förtvina och dö.   Välan, låt oss afstå"
+    },
+    {
+      "line": 467,
+      "text": "genast från striden och lemina åt dem att ensamma kämpa.»"
+    },
+    {
+      "line": 468,
+      "text": "Så han sade och vände sig bort och skildes från honom,"
+    },
+    {
+      "line": 469,
+      "text": "efter han kände försyn för att drabba ihop med sin farbror."
+    },
+    {
+      "line": 470,
+      "text": "Men honom Artemis bannade hårdt, jägarinnan, som drottning"
+    },
+    {
+      "line": 471,
+      "text": "är öfver skogarnas vildt,  och till brodern hånande talte:"
+    },
+    {
+      "line": 472,
+      "text": "»Jaså, du flyr, fjärrskjutande gud, och du lemnar Poseidon"
+    },
+    {
+      "line": 473,
+      "text": "hela segern i hand och ger äran åt honom för intet."
+    },
+    {
+      "line": 474,
+      "text": "Dåre, hvad bär du en båge då för, som till ingenting duger?"
+    },
+    {
+      "line": 475,
+      "text": "Måtte jag slippa numer att höra dig yfvas och skryta"
+    },
+    {
+      "line": 476,
+      "text": "uti vår faders palats, som förut, bland odödlige gudar,"
+    },
+    {
+      "line": 477,
+      "text": "att du ej komme att sky för att möta Poseidon i tvekamjp.»"
+    },
+    {
+      "line": 478,
+      "text": "Sade.   Men henne ej svarte ett ord fjärrskytten Apollo."
+    },
+    {
+      "line": 479,
+      "text": "Dock med skymfliga ord Zeus' vördnadsbjudande maka"
+    },
+    {
+      "line": 480,
+      "text": "talade så i sin harm till gudinnan, som pilarna älskar:"
+    },
+    {
+      "line": 481,
+      "text": "»Hur kan du djärfvas att träda mot mig, du fräckaste hynda?"
+    },
+    {
+      "line": 482,
+      "text": "Svår lär jag blifva för dig att mäta dig med uti krafter,"
+    },
+    {
+      "line": 483,
+      "text": "fastän en båge du bär och en sann lejoninna mot kvinnor"
+    },
+    {
+      "line": 484,
+      "text": "sattes att vara af Zeus, som att döda dig gaf, hvem du ville."
+    },
+    {
+      "line": 485,
+      "text": "Bättre dig vore minsann att på bergen du dödade vilddjur"
+    },
+    {
+      "line": 486,
+      "text": "eller de ströfvande hjortar i skog än mot starkare stridde."
+    },
+    {
+      "line": 487,
+      "text": "Men vill du låtsas förstå dig på krig, välan, så lär känna,"
+    },
+    {
+      "line": 488,
+      "text": "hela min öfvermakt, då du vågar dig mäta i styrka.»"
+    },
+    {
+      "line": 489,
+      "text": "Sade och grep med sin vänstra hand hennes båda vid leden"
+    },
+    {
+      "line": 490,
+      "text": "och med den högra från skuldrorna tog hennes båge och koger;"
+    },
+    {
+      "line": 491,
+      "text": "därpå med dessa hon leende slog omkring öronen ungmön,"
+    },
+    {
+      "line": 492,
+      "text": "hvilken sig vände och vred, medan pilarna föllo ur kogret."
+    },
+    {
+      "line": 493,
+      "text": "Gråtande flydde gudinnan sin väg, lik en bäfVande dufva,"
+    },
+    {
+      "line": 494,
+      "text": "hvilken för höken flyr och i håliga klippan sig räddar"
+    },
+    {
+      "line": 495,
+      "text": "innerst i klyftan, ty ej var det än hennes öde att fångas:"
+    },
+    {
+      "line": 496,
+      "text": "sålunda flydde hon gråtande bort, ifrån båge och pilar."
+    },
+    {
+      "line": 497,
+      "text": "Vände till Leto sig nu budbringaren Argusförgörarn:"
+    },
+    {
+      "line": 498,
+      "text": "»Leto, nej strida jag vill ej mot dig, ty vådligt i sanning"
+    },
+    {
+      "line": 499,
+      "text": "är det att kämpa med Zeus', molnskockande gudens, gemåler."
+    },
+    {
+      "line": 500,
+      "text": "Därför af hjärtans lust må du gärna bland evige gudar"
+    },
+    {
+      "line": 501,
+      "text": "rosa dig af, att du segrat på mig med din väldiga styrka.»"
+    },
+    {
+      "line": 502,
+      "text": "Sade.   Då samlade Leto ihop både båge och pilar,"
+    },
+    {
+      "line": 503,
+      "text": "hvilka där lågo nu spridda omkring i det hvirflande stoftet;"
+    },
+    {
+      "line": 504,
+      "text": "därpå hon vände tillbaks med sin dotters vapen i handen."
+    },
+    {
+      "line": 505,
+      "text": "Denna nu lände till Zeus i olympiska kopparpalatset,"
+    },
+    {
+      "line": 506,
+      "text": "och på sin faders knän sig flickan gråtande satte,"
+    },
+    {
+      "line": 507,
+      "text": "kring henne skalf hennes himmelska skrud, men sin dotter"
+    },
+    {
+      "line": 508,
+      "text": "intill sig fader Kronion drog och frågade, leende hjärtligt:"
+    },
+    {
+      "line": 509,
+      "text": "»Älskade barn, hvem har gjort dig det här af de himmelske gudar"
+    },
+    {
+      "line": 510,
+      "text": "utan besinning, som hade du gjort något ondt inför alla?»"
+    },
+    {
+      "line": 511,
+      "text": "Honom svarade  då den sköndiademade jaktmön:"
+    },
+    {
+      "line": 512,
+      "text": "»Fader, din maka mig slog, den liljearmade Hera,"
+    },
+    {
+      "line": 513,
+      "text": "hon som är vållande jämt till att gudarne tvista och kifvas.»"
+    },
+    {
+      "line": 514,
+      "text": "Sålunda föllo de ord, som de skiftade där med hvarandra."
+    },
+    {
+      "line": 515,
+      "text": "In uti Ilions heliga stad nu begaf sig Apollo,"
+    },
+    {
+      "line": 516,
+      "text": "ty han var rädd, att danaerna re'n den dagen förstöra"
+    },
+    {
+      "line": 517,
+      "text": "skulle den ståtliga stadens mur, innan ödet det ville."
+    },
+    {
+      "line": 518,
+      "text": "Men till olympen igen de andra evärdlige gingo,"
+    },
+    {
+      "line": 519,
+      "text": "somliga fulla af harm och somliga jublande stolta;"
+    },
+    {
+      "line": 520,
+      "text": "där hos dundraren Zeus de satte sig ner. — Men Achilles"
+    },
+    {
+      "line": 521,
+      "text": "dödade troerna själfva såväl som de stampande hästar."
+    },
+    {
+      "line": 522,
+      "text": "Som när den bolmande röken går upp emot himmelen vida"
+    },
+    {
+      "line": 523,
+      "text": "från en brinnande stad, som tändes af gudarnes vrede;"
+    },
+    {
+      "line": 524,
+      "text": "alla förvållar den nöd, och den många försänker i jämmer:"
+    },
+    {
+      "line": 525,
+      "text": "sålunda jämmer och nöd öfver troerna bragte Achilles."
+    },
+    {
+      "line": 526,
+      "text": "Stod då den åldrige Priamos själf uppå heliga tornet;"
+    },
+    {
+      "line": 527,
+      "text": "jättelike Achilles han såg, och hur undan för honom"
+    },
+    {
+      "line": 528,
+      "text": "troerna flyktade brådt i förvirring och ingen på motstånd"
+    },
+    {
+      "line": 529,
+      "text": "tänkte; då trädde han jämrande ner ifrån tornet på marken,"
+    },
+    {
+      "line": 530,
+      "text": "medan han ropte till dem, som vid muren vaktade porten:"
+    },
+    {
+      "line": 531,
+      "text": "»Upp med porten och hållen den så, tills vårt flyende krigsfolk"
+    },
+    {
+      "line": 532,
+      "text": "hinner i staden in, ty nära inpå dem Achilles"
+    },
+    {
+      "line": 533,
+      "text": "kommer förföljande hit; nu anar mitt sinne det värsta."
+    },
+    {
+      "line": 534,
+      "text": "Men när de kommit bak murarna in och andan få hämta,"
+    },
+    {
+      "line": 535,
+      "text": "stängen då åter igen de tätt infogade dörrar,"
+    },
+    {
+      "line": 536,
+      "text": "ty i mitt hjärta jag räds, att den gruflige muren bestormar.»"
+    },
+    {
+      "line": 537,
+      "text": "Sade.   Då sköto de bommarna från och öppnade porten;"
+    },
+    {
+      "line": 538,
+      "text": "öppen han stod som en räddande famn, och till fiendens möte"
+    },
+    {
+      "line": 539,
+      "text": "stormade Foibos ut att från troerna värja fördärfvet."
+    },
+    {
+      "line": 540,
+      "text": "Flyende kommo de rakt emot staden och resliga muren,"
+    },
+    {
+      "line": 541,
+      "text": "torra i halsen af törst och hvita af damm, öfver slätten."
+    },
+    {
+      "line": 542,
+      "text": "Efter i hack och häl var med lansen Achilles, hans hjärta"
+    },
+    {
+      "line": 543,
+      "text": "svällde af vildt raseri, och han brann af begär efter ära."
+    },
+    {
+      "line": 544,
+      "text": "Visst i achaiernas våld högportade Troja nu fallit,"
+    },
+    {
+      "line": 545,
+      "text": "därest ej Foibos Apollo till dåd hade eggat Agenor,"
+    },
+    {
+      "line": 546,
+      "text": "hjälten Antenors son, den tappre och frejdade mannen."
+    },
+    {
+      "line": 547,
+      "text": "Honom i hjärtat han dristighet göt och sig själf vid hans sida"
+    },
+    {
+      "line": 548,
+      "text": "ställde att värja utaf det förkrossande slaget af döden,"
+    },
+    {
+      "line": 549,
+      "text": "lutad mot bokens stam och höljd i ett skymmande töcken."
+    },
+    {
+      "line": 550,
+      "text": "Då nu Agenor fick syn på stadsförhärjarn Achilles,"
+    },
+    {
+      "line": 551,
+      "text": "stilla han stående blef, och hans hjärta klappade häftigt,"
+    },
+    {
+      "line": 552,
+      "text": "och till sin modiga själ han så med förtrytelse talte:"
+    },
+    {
+      "line": 553,
+      "text": "»Ve mig!   Ty om jag försöker att fly för den starke Achilles"
+    },
+    {
+      "line": 554,
+      "text": "uppå densamma väg, där de andra förvirrade flykta,"
+    },
+    {
+      "line": 555,
+      "text": "hinner han ändå mig upp och förgör mig som en af de fege."
+    },
+    {
+      "line": 556,
+      "text": "Låter jag däremot dessa på flykt af Peliden Achilles"
+    },
+    {
+      "line": 557,
+      "text": "vältras åstad, men jag själf i det snabbaste lopp ifrån muren"
+    },
+    {
+      "line": 558,
+      "text": "flyr på en annan väg utåt Iliska slätten och Idas"
+    },
+    {
+      "line": 559,
+      "text": "skogiga dälder jag når och lyckas mig gömma i snåren,"
+    },
+    {
+      "line": 560,
+      "text": "då kan i skymningen sedan jag hem till Ilion lända,"
+    },
+    {
+      "line": 561,
+      "text": "sedan i flodens bad jag svetten från lemmarna afkylt."
+    },
+    {
+      "line": 562,
+      "text": "Dock, hvi grubblar jag nu i mitt sinne på sådana tankar?"
+    },
+    {
+      "line": 563,
+      "text": "Blott han ej varse mig blir, när från staden jag flyr öfver slätten,"
+    },
+    {
+      "line": 564,
+      "text": "och mig förföljer och hinner mig upp med sin ilande snabbhet!"
+    },
+    {
+      "line": 565,
+      "text": "Aldrig jag lyckades då att för dödsgudinnorna undfly,"
+    },
+    {
+      "line": 566,
+      "text": "ty bland människor ingen i kraft kan sig mäta med honom."
+    },
+    {
+      "line": 567,
+      "text": "Men om i stället jag trädde till kamp framför staden mot honom!"
+    },
+    {
+      "line": 568,
+      "text": "Han har ju också ett hull, som för kopparen hvassa är sårbart,"
+    },
+    {
+      "line": 569,
+      "text": "lif han äger blott ett, och det säges, att hjälten är dödlig,"
+    },
+    {
+      "line": 570,
+      "text": "fastän Kroniden Zeus honom segeräran förlänar.»"
+    },
+    {
+      "line": 571,
+      "text": "Sade och spände hvar sena till kamp och höll stånd mot"
+    },
+    {
+      "line": 572,
+      "text": "Achilles,och i hans modiga själ var en stormande längtan att strida."
+    },
+    {
+      "line": 573,
+      "text": "Lik leoparden djärf, som ur lummiga snåret i skogen"
+    },
+    {
+      "line": 574,
+      "text": "skrider mot jägaren fram och ej alls i sitt sinne förfäras"
+    },
+    {
+      "line": 575,
+      "text": "eller vill ge sig på flykt, då han skallet af hundarna hörer;"
+    },
+    {
+      "line": 576,
+      "text": "lyckas än jägaren såra den strax med stöt eller spjutkast,"
+    },
+    {
+      "line": 577,
+      "text": "fäller ej besten sitt mod, utan äfven med spjutet i kroppen"
+    },
+    {
+      "line": 578,
+      "text": "kämpar han än, tills han jägaren når eller döende faller:"
+    },
+    {
+      "line": 579,
+      "text": "sådan var stolte Antenors son, den ädle Agenor,"
+    },
+    {
+      "line": 580,
+      "text": "som var ej sinnad att fly, förrn han pröfvat sin kraft mot Achilles."
+    },
+    {
+      "line": 581,
+      "text": "Alltså han sträckte framför sig till skydd den rundade skölden,"
+    },
+    {
+      "line": 582,
+      "text": "siktade rakt med sin lans på Peliden och ropade högljuftt:"
+    },
+    {
+      "line": 583,
+      "text": "»Säkert hoppades du i din själ, frejdstore Achilles,"
+    },
+    {
+      "line": 584,
+      "text": "att få förstöra i dag de manhaftige troernas kungsstad."
+    },
+    {
+      "line": 585,
+      "text": "Dåre, för dennas skull stå otaliga lidanden åter,"
+    },
+    {
+      "line": 586,
+      "text": "ty vi försvarare äro i den både många och tappra,"
+    },
+    {
+      "line": 587,
+      "text": "hvilka för hustrur och barn och för älskade, dyra föräldrar"
+    },
+    {
+      "line": 588,
+      "text": "Ilion värja mot fall; men dig själf här bidar ditt öde,"
+    },
+    {
+      "line": 589,
+      "text": "fastän så fruktansvärd och den oförskräcktaste kämpe.»"
+    },
+    {
+      "line": 590,
+      "text": "Sagdt, och han sände sin hvässade lans ifrån kraftiga handen,"
+    },
+    {
+      "line": 591,
+      "text": "träffade benet inunder hans knä och felade icke."
+    },
+    {
+      "line": 592,
+      "text": "Tennet skrällande klang i den nyligen hamrade skenan"
+    },
+    {
+      "line": 593,
+      "text": "uppå den träffades ben; dock kopparen studsade åter,"
+    },
+    {
+      "line": 594,
+      "text": "utan att borra sig in, och af gudens gåfva var hejdad."
+    },
+    {
+      "line": 595,
+      "text": "Därpå Peliden for lös på den gudalike Agenor;"
+    },
+    {
+      "line": 596,
+      "text": "Foibos Apollo dock stadde ej till, att han skördade ära,"
+    },
+    {
+      "line": 597,
+      "text": "utan Agenor ref bort och fördolde i tätaste töcken"
+    },
+    {
+      "line": 598,
+      "text": "och honom oskadd sände tillbaks till hemmet ur striden."
+    },
+    {
+      "line": 599,
+      "text": "Därpå Peliden han lockade bort från det flyende krigsfolk,"
+    },
+    {
+      "line": 600,
+      "text": "ty lik Agenor i allo att se fjärrskjutande guden"
+    },
+    {
+      "line": 601,
+      "text": "ställde sig midt i hans väg, och Achilles sprang fram att förfölja."
+    },
+    {
+      "line": 602,
+      "text": "Medan den evige där öfver hvetebärande slätten"
+    },
+    {
+      "line": 603,
+      "text": "jagades vildt och drefs hän till Skamandros' hvirflande flöde,"
+    },
+    {
+      "line": 604,
+      "text": "endast med försprång kort — ty han dårade listigt Achilles,"
+    },
+    {
+      "line": 605,
+      "text": "så att han hoppades jämt i sitt ilande lopp honom hinna —,"
+    },
+    {
+      "line": 606,
+      "text": "lände de öfriga troerna hem i flyktande svärmar"
+    },
+    {
+      "line": 607,
+      "text": "glada till staden, och denna blef full af den hopade mängden."
+    },
+    {
+      "line": 608,
+      "text": "Icke de vågade alls att utanför staden och muren"
+    },
+    {
+      "line": 609,
+      "text": "stanna och bida hvarann för att se, hvem i striden var fallen,"
+    },
+    {
+      "line": 610,
+      "text": "och hvem sig räddade hem, utan hjärteglada i staden"
+    },
+    {
+      "line": 611,
+      "text": "strömmade samtliga in, som af fötter och knän hade räddats."
+    }
+  ]
+}

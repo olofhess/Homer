@@ -1,0 +1,1591 @@
+{
+  "work": "odyssey",
+  "lang": "sv",
+  "translator": "Erland Lagerlöf",
+  "edition": "1920, andra upplagan",
+  "book": 20,
+  "status": "COUNT_MATCH_ONLY_UNVERIFIED_ALIGNMENT",
+  "warning": "Versnummer följer OCR-radernas ordning och är ännu inte individuellt kontrollerade mot den grekiska texten.",
+  "expectedGreekVerses": 394,
+  "countMatchesGreek": true,
+  "heading": "TJUGONDE SÅNGEN.",
+  "argument": "Timmarna före friarnas död.",
+  "verses": [
+    {
+      "line": 1,
+      "text": "Konung Ulysses i hallen gick ut och sig lade till vila,"
+    },
+    {
+      "line": 2,
+      "text": "sedan en oxhud underst han brett, som var ännu ej garvad,"
+    },
+    {
+      "line": 3,
+      "text": "och en mängd fällar däröver av får, som av friarna slaktats;"
+    },
+    {
+      "line": 4,
+      "text": "över den vilande se'n Eurynome höljde ett täcke."
+    },
+    {
+      "line": 5,
+      "text": "Där låg länge han vaken ännu och välvde i sinnet"
+    },
+    {
+      "line": 6,
+      "text": "friarnas undergång.  Men av tärnorna många ur huset"
+    },
+    {
+      "line": 7,
+      "text": "gingo då ut, som med friarna levt sedan länge i älskog"
+    },
+    {
+      "line": 8,
+      "text": "och under ideligt skratt med varandra glammade ystert."
+    },
+    {
+      "line": 9,
+      "text": "Då kom hjärtat i konungens bröst i det vildaste uppror,"
+    },
+    {
+      "line": 10,
+      "text": "medan han började strax att betänka i själ och i sinne,"
+    },
+    {
+      "line": 11,
+      "text": "om han väl upp skulle springa på stund och dem alla ihjälslå"
+    },
+    {
+      "line": 12,
+      "text": "eller ock låta dem än, för den sista och yttersta gången"
+    },
+    {
+      "line": 13,
+      "text": "smekas i trotsiga friarnas famn; men hans hjärta det skällde,"
+    },
+    {
+      "line": 14,
+      "text": "som när en hynda går skällande runt kring valparna späda,"
+    },
+    {
+      "line": 15,
+      "text": "bara det nalkas en främmande man, och är färdig att bitas:"
+    },
+    {
+      "line": 16,
+      "text": "så i hans inre det skällde av harm, då han såg deras fräckhet."
+    },
+    {
+      "line": 17,
+      "text": "Dock, han på bröstet sig slog och talade strängt till sitt hjärta."
+    },
+    {
+      "line": 18,
+      "text": "\"Stilla då, hjärta!  Du har ju en gång än värre fördragit"
+    },
+    {
+      "line": 19,
+      "text": "under de dagar den vilde cyklop mina käcka kamrater"
+    },
+    {
+      "line": 20,
+      "text": "rysligt åt upp; men du härdade ut, tills det listiga anslag"
+    },
+    {
+      "line": 21,
+      "text": "hjälpte ur kulan dig ut, där du redan dig väntade döden.\""
+    },
+    {
+      "line": 22,
+      "text": "Så med befallande ord till sitt hjärta i bröstet han talte."
+    },
+    {
+      "line": 23,
+      "text": "Alldeles lydigt mot honom förblev hans härdade hjärta"
+    },
+    {
+      "line": 24,
+      "text": "utan att vackla, men själv han sig vände och vred på sitt läger."
+    },
+    {
+      "line": 25,
+      "text": "Som när vid härden en man står och håller på spettet en mage,"
+    },
+    {
+      "line": 26,
+      "text": "stoppad med ister och blod, och den vänder på sidorna alla"
+    },
+    {
+      "line": 27,
+      "text": "över den flammande eld och är ivrig att stega den färdig:"
+    },
+    {
+      "line": 28,
+      "text": "så han där vände sig av och an på sitt läger i grubbel,"
+    },
+    {
+      "line": 29,
+      "text": "huru han skulle sin hand på de skändliga friarna lägga,"
+    },
+    {
+      "line": 30,
+      "text": "ensam mot all deras mängd.  Då nalkades honom Athene,"
+    },
+    {
+      "line": 31,
+      "text": "stigen från himmelen ned, och hon var som en kvinna att skåda;"
+    },
+    {
+      "line": 32,
+      "text": "stilla vid huvudgärden hon stod, och hon talte och sade:"
+    },
+    {
+      "line": 33,
+      "text": "\"Ligger du vaken igen, osällast av dödliga alla?"
+    },
+    {
+      "line": 34,
+      "text": "Här är ju ändå ditt hem, här i huset du äger din maka,"
+    },
+    {
+      "line": 35,
+      "text": "här är ju också din son, en så ädel som någon kan önska.\""
+    },
+    {
+      "line": 36,
+      "text": "Henne svarade då den mångförslagne Ulysses:"
+    },
+    {
+      "line": 37,
+      "text": "\"Ja, du förvisso har rätt uti allt vad du säger, gudinna."
+    },
+    {
+      "line": 38,
+      "text": "Men det är ändå en sak som vållar mitt sinne bekymmer,"
+    },
+    {
+      "line": 39,
+      "text": "hur jag skall vara i stånd att de skändliga friarna kuva,"
+    },
+    {
+      "line": 40,
+      "text": "då jag är ensam och samlade jämt de sig hålla i salen."
+    },
+    {
+      "line": 41,
+      "text": "Och så en annan sak, som mig yttermera bekymrar:"
+    },
+    {
+      "line": 42,
+      "text": "om jag nu dödar dem ock med Kronions hjälp och din egen,"
+    },
+    {
+      "line": 43,
+      "text": "vart skall jag sedan väl fly? Det beder jag dig att betänka.\""
+    },
+    {
+      "line": 44,
+      "text": "Honom svarade då strålögda gudinnan Athene:"
+    },
+    {
+      "line": 45,
+      "text": "\"Faslige!  Mången ju dock å en svagare hjälpare litar,"
+    },
+    {
+      "line": 46,
+      "text": "som är en människa blott och icke så mäktig av rådslag;"
+    },
+    {
+      "line": 47,
+      "text": "men en gudinna är jag, som dig oavlåtligen skyddar"
+    },
+    {
+      "line": 48,
+      "text": "uti vad fara som helst.  Men jag måste väl säga det öppet:"
+    },
+    {
+      "line": 49,
+      "text": "om ock femtio skaror det kom av förgängliga mänskor"
+    },
+    {
+      "line": 50,
+      "text": "och kringrände oss två att i rasande strid oss förgöra,"
+    },
+    {
+      "line": 51,
+      "text": "skulle du dock deras oxar och får hemdriva som byte."
+    },
+    {
+      "line": 52,
+      "text": "Giv nu åt sömnen dig hän!  Det är också en plåga att vaka"
+    },
+    {
+      "line": 53,
+      "text": "natten igenom med bry, och snart skall du sorgerna slippa.\""
+    },
+    {
+      "line": 54,
+      "text": "Sade och göt på hans ögonlock den ljuvliga sömnen;"
+    },
+    {
+      "line": 55,
+      "text": "själv till Olympen hon vände igen, den höga gudinnan."
+    },
+    {
+      "line": 56,
+      "text": "Medan nu kungen i sömnen försjönk, som i lemmar och sinne"
+    },
+    {
+      "line": 57,
+      "text": "löser var plåga, då vaknade upp hans dygdiga maka,"
+    },
+    {
+      "line": 58,
+      "text": "satte i bädden den mjuka sig upp och begynte att gråta."
+    },
+    {
+      "line": 59,
+      "text": "Men när hon mättat omsider sin själ av tårarnas flöde,"
+    },
+    {
+      "line": 60,
+      "text": "först och främst hon till Artemis bad, den härliga kvinnan:"
+    },
+    {
+      "line": 61,
+      "text": "\"Artemis, dotter av Zeus, du gudomliga!  Ack, att du äntligt"
+    },
+    {
+      "line": 62,
+      "text": "ville mig skjuta i bröstet din pil och beröva mig livet"
+    },
+    {
+      "line": 63,
+      "text": "strax uti denna stund, eller också en rasande stormvind"
+    },
+    {
+      "line": 64,
+      "text": "komme och ryckte mig bort uppå dödens töckniga stigar"
+    },
+    {
+      "line": 65,
+      "text": "och mig i mynningen vrok av Okeanos' kretsande värdsflod,"
+    },
+    {
+      "line": 66,
+      "text": "såsom när stormarna sopade bort Pandareos' döttrar!"
+    },
+    {
+      "line": 67,
+      "text": "Gudarna hade föräldrarna dräpt, och de voro i borgen"
+    },
+    {
+      "line": 68,
+      "text": "lämnade kvar utan far eller mor, men hult Afrodite"
+    },
+    {
+      "line": 69,
+      "text": "födde dem upp med honung och ost och ljuvaste vindryck;"
+    },
+    {
+      "line": 70,
+      "text": "Hera dem prydde med skönhet och vett framför övriga kvinnor,"
+    },
+    {
+      "line": 71,
+      "text": "växten så smidig och hög av den kyska Artemis skänktes,"
+    },
+    {
+      "line": 72,
+      "text": "och av Athene dem skicklighet gavs uti härliga slöjder."
+    },
+    {
+      "line": 73,
+      "text": "Men när en dag Afrodite gick upp till den höga Olympen"
+    },
+    {
+      "line": 74,
+      "text": "att åt de älskliga flickorna två om ett blomstrande bröllop"
+    },
+    {
+      "line": 75,
+      "text": "bedja hos ljungaren Zeus — ty allting den evige känner,"
+    },
+    {
+      "line": 76,
+      "text": "både vad ödet beskär och förmenar de dödliga mänskor —"
+    },
+    {
+      "line": 77,
+      "text": "ryckte harpyorna flickorna bort under tiden och skänkte"
+    },
+    {
+      "line": 78,
+      "text": "dem att slavinnor bli åt de rysliga hämndegudinnor."
+    },
+    {
+      "line": 79,
+      "text": "Så må de eviga låta ock mig försvinna från jorden,"
+    },
+    {
+      "line": 80,
+      "text": "eller må träffad av Artemis' pil jag stiga i Hades'"
+    },
+    {
+      "line": 81,
+      "text": "rysliga boningar ner, om jag endast får skåda Ulysses,"
+    },
+    {
+      "line": 82,
+      "text": "endast jag slipper att bliva till fröjd åt en ringare make."
+    },
+    {
+      "line": 83,
+      "text": "Drägligt är lidandet ändå för den, som allenast om dagen"
+    },
+    {
+      "line": 84,
+      "text": "nödgas i tårar beständigt ge luft åt sitt plågande hjärta,"
+    },
+    {
+      "line": 85,
+      "text": "men under natten får ro, då sömnen den ljuvliga glömskan"
+    },
+    {
+      "line": 86,
+      "text": "skänker av allt, både lyckligt och ont, när han ögonen sluter."
+    },
+    {
+      "line": 87,
+      "text": "Jag däremot av en gud förföljes ju även med drömmar."
+    },
+    {
+      "line": 88,
+      "text": "Åter i natt vid min sida han låg och var alldeles lik sig,"
+    },
+    {
+      "line": 89,
+      "text": "sådan han var, då med hären han for, och mitt hjärta av glädje"
+    },
+    {
+      "line": 90,
+      "text": "fylldes, ty ej för en dröm jag det höll, utan trodde det verkligt.\""
+    },
+    {
+      "line": 91,
+      "text": "Så hon sade, och snart gick nu upp gulltronande Eos."
+    },
+    {
+      "line": 92,
+      "text": "Ljudet av drottningens klagan hann fram till den ädla Ulysses,"
+    },
+    {
+      "line": 93,
+      "text": "och ur sin sömn till besinningen väckt, han i förstone tyckte,"
+    },
+    {
+      "line": 94,
+      "text": "som om hon känt honom redan igen och vid huvudet stode."
+    },
+    {
+      "line": 95,
+      "text": "Täcket han byltade hop med de fällar, på vilka han sovit"
+    },
+    {
+      "line": 96,
+      "text": "lade i salen dem in på en stol, och huden av tjuren"
+    },
+    {
+      "line": 97,
+      "text": "slängde på gården och bad så till Zeus med lyftade händer:"
+    },
+    {
+      "line": 98,
+      "text": "\"Eviga Zeus, om er vilja det var, att jag skulle mitt hemland"
+    },
+    {
+      "line": 99,
+      "text": "hinna igen över länder och hav, sedan hårt I mig hemsökt,"
+    },
+    {
+      "line": 100,
+      "text": "må då ett varslande ord ifrån någon, som vaknar därinne,"
+    },
+    {
+      "line": 101,
+      "text": "göra mig viss, och ett tecken från Zeus må sig visa härute.\""
+    },
+    {
+      "line": 102,
+      "text": "Bedjande talte han så och blev hörd av den vise Kronion."
+    },
+    {
+      "line": 103,
+      "text": "Strax med en tordönsskräll från Olympens strålande tinnar"
+    },
+    {
+      "line": 104,
+      "text": "svarte han uppe i sky; då gladde sig konung Ulysses."
+    },
+    {
+      "line": 105,
+      "text": "Även ett varslande ord från en malande kvinna i huset"
+    },
+    {
+      "line": 106,
+      "text": "hördes helt nära intill, från platsen för konungens kvarnar,"
+    },
+    {
+      "line": 107,
+      "text": "där under dagligt slit av kvinnor, inalles ett tolvtal,"
+    },
+    {
+      "line": 108,
+      "text": "maldes av vete och korn det mannanärande mjölet."
+    },
+    {
+      "line": 109,
+      "text": "Redan de övriga lågo i sömn, sedan säden de malit;"
+    },
+    {
+      "line": 110,
+      "text": "hon hade ensam ej slutat ännu, hon var svagast av alla;"
+    },
+    {
+      "line": 111,
+      "text": "nu lät hon kvarnen stå still och talte, sin konung till varsel:"
+    },
+    {
+      "line": 112,
+      "text": "\"Zeus Allfader du drott över gudar och människor alla!"
+    },
+    {
+      "line": 113,
+      "text": "Mäktigt ditt tordön ljöd från den stjärnesmyckade himlen,"
+    },
+    {
+      "line": 114,
+      "text": "fast där ej finnes ett moln; men du giver väl någon ett tecken."
+    },
+    {
+      "line": 115,
+      "text": "Skänk uppfyllelse ock åt vad jag eländiga beder!"
+    },
+    {
+      "line": 116,
+      "text": "Låt det för friarna bliva i dag den yttersta gången"
+    },
+    {
+      "line": 117,
+      "text": "som i Ulysses' hus de förlusta sig glada vid gillet,"
+    },
+    {
+      "line": 118,
+      "text": "dessa, som låta mig digna på knä av det gruvliga slitet,"
+    },
+    {
+      "line": 119,
+      "text": "där jag skall mala dem mjöl! Ja, må gillet i dag bli det sista!\""
+    },
+    {
+      "line": 120,
+      "text": "Sagt; men Ulysses blev glad åt de lyckobådande orden"
+    },
+    {
+      "line": 121,
+      "text": "och över åskan från Zeus, ty han hoppades hämnd på de fräcka."
+    },
+    {
+      "line": 122,
+      "text": "Samtliga tärnorna nu i Ulysses' präktiga boning"
+    },
+    {
+      "line": 123,
+      "text": "samlades re'n och en flammande eld upptände på härden;"
+    },
+    {
+      "line": 124,
+      "text": "och från sin bädd steg Telemachos upp, den gudomliga yngling,"
+    },
+    {
+      "line": 125,
+      "text": "tog sina kläder uppå och sitt eggade svärd över skuldran"
+    },
+    {
+      "line": 126,
+      "text": "och på de glänsande fötterna band sina sköna sandaler,"
+    },
+    {
+      "line": 127,
+      "text": "tog så sitt väldiga spjut med vässade spetsen av koppar,"
+    },
+    {
+      "line": 128,
+      "text": "trädde på tröskeln in och talade till Eurekleia:"
+    },
+    {
+      "line": 129,
+      "text": "\"Mor lilla, haven I gästen bemött med all heder i huset?"
+    },
+    {
+      "line": 130,
+      "text": "Fick han sig mat och en säng, eller ligger han kanske försummad?"
+    },
+    {
+      "line": 131,
+      "text": "Ty det kan hända min moder ibland, fast hon är så förståndig,"
+    },
+    {
+      "line": 132,
+      "text": "att hon tar miste på folk i en hast och hedrar den sämre,"
+    },
+    {
+      "line": 133,
+      "text": "medan hon låter det bättre gå bort och ej njuta sin heder.\""
+    },
+    {
+      "line": 134,
+      "text": "Honom svarade då den förståndiga Eurykleia:"
+    },
+    {
+      "line": 135,
+      "text": "\"Barn, du må icke så där utan sak stå och lasta din moder."
+    },
+    {
+      "line": 136,
+      "text": "Här fick han sitta och dricka sitt vin, så länge han ville;"
+    },
+    {
+      "line": 137,
+      "text": "mat honom också hon bjöd, men han sade sig ej vara hungrig."
+    },
+    {
+      "line": 138,
+      "text": "Och då han yttrade lust att bege sig till vila och sova,"
+    },
+    {
+      "line": 139,
+      "text": "gav hon befallning åt tärnorna strax att bädda åt honom;"
+    },
+    {
+      "line": 140,
+      "text": "men som en man, som förlorat var skymt av lycka och glädje,"
+    },
+    {
+      "line": 141,
+      "text": "kände han intet begär att sova i säng mellan lakan,"
+    },
+    {
+      "line": 142,
+      "text": "men på en tjurs ogarvade hud och en hög utav fårskinn"
+    },
+    {
+      "line": 143,
+      "text": "låg han i hallen och sov, och ett täcke vi bredde då över.\""
+    },
+    {
+      "line": 144,
+      "text": "Så hon sade; men ut Telemachos gick, och i handen"
+    },
+    {
+      "line": 145,
+      "text": "spjutet han höll och var följd av två snabbfotade hundar;"
+    },
+    {
+      "line": 146,
+      "text": "raskt gick till torget han hän till de pansarklädda achaier."
+    },
+    {
+      "line": 147,
+      "text": "Men till tärnorna ropade nu den förträffliga kvinnan,"
+    },
+    {
+      "line": 148,
+      "text": "Eurykleia, en dotter till Ops, som var son av Peisenor:"
+    },
+    {
+      "line": 149,
+      "text": "\"Friskt nu till verket!  En del må sig skynda att sopa i salen"
+    },
+    {
+      "line": 150,
+      "text": "och att bestänka dess golv och på prydliga stolarna breda"
+    },
+    {
+      "line": 151,
+      "text": "purpurhyenden ut, och andra må samtliga borden"
+    },
+    {
+      "line": 152,
+      "text": "torka med svampar utav och bålarna noga med vatten"
+    },
+    {
+      "line": 153,
+      "text": "skölja och dubbelpokalerna med, och några till källan"
+    },
+    {
+      "line": 154,
+      "text": "gånga åstad efter vatten nu strax och ej söla på vägen."
+    },
+    {
+      "line": 155,
+      "text": "Länge det dröjer nog ej, innan friarna samlas i salen;"
+    },
+    {
+      "line": 156,
+      "text": "tidigt de komma helt visst, ty i dag är hos alla det högtid.\""
+    },
+    {
+      "line": 157,
+      "text": "Sade, och tärnorna lyssnade till och befallningen lydde;"
+    },
+    {
+      "line": 158,
+      "text": "tjugo begåvo sig av till den mörka och skimrande källan,"
+    },
+    {
+      "line": 159,
+      "text": "medan de övriga sysslade flinkt med att ordna i huset."
+    },
+    {
+      "line": 160,
+      "text": "Friarnas tjänare kommo nu dit och begynte att veden"
+    },
+    {
+      "line": 161,
+      "text": "klyva med säkra och hurtiga tag, och tärnornas skara"
+    },
+    {
+      "line": 162,
+      "text": "vände från källan igen, och, Eumaios också sig infann,"
+    },
+    {
+      "line": 163,
+      "text": "drivande med sig ej färre än tre sina yppersta gödsvin."
+    },
+    {
+      "line": 164,
+      "text": "Dessa sin frihet han lämnade strax till att beta på gården;"
+    },
+    {
+      "line": 165,
+      "text": "därpå han själv till Ulysses gick fram och frågade vänligt:"
+    },
+    {
+      "line": 166,
+      "text": "\"Främling, bemöta dig friarna nu med en smula av aktning,"
+    },
+    {
+      "line": 167,
+      "text": "eller behandlas du nu som förut med hån i palatset?\""
+    },
+    {
+      "line": 168,
+      "text": "Honom svarade då den mångförslagne Ulysses:"
+    },
+    {
+      "line": 169,
+      "text": "\"Måtte blott gudarna snart, Eumaios, hämnas den smälek,"
+    },
+    {
+      "line": 170,
+      "text": "som i sitt övermod de föröva med nedriga illdåd"
+    },
+    {
+      "line": 171,
+      "text": "uti ett främmande hus, ej kännande tecken till blygsel!\""
+    },
+    {
+      "line": 172,
+      "text": "Sålunda föllo de ord, som de växlade där med varandra."
+    },
+    {
+      "line": 173,
+      "text": "Nalkades då till dem Melanthios, getternas herde;"
+    },
+    {
+      "line": 174,
+      "text": "getter han drev, och de bästa det var ur samtliga hjordar,"
+    },
+    {
+      "line": 175,
+      "text": "valda för friarnas bord, och av herdar tvänne han följdes."
+    },
+    {
+      "line": 176,
+      "text": "Getterna alla han band i den ljudande pelarehallen,"
+    },
+    {
+      "line": 177,
+      "text": "därpå han själv till Ulysses gick fram och i smädelser utfor:"
+    },
+    {
+      "line": 178,
+      "text": "\"Främling, du ämnar då även i dag här i huset oss plåga"
+    },
+    {
+      "line": 179,
+      "text": "med tiggeri? Kan du icke ha vett att dig packa på porten?"
+    },
+    {
+      "line": 180,
+      "text": "Aldrig, det tror jag försann, vi bägge bli kvitt från varandra,"
+    },
+    {
+      "line": 181,
+      "text": "förrn du fått smaka min näve ett tag, ty du tigger ej mänskligt."
+    },
+    {
+      "line": 182,
+      "text": "Här finns väl flere achaier än vi, som ha gille i gården!\""
+    },
+    {
+      "line": 183,
+      "text": "Så han sade; ej svarte ett ord den förslagne Ulysses,"
+    },
+    {
+      "line": 184,
+      "text": "tigande rörde han huvudet blott och tänkte på ofärd."
+    },
+    {
+      "line": 185,
+      "text": "Nu som den tredje Filoitios kom, koherdarnas förman;"
+    },
+    {
+      "line": 186,
+      "text": "frodiga getter för friarnas bord han drev och en gallko."
+    },
+    {
+      "line": 187,
+      "text": "Dessa av färjmän fraktats till ön, som för jämnan från fastland"
+    },
+    {
+      "line": 188,
+      "text": "fraktade människor över, så snart som det någon begärde."
+    },
+    {
+      "line": 189,
+      "text": "Boskapen noga han band i den ljudande pelarehallen,"
+    },
+    {
+      "line": 190,
+      "text": "därpå han själv till Eumaios gick fram och frågade honom:"
+    },
+    {
+      "line": 191,
+      "text": "\"Vem är den främlingen här, Eumaios, som nyligen kommit"
+    },
+    {
+      "line": 192,
+      "text": "hit till vårt hus? Låt höra en gång, vad han säger sig stamma"
+    },
+    {
+      "line": 193,
+      "text": "ifrån för folk? Och var har han sin släkt och sin fädernetorva?"
+    },
+    {
+      "line": 194,
+      "text": "Ack, den arme! Och dock ser han ut som en härskande konung."
+    },
+    {
+      "line": 195,
+      "text": "Visst är det gudarnas makt, som förföljer var irrande nödställd,"
+    },
+    {
+      "line": 196,
+      "text": "sedan de låta ej konungar ens förskonas från jämmer.\""
+    },
+    {
+      "line": 197,
+      "text": "Sade och trädde så fram och hälsade kungen med handslag,"
+    },
+    {
+      "line": 198,
+      "text": "och med bevingade ord han talte till honom och sade:"
+    },
+    {
+      "line": 199,
+      "text": "\"Hell dig, fader och gäst!  Må du bliva i kommande dagar"
+    },
+    {
+      "line": 200,
+      "text": "lycklig, ty nu äro förvisso du tryckt av lidande många."
+    },
+    {
+      "line": 201,
+      "text": "Evige Zeus!  Så förfärlig som du är bland gudarna ingen."
+    },
+    {
+      "line": 202,
+      "text": "Utan förbarmande låter du dem, som du själv har gett livet"
+    },
+    {
+      "line": 203,
+      "text": "fastna i lidandets nät och frätas av gruvliga sorger."
+    },
+    {
+      "line": 204,
+      "text": "Svetten sprang fram, då jag såg dig, och vått blev mitt öga av tårar,"
+    },
+    {
+      "line": 205,
+      "text": "ty på Ulysses' jag tänkte, ty nu får väl också min konung"
+    },
+    {
+      "line": 206,
+      "text": "irra i sådana lumpor omkring bland främmande mänskor,"
+    },
+    {
+      "line": 207,
+      "text": "om han bland levande finns och skådar den strålande solen."
+    },
+    {
+      "line": 208,
+      "text": "Men om han redan är död och till Hades' boningar gången,"
+    },
+    {
+      "line": 209,
+      "text": "ve mig då för min härlige drott!  Han förtrodde sin boskap"
+    },
+    {
+      "line": 210,
+      "text": "i Kefallenernas land i min vård, när jag ännu var gosse."
+    },
+    {
+      "line": 211,
+      "text": "Nu är den bliven otalig i mängd, så att aldrig för dödlig"
+    },
+    {
+      "line": 212,
+      "text": "trivits och lönat sig så bredpanniga oxarnas avel."
+    },
+    {
+      "line": 213,
+      "text": "Men jag befalles av främlingar nu att dem själva till godo"
+    },
+    {
+      "line": 214,
+      "text": "driva dem hit, och de fråga ej alls efter sonen i huset"
+    },
+    {
+      "line": 215,
+      "text": "eller de vakande gudarnas hämnd och ha redan i sinnet"
+    },
+    {
+      "line": 216,
+      "text": "själva att dela hans gods, då min herre blir borta så länge."
+    },
+    {
+      "line": 217,
+      "text": "Därför jag ständigt och jämt går och grubblar i sinnet på detta:"
+    },
+    {
+      "line": 218,
+      "text": "svårt det mig faller förvisst att, så länge hans son är i livet,"
+    },
+    {
+      "line": 219,
+      "text": "draga åstad till ett främmande land och ta boskapen med mig"
+    },
+    {
+      "line": 220,
+      "text": "för att bland främlingar bo, men värre det är att härhemma"
+    },
+    {
+      "line": 221,
+      "text": "slita för djuren så ont allenast till främlingars hugnad."
+    },
+    {
+      "line": 222,
+      "text": "Också jag hade väl flytt till en annan bland mäktiga kungar"
+    },
+    {
+      "line": 223,
+      "text": "redan för langse'n, ty det här står ej längre att tåla;"
+    },
+    {
+      "line": 224,
+      "text": "men jag blir hoppet ej kvitt, att den olycksalige äntligt"
+    },
+    {
+      "line": 225,
+      "text": "kanske skall komma och rensa sitt hus ifrån friaresvärmen.\""
+    },
+    {
+      "line": 226,
+      "text": "Honom svarade den mångförslagne Ulysses:"
+    },
+    {
+      "line": 227,
+      "text": "\"Herde, då ej du ser ut till att vara en ond eller vettlös,"
+    },
+    {
+      "line": 228,
+      "text": "och då jag märker nu tydligen själv, att du tänker förståndigt,"
+    },
+    {
+      "line": 229,
+      "text": "så vill jag säga en ting och med helig ed det bekräfta."
+    },
+    {
+      "line": 230,
+      "text": "Vittne då Zeus ibland gudarna först och ert vänliga gästbord,"
+    },
+    {
+      "line": 231,
+      "text": "vittne den frejdade konungens härd, dit nu jag är kommen:"
+    },
+    {
+      "line": 232,
+      "text": "innan du går härifrån, skall Ulysses igen vara hemma."
+    },
+    {
+      "line": 233,
+      "text": "Då skall du själv, om du vill, få med egna ögon bevittna"
+    },
+    {
+      "line": 234,
+      "text": "friarnas ömkliga död, fast de nu spela herrar i huset.\""
+    },
+    {
+      "line": 235,
+      "text": "Honom svarade då koherdarnas överste förman:"
+    },
+    {
+      "line": 236,
+      "text": "\"Måtte Kronion ditt ord uppfyllelse giva, o främling!"
+    },
+    {
+      "line": 237,
+      "text": "Visa jag skulle dig då, vad min arm och min styrka förmådde.\""
+    },
+    {
+      "line": 238,
+      "text": "Även Eumaios då bad till alla de saliga gudar"
+    },
+    {
+      "line": 239,
+      "text": "att till sitt hem måtte komma igen den förslagne Ulysses."
+    },
+    {
+      "line": 240,
+      "text": "Sålunda föllo de ord, som de växlade där med varandra."
+    },
+    {
+      "line": 241,
+      "text": "Men på Telemachos' död och fördärv av friarskaran"
+    },
+    {
+      "line": 242,
+      "text": "stämplades just, då med ens ett fågeltecken till vänster"
+    },
+    {
+      "line": 243,
+      "text": "syntes i höjden, en örn med en skälvande duva i klorna."
+    },
+    {
+      "line": 244,
+      "text": "Då tog Amfinimos strax till orda ibland dem och talte:"
+    },
+    {
+      "line": 245,
+      "text": "\"Aldrig, I vänner, oss lyckas vår plan att Telemachos mörda,"
+    },
+    {
+      "line": 246,
+      "text": "såsom vi menade nyss.  Låt i stället oss tänka på måltid!\""
+    },
+    {
+      "line": 247,
+      "text": "Så var Amfinomos' ord, och hans mening de gillade alla,"
+    },
+    {
+      "line": 248,
+      "text": "och i palatset de trädde då in hos den ädle Ulysses,"
+    },
+    {
+      "line": 249,
+      "text": "läggande mantlarna av på raden av stolar och troner."
+    },
+    {
+      "line": 250,
+      "text": "Därpå de slaktade frodiga får och de vackraste getter,"
+    },
+    {
+      "line": 251,
+      "text": "slaktade späckiga svin och tillika en kviga ur hjorden."
+    },
+    {
+      "line": 252,
+      "text": "Innanmätet blev stekt och fördelat av några, och andra"
+    },
+    {
+      "line": 253,
+      "text": "blandade bålarna till, och pokalerna ställde Eumaios"
+    },
+    {
+      "line": 254,
+      "text": "fram, och i de präktiga korgar Filoitios, herdarnas förman,"
+    },
+    {
+      "line": 255,
+      "text": "satte på borden bröd, och Melanthios bägarna fyllde."
+    },
+    {
+      "line": 256,
+      "text": "Därpå de grepo sig an med de väntande, färdiga rätter."
+    },
+    {
+      "line": 257,
+      "text": "Nu med beräknande list Telemachos gav åt Ulysses"
+    },
+    {
+      "line": 258,
+      "text": "nederst vid tröskelstenen hans plats i den ståtliga salen,"
+    },
+    {
+      "line": 259,
+      "text": "sättande fram den enklaste stol och ett bord av de minsta;"
+    },
+    {
+      "line": 260,
+      "text": "därpå han lade en part utav innanmätet för fadern,"
+    },
+    {
+      "line": 261,
+      "text": "hällde så vin i en gyllne pokal och talade sedan:"
+    },
+    {
+      "line": 262,
+      "text": "\"Här må du sitta och dricka ditt vin bland de övriga gäster."
+    },
+    {
+      "line": 263,
+      "text": "Själv skall jag giva dig skydd mot samtliga friarnas hånsord"
+    },
+    {
+      "line": 264,
+      "text": "ävensom allt slags våld, ty detta är icke ett värdshus,"
+    },
+    {
+      "line": 265,
+      "text": "utan Uysses' palats, som åt mig av min fader förvärvats."
+    },
+    {
+      "line": 266,
+      "text": "Vakten er, friare, nu, att ert sinne er ej må förleda"
+    },
+    {
+      "line": 267,
+      "text": "varken till skymf eller våld, för att ej må bli strider och träta!\""
+    },
+    {
+      "line": 268,
+      "text": "Så han talte, och alla de då sig beto i läppen,"
+    },
+    {
+      "line": 269,
+      "text": "häpnande över Telemachos' ord, ty han talade dristigt."
+    },
+    {
+      "line": 270,
+      "text": "Tog då till orda bland dem Antinoos, son av Eupeithes:"
+    },
+    {
+      "line": 271,
+      "text": "\"Hårt är det talet förvisst, I achaier, men låtom oss ändå"
+    },
+    {
+      "line": 272,
+      "text": "hålla tillgodo därmed, då Telemachos riktigt oss hotar."
+    },
+    {
+      "line": 273,
+      "text": "Zeus tillstadde det ej, vi eljest väl hade i huset"
+    },
+    {
+      "line": 274,
+      "text": "längesen tystat hans mun, hur högt han än larmar och ordar.\""
+    },
+    {
+      "line": 275,
+      "text": "Sagt; men Telemachos aktade ej, vad han sade, det minsta."
+    },
+    {
+      "line": 276,
+      "text": "Nu härolderna tågade fram genom staden med gudens"
+    },
+    {
+      "line": 277,
+      "text": "heliga festhekatomb, och achaiernas lockiga söner"
+    },
+    {
+      "line": 278,
+      "text": "uti Apollos skuggiga lund sig församlade talrikt."
+    },
+    {
+      "line": 279,
+      "text": "Sedan de ryggradsköttet nu stekt och det tagit av spetten,"
+    },
+    {
+      "line": 280,
+      "text": "fingo de alla sin del och höllo en lysande måltid."
+    },
+    {
+      "line": 281,
+      "text": "Och de, som passade upp, framsatte en part för Ulysses"
+    },
+    {
+      "line": 282,
+      "text": "lika så stor som den friarna fick, ty så dem befallde"
+    },
+    {
+      "line": 283,
+      "text": "käcke Telemachos, son av den gudalike Ulysses."
+    },
+    {
+      "line": 284,
+      "text": "Ej lät Athene nu alls den trotsiga friareskaran"
+    },
+    {
+      "line": 285,
+      "text": "sluta med hån och med kränkningar upp, för att harmen i hjärtat"
+    },
+    {
+      "line": 286,
+      "text": "måtte än djupare gro hos Laertessonen Ulysses."
+    },
+    {
+      "line": 287,
+      "text": "En där i friarehopen det fanns, som hette Ktesippos,"
+    },
+    {
+      "line": 288,
+      "text": "boende var han på Samos, en man av det ondaste sinne."
+    },
+    {
+      "line": 289,
+      "text": "Trotsigt förlitande sig på sin rikedom, vilken var gränslös,"
+    },
+    {
+      "line": 290,
+      "text": "giljade han till Ulysses' gemål, då ej konungen hemkom."
+    },
+    {
+      "line": 291,
+      "text": "Denne till orda nu tog i den trotsiga friareskaran:"
+    },
+    {
+      "line": 292,
+      "text": "\"Hören, I friare bålde, ett ord, som jag önskar att säga!"
+    },
+    {
+      "line": 293,
+      "text": "Allaredan har främlingen fått, som sig borde, sin andel,"
+    },
+    {
+      "line": 294,
+      "text": "lika så stor som vår, ty det vore ej vackert och rättvist,"
+    },
+    {
+      "line": 295,
+      "text": "om i Telemachos' hus en gäst skulle lida förknappning."
+    },
+    {
+      "line": 296,
+      "text": "Nu skall av mig han bekomma en skänk, som han själv kan därefter"
+    },
+    {
+      "line": 297,
+      "text": "giva åt baderskan bort eller också åt en av de andra"
+    },
+    {
+      "line": 298,
+      "text": "ibland tjänarna här hos den gudalike Ulysses.\""
+    },
+    {
+      "line": 299,
+      "text": "Sade och slungade strax med den seniga handen en oxlägg,"
+    },
+    {
+      "line": 300,
+      "text": "som han ur korgen tog upp, men Ulysses väjde för kastet"
+    },
+    {
+      "line": 301,
+      "text": "genom att huvudet böja ett grand, och inom sig han hånfullt"
+    },
+    {
+      "line": 302,
+      "text": "log med besked, när läggen flög bort i den präktiga väggen."
+    },
+    {
+      "line": 303,
+      "text": "Strax mot Ktesippos i bannande ord Telemachos utfor:"
+    },
+    {
+      "line": 304,
+      "text": "\"Lycka det var, Ktesippos, för dig, att du träffade icke"
+    },
+    {
+      "line": 305,
+      "text": "främlingen nu med ditt kast, och att själv han vek undan behändigt."
+    },
+    {
+      "line": 306,
+      "text": "Annars jag hade mitt vässade spjut dig jagat i livet,"
+    },
+    {
+      "line": 307,
+      "text": "så att din fader fått styra om grav i stället för bröllop"
+    },
+    {
+      "line": 308,
+      "text": "åt dig på Ithaka.  Därför envar må sig akta för illdåd"
+    },
+    {
+      "line": 309,
+      "text": "uti mitt hus!  Jag begriper numer och förstår att bedöma,"
+    },
+    {
+      "line": 310,
+      "text": "vad som är rätt eller ont, då jag förr däremot var ju barnslig."
+    },
+    {
+      "line": 311,
+      "text": "Ändå alltjämt vi oss giva till tåls och fördraga att åse"
+    },
+    {
+      "line": 312,
+      "text": "hurusom maten och vinet gå åt och I fänaden slakten,"
+    },
+    {
+      "line": 313,
+      "text": "därför att svårt för en ensam det är att hindra så många."
+    },
+    {
+      "line": 314,
+      "text": "Men er stävjen en smula ändå och föröven ej våldsdåd!"
+    },
+    {
+      "line": 315,
+      "text": "Och om I sinnade ären att nu mig förgöra med kopparn,"
+    },
+    {
+      "line": 316,
+      "text": "kunde jag önska det själv, och förvisso långt bättre det vore"
+    },
+    {
+      "line": 317,
+      "text": "ligga som död än ha jämt för min syn så skändliga illdåd,"
+    },
+    {
+      "line": 318,
+      "text": "främlingar mötta med hån och med hugg och de tjänande tärnor"
+    },
+    {
+      "line": 319,
+      "text": "släpade kring till liderlighet i de präktiga rummen.\""
+    },
+    {
+      "line": 320,
+      "text": "Så han talte, och runt förstummades alla i tystnad."
+    },
+    {
+      "line": 321,
+      "text": "Äntligen höjde sin röst Damastors son Agelaos:"
+    },
+    {
+      "line": 322,
+      "text": "\"Vänner, det lärer väl ingen av oss, då han talat så rättvist,"
+    },
+    {
+      "line": 323,
+      "text": "yttra fientliga ord och giva ett sårande gensvar."
+    },
+    {
+      "line": 324,
+      "text": "Kränken ej heller nu främlingen mer eller eljest en enda"
+    },
+    {
+      "line": 325,
+      "text": "ibland tjänarna här hos den gudalike Ulysses."
+    },
+    {
+      "line": 326,
+      "text": "Men åt Telemachos själv och hans moder jag önskade gärna"
+    },
+    {
+      "line": 327,
+      "text": "giva ett vänligt råd, om det blott må dem bägge behaga."
+    },
+    {
+      "line": 328,
+      "text": "Jo, så länge som än i ert hjärta I närden det hoppet,"
+    },
+    {
+      "line": 329,
+      "text": "att till sitt hus skulle komma igen den förslagne Ulysses,"
+    },
+    {
+      "line": 330,
+      "text": "kunde man inte förtänka er för, att I än villen bida"
+    },
+    {
+      "line": 331,
+      "text": "under förhalning med friarnas sak, ty det bästa ju varit,"
+    },
+    {
+      "line": 332,
+      "text": "om till sitt hus han fått komma igen den förslagne Ulysses."
+    },
+    {
+      "line": 333,
+      "text": "Nu däremot är det klart, att han aldrig skall vända tillbaka."
+    },
+    {
+      "line": 334,
+      "text": "Därför nu övertala din mor, att hon tager till make"
+    },
+    {
+      "line": 335,
+      "text": "den som den yppersta är och bjuder den rikaste brudskänk,"
+    },
+    {
+      "line": 336,
+      "text": "för att du sedan må själv uppå fädernegodset med gamman"
+    },
+    {
+      "line": 337,
+      "text": "äta och dricka i ro, medan hon åt en annan är husfru.\""
+    },
+    {
+      "line": 338,
+      "text": "Honom Telemachos svarade då, den vettige yngling:"
+    },
+    {
+      "line": 339,
+      "text": "\"Nej, Agelaos, vid Zeus och vid allt vad min fader har lidit,"
+    },
+    {
+      "line": 340,
+      "text": "där han från Ithaka fjärran förgicks eller irrar i världen:"
+    },
+    {
+      "line": 341,
+      "text": "aldrig jag giftermålet fördröjt, men har bett henne äkta"
+    },
+    {
+      "line": 342,
+      "text": "vilken hon vill, och är också beredd till ofantliga skänker."
+    },
+    {
+      "line": 343,
+      "text": "Men att jag skulle ur huset min mor mot sin vilja med maktspråk"
+    },
+    {
+      "line": 344,
+      "text": "jaga, det blyges jag för.  Må gudarna detta förbjuda.\""
+    },
+    {
+      "line": 345,
+      "text": "Så var Telemachos' svar.  Men bland friarna Pallas Athene"
+    },
+    {
+      "line": 346,
+      "text": "väckte ett outsläckligt skratt och förvirrade sinnet."
+    },
+    {
+      "line": 347,
+      "text": "Onaturligt och hemskt ur förvridna käftar kom skrattet,"
+    },
+    {
+      "line": 348,
+      "text": "köttet, de åto sågs drypa av blod, och i ögonen på dem"
+    },
+    {
+      "line": 349,
+      "text": "tårarna stodo, och dödens ve med sin aning dem fyllde."
+    },
+    {
+      "line": 350,
+      "text": "Tog då till orda bland dem Theoklymenos, kraftiga hjälten:"
+    },
+    {
+      "line": 351,
+      "text": "\"Olycksaliga män, vad går åt eder?  Natten har omsvept"
+    },
+    {
+      "line": 352,
+      "text": "både ert huvud och ansiktsdrag och hela er skepnad,"
+    },
+    {
+      "line": 353,
+      "text": "suckande jämmern är lös och kinderna våta av tårar,"
+    },
+    {
+      "line": 354,
+      "text": "väggarna drypa av blod och av blod var bjälke i taket,"
+    },
+    {
+      "line": 355,
+      "text": "hallen av dödas skuggor är full, och de trängas på gården,"
+    },
+    {
+      "line": 356,
+      "text": "längtande alla till Erebos' djup, till förgörelsens mörker,"
+    },
+    {
+      "line": 357,
+      "text": "solen på himlen är släckt och rymden förlorad i töcken.\""
+    },
+    {
+      "line": 358,
+      "text": "Sade, men friarnas lag blott skrattade häftigt åt honom,"
+    },
+    {
+      "line": 359,
+      "text": "och Eurymachos, Polybos' son tog till orda ibland dem:"
+    },
+    {
+      "line": 360,
+      "text": "\"Galen den främmande är, som är nyligen kommen till gården."
+    },
+    {
+      "line": 361,
+      "text": "Därför, I ynglingar, leden på stund honom ut ur palatset,"
+    },
+    {
+      "line": 362,
+      "text": "att han till torget kan gå, då han tycker, att här är så beckmörkt.\""
+    },
+    {
+      "line": 363,
+      "text": "Honom svarade då Theoklymenos, kraftige hjälten:"
+    },
+    {
+      "line": 364,
+      "text": "\"Nej, Eurymachos, icke för mig vill jag hava ert följe."
+    },
+    {
+      "line": 365,
+      "text": "Än har jag ögon och öron, och än har jag fötter att gå på"
+    },
+    {
+      "line": 366,
+      "text": "och i mitt bröst ett förstånd, som äger ej vank eller lyte;"
+    },
+    {
+      "line": 367,
+      "text": "dessa mig följa, och hädan jag går, ty jag skönjer, att ofärd"
+    },
+    {
+      "line": 368,
+      "text": "närmar sig eder, den ingen förvisst kan fly eller undgå."
+    },
+    {
+      "line": 369,
+      "text": "Veten det, friare alla som här hos den ädla Ulysses"
+    },
+    {
+      "line": 370,
+      "text": "kränken i konungens hus hans gäster med skändliga våldsdåd!\""
+    },
+    {
+      "line": 371,
+      "text": "Sade och sedan gick ut ur det väluppbyggda palatset"
+    },
+    {
+      "line": 372,
+      "text": "och till Peiraios gick hän, som med vänlighet honom emottog."
+    },
+    {
+      "line": 373,
+      "text": "Samtliga friarna började nu på varandra att titta,"
+    },
+    {
+      "line": 374,
+      "text": "och för att reta Telemachos än, de belogo hans gäster,"
+    },
+    {
+      "line": 375,
+      "text": "mången då yttrade så bland de övermodiga unga:"
+    },
+    {
+      "line": 376,
+      "text": "\"Uslare gäster än du, Telemachos, hyste visst ingen."
+    },
+    {
+      "line": 377,
+      "text": "Sicken ett smutsigt tiggareskrov, som du fått dig på halsen!"
+    },
+    {
+      "line": 378,
+      "text": "Lysten på mat och på vin är han nog, men ej övad det minsta"
+    },
+    {
+      "line": 379,
+      "text": "varken med plog eller spjut och allenast en börda för jorden."
+    },
+    {
+      "line": 380,
+      "text": "Och så den andre därtill, som stod upp och begynte att sia!"
+    },
+    {
+      "line": 381,
+      "text": "Men vill du lyda mitt råd, och det torde nog vara det bästa,"
+    },
+    {
+      "line": 382,
+      "text": "skicka vi gästerna bundna ombord på ett roddarefartyg"
+    },
+    {
+      "line": 383,
+      "text": "bort till Sikelernas land, där vi få dem ordentligt betalda.\""
+    },
+    {
+      "line": 384,
+      "text": "Sådant var friarnas tal, men han frågade icke därefter;"
+    },
+    {
+      "line": 385,
+      "text": "tigande blott på sin fader han såg under väntan, att denne"
+    },
+    {
+      "line": 386,
+      "text": "skulle nu lägga sin hand på den skändliga friareskaran."
+    },
+    {
+      "line": 387,
+      "text": "Men på en prunkande stol i gemaket, som stötte till salen,"
+    },
+    {
+      "line": 388,
+      "text": "hade sig kloka Penelope satt, Ikarios' dotter,"
+    },
+    {
+      "line": 389,
+      "text": "så att hon hörde vart ord, som männerna talte därinne."
+    },
+    {
+      "line": 390,
+      "text": "Friarna åto nu där under glammande nöje sin frukost;"
+    },
+    {
+      "line": 391,
+      "text": "smakligt och riklig den var, ty en myckenhet djur hade slaktats."
+    },
+    {
+      "line": 392,
+      "text": "Dock visst aldrig ännu har det vankats en bittrare kvällsvard"
+    },
+    {
+      "line": 393,
+      "text": "än den, som skulle nu snart av gudinnan och kraftige hjälten"
+    },
+    {
+      "line": 394,
+      "text": "lagas åt dem, då de själva ju först hade fräckt sig förgripit."
+    }
+  ]
+}

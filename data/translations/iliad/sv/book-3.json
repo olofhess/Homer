@@ -1,0 +1,1858 @@
+{
+  "work": "iliad",
+  "lang": "sv",
+  "translator": "Erland Lagerlöf",
+  "book": 3,
+  "status": "REVIEWED_OCR_SEGMENTATION_UNVERIFIED_ALIGNMENT",
+  "warning": "OCR-brytningar granskade; verskopplingen är fortfarande preliminär och inte verifierad mot tryckt utgåva.",
+  "expectedGreekVerses": 461,
+  "countMatchesGreek": true,
+  "heading": "TREDJE SÅNGEN.",
+  "argument": "Edsfördrag. Utsikten från stadsmuren.  Envig mellan Menelaos och Paris.",
+  "verses": [
+    {
+      "line": 1,
+      "text": "Men då sig härarna ordnat till slag, hvar stam kring sin höfding,"
+    },
+    {
+      "line": 2,
+      "text": "tågade troerna fram med ett larm som af skriande fåglar,"
+    },
+    {
+      "line": 3,
+      "text": "sådant som lätet af tranornas flock från himmelen ljuder,"
+    },
+    {
+      "line": 4,
+      "text": "medan de, flyende bort ifrån vintern och ösande regnet,"
+    },
+    {
+      "line": 5,
+      "text": "draga med ljudeligt skriande hän till Okeanos' flöde"
+    },
+    {
+      "line": 6,
+      "text": "för att pygmeernas stammar med död och förgörelse hota"
+    },
+    {
+      "line": 7,
+      "text": "och uti gryningen strax med den mördande kampen begynna."
+    },
+    {
+      "line": 8,
+      "text": "Tigande gingo achaierna fram, men de andades mandom,"
+    },
+    {
+      "line": 9,
+      "text": "alla med stadigt beslut i sin själ att försvara hvarandra."
+    },
+    {
+      "line": 10,
+      "text": "Såsom när sunnan ibland bergstopparna höljer i dimma,"
+    },
+    {
+      "line": 11,
+      "text": "som är ej herdarne kär, men för tjufvarne bättre än natten,"
+    },
+    {
+      "line": 12,
+      "text": "och man ej längre kan skönja omkring än allenast ett stenkast;"
+    },
+    {
+      "line": 13,
+      "text": "så under fötternas tramp sig i luften den tätaste dammsky"
+    },
+    {
+      "line": 14,
+      "text": "höjde vid härarnas marsch, där de tågade fort öfver slätten."
+    },
+    {
+      "line": 15,
+      "text": "När de nu ryckande fram hade hunnit hvarandra helt nära,"
+    },
+    {
+      "line": 16,
+      "text": "trädde bland troerna främst den gudaliknande Paris;"
+    },
+    {
+      "line": 17,
+      "text": "panterhuden om skuldran han bar och sin krokiga båge"
+    },
+    {
+      "line": 18,
+      "text": "jämte sitt svärd, och han käckt två kopparspetsade lansar"
+    },
+    {
+      "line": 19,
+      "text": "svängde och manade ut argivernas yppersta kämpar"
+    },
+    {
+      "line": 20,
+      "text": "till att i envigeskamp honom möta i rysliga striden."
+    },
+    {
+      "line": 21,
+      "text": "Honom då varsnade strax den krigiska drott Menelaos,"
+    },
+    {
+      "line": 22,
+      "text": "hur han med väldiga steg stoltserade främst uti hären;"
+    },
+    {
+      "line": 23,
+      "text": "och såsom lejonet gläds, när ett väldigt byte det råkar,"
+    },
+    {
+      "line": 24,
+      "text": "träffande på i sin hunger en hjort med yfviga grenhorn"
+    },
+    {
+      "line": 25,
+      "text": "eller en vildmarksbock, och slukar då girigt, om också"
+    },
+    {
+      "line": 26,
+      "text": "själf det är jagadt af hundarnas dref och af ynglingar raska:"
+    },
+    {
+      "line": 27,
+      "text": "så Menelaos blef glad, då han gudaliknande Paris"
+    },
+    {
+      "line": 28,
+      "text": "såg för sitt öga, och hoppades nu att förbrytaren straffa."
+    },
+    {
+      "line": 29,
+      "text": "Genast med vapnen han hoppade ned ifrån vagnen på marken."
+    },
+    {
+      "line": 30,
+      "text": "Men när då honom fick se den gudaliknande Paris"
+    },
+    {
+      "line": 31,
+      "text": "träda där längst ibland kämparne fram, blef han slagen af bäfvan"
+    },
+    {
+      "line": 32,
+      "text": "och drog sig åter bland lederna in att förgörelsen undgå."
+    },
+    {
+      "line": 33,
+      "text": "Såsom en man, som får syn på en orm i den steniga skogsdaln,"
+    },
+    {
+      "line": 34,
+      "text": "studsar och viker tillbaks och i lemmarna darrar af skrämsel"
+    },
+    {
+      "line": 35,
+      "text": "och sig begifver på flykten i hast med hvitnade kinder:"
+    },
+    {
+      "line": 36,
+      "text": "likaså undan sig drog i de modige troernas vimmel"
+    },
+    {
+      "line": 37,
+      "text": "gudaliknande Paris, förskräckt för den bålde Atriden."
+    },
+    {
+      "line": 38,
+      "text": "Hektor det såg och mot honom for ut i försmädliga stickord:"
+    },
+    {
+      "line": 39,
+      "text": "»Paris, du skönaste mes, du förförare, galen i kvinnor!"
+    },
+    {
+      "line": 40,
+      "text": "Ack att du ogift blott hade dött utan barn eller maka!"
+    },
+    {
+      "line": 41,
+      "text": "Sådant jag önska dig kan, och förvisso det vore långt bättre"
+    },
+    {
+      "line": 42,
+      "text": "än att där stå som en lefvande skam och af andra föraktad."
+    },
+    {
+      "line": 43,
+      "text": "Högt månde skratta förvisst nu achaiernas lockiga kämpar,"
+    },
+    {
+      "line": 44,
+      "text": "hvilka där trodde en hjälte gå fram för att kämpa i spetsen,"
+    },
+    {
+      "line": 45,
+      "text": "därför att ståtlig du är; men du äger ej kraft eller styrka."
+    },
+    {
+      "line": 46,
+      "text": "Hur har en sådan Som du på de hafbefarande skeppen"
+    },
+    {
+      "line": 47,
+      "text": "dristat att samla sig män och segla åstad öfver djupet,"
+    },
+    {
+      "line": 48,
+      "text": "färdas bland främmande folk och från fjärran liggande länder"
+    },
+    {
+      "line": 49,
+      "text": "röfva det däjliga vif, som är franka till väldiga hjältar, —"
+    },
+    {
+      "line": 50,
+      "text": "både din fader, din stad och hela vårt folk till bekymmer,"
+    },
+    {
+      "line": 51,
+      "text": "fiender alla till fröjd och dig själf allenast till nesa?"
+    },
+    {
+      "line": 52,
+      "text": "Vill du ej hålla nu stånd mot den krigiske drott Menelaos?"
+    },
+    {
+      "line": 53,
+      "text": "Känna du finge då den, hvars blomstrande maka du röfvat."
+    },
+    {
+      "line": 54,
+      "text": "Cittran då hjälpte dig ej och de håfvor dig skänkt Afrodite,"
+    },
+    {
+      "line": 55,
+      "text": "icke ditt hår och din fagra gestalt, när du låge i stoftet."
+    },
+    {
+      "line": 56,
+      "text": "Fegt är troernas folk, ty de eljest skulle dig redan"
+    },
+    {
+      "line": 57,
+      "text": "klädt i en kappa af stenar för allt det onda du vållat.»"
+    },
+    {
+      "line": 58,
+      "text": "Honom svarade då den gudaliknande Paris:"
+    },
+    {
+      "line": 59,
+      "text": "»Hektor, du efter förskyllan mig näpst och ej öfver förskyllan."
+    },
+    {
+      "line": 60,
+      "text": "Hjärtat i barmen på dig är så obetvingligt som yxan,"
+    },
+    {
+      "line": 61,
+      "text": "hvilken i timrarens hand, som bjälkarna danar till skeppet,"
+    },
+    {
+      "line": 62,
+      "text": "stocken igenomskär och förökar den huggandes svingkraft:"
+    },
+    {
+      "line": 63,
+      "text": "sådant i bröstet på dig är det oförfärade hjärtat."
+    },
+    {
+      "line": 64,
+      "text": "Lasta de älskliga gåfvorna ej af den gyllene Kypris!"
+    },
+    {
+      "line": 65,
+      "text": "Ej att förakta likväl äro gudarnes härliga skänker,"
+    },
+    {
+      "line": 66,
+      "text": "som af dem själfva bero och ej tagas af människovilja."
+    },
+    {
+      "line": 67,
+      "text": "Men nu välan, om du vill, att jag envigeskampen skall fresta,"
+    },
+    {
+      "line": 68,
+      "text": "bjud då, att troernas män och achaierna alla sig sätta,"
+    },
+    {
+      "line": 69,
+      "text": "låten i midten mig se'n med den krigiske drott Menelaos"
+    },
+    {
+      "line": 70,
+      "text": "mötas och kämpa om Helena själf och de skatter hon medfört."
+    },
+    {
+      "line": 71,
+      "text": "Den af oss båda, som segrare blir och vinner i kampen,"
+    },
+    {
+      "line": 72,
+      "text": "före då hem till sitt hus både henne och skatterna alla."
+    },
+    {
+      "line": 73,
+      "text": "Slute de öfriga vänskapsfördrag, och må troerna framgent"
+    },
+    {
+      "line": 74,
+      "text": "bördiga Troja bebo och achaierna vända till Argos"
+    },
+    {
+      "line": 75,
+      "text": "och till Achaia igen, där kvinnorna äro så fagra.»"
+    },
+    {
+      "line": 76,
+      "text": "Sade; och Hektor gladde sig högt vid att höra de orden,"
+    },
+    {
+      "line": 77,
+      "text": "trädde i midten fram och hejdade troernas leder,"
+    },
+    {
+      "line": 78,
+      "text": "hållande midt om sin lans, och stilla då stodo de alla."
+    },
+    {
+      "line": 79,
+      "text": "Bågarna spände mot honom achaiernas lockiga söner,"
+    },
+    {
+      "line": 80,
+      "text": "mättade pilarnas udd och började stenar att slunga,"
+    },
+    {
+      "line": 81,
+      "text": "men då ropade högt härskarornas drott Agamemnon:"
+    },
+    {
+      "line": 82,
+      "text": "»Stilla, argiver, och slungen ej så, I achajiske svennerl"
+    },
+    {
+      "line": 83,
+      "text": "Nu få vi höra ett ord från Hektor med fladdrande hjälmplym.»"
+    },
+    {
+      "line": 84,
+      "text": "Sade; då ställde de kastandet in och i bidande tystnad"
+    },
+    {
+      "line": 85,
+      "text": "stodo med ens, och i härarnas midt nu talade Hektor:"
+    },
+    {
+      "line": 86,
+      "text": "»Hören af mig, I troer och pansrade män af Achaia,"
+    },
+    {
+      "line": 87,
+      "text": "hvad Alexandros har sagt, för hvars skull sig härnaden yppat."
+    },
+    {
+      "line": 88,
+      "text": "Alla de öfriga troer och alla achaier han bjuder '"
+    },
+    {
+      "line": 89,
+      "text": "lägga de blänkande vapnen utaf på den bördiga jorden,"
+    },
+    {
+      "line": 90,
+      "text": "medan i (midten han själf och den krigiske drott Menelaos"
+    },
+    {
+      "line": 91,
+      "text": "ensamma kämpa om Helena själf och de skatter hon medfört."
+    },
+    {
+      "line": 92,
+      "text": "Den af de båda, som segrare blir och vinner i kampen,"
+    },
+    {
+      "line": 93,
+      "text": "före då hem till sitt hus både henne och skatterna alla;"
+    },
+    {
+      "line": 94,
+      "text": "och må vi andra besvärja med ed vår försoning och vänskap.»"
+    },
+    {
+      "line": 95,
+      "text": "Sålunda talade Hektor, och alla de tigande stodo."
+    },
+    {
+      "line": 96,
+      "text": "Talade bland dem nu ock Menelaos, väldig i härskri:"
+    },
+    {
+      "line": 97,
+      "text": "»Hören nu också på mig, ty mig själf går detta bekymmer"
+    },
+    {
+      "line": 98,
+      "text": "djupast till sinnes. Min mening är den, att achaier och troer"
+    },
+    {
+      "line": 99,
+      "text": "böra nu skiljas i frid, efter allt hvad I redan fått lida"
+    },
+    {
+      "line": 100,
+      "text": "under mitt hämnarekrig, som af Paris' förbrytelse vållats."
+    },
+    {
+      "line": 101,
+      "text": "Den af oss båda, hvars lott är till död och förgörelse kastad"
+    },
+    {
+      "line": 102,
+      "text": "blifve han dödens; men skiljens i frid, I andra, därefter."
+    },
+    {
+      "line": 103,
+      "text": "Hämten nu hit två lamm, ett hvitt och ett svart, att åt Jorden"
+    },
+    {
+      "line": 104,
+      "text": "offras och Solen; vi själfva åt Zeus skola offra ett annat."
+    },
+    {
+      "line": 105,
+      "text": "Kallen den mäktige Priamos hit, att han själf må fördraget"
+    },
+    {
+      "line": 106,
+      "text": "sluta, då lofven och tro af hans trotsiga söner ej aktas,"
+    },
+    {
+      "line": 107,
+      "text": "för att ej ederna, svurna vid Zeus, måtte brytas och kränkas."
+    },
+    {
+      "line": 108,
+      "text": "Alltid är sinnet i ynglingaår som den flyktiga vinden,"
+    },
+    {
+      "line": 109,
+      "text": "men där en gammal är med, som förflutet och kommande lika"
+    },
+    {
+      "line": 110,
+      "text": "öfverväger, där händer hvad bäst är för parterna bägge.»"
+    },
+    {
+      "line": 111,
+      "text": "Så han sade; då gladde sig högt så achaier som troer,"
+    },
+    {
+      "line": 112,
+      "text": "ty de nu hoppades hinna ett slut på bedröfliga kriget."
+    },
+    {
+      "line": 113,
+      "text": "Spännen de ströko i leder tillbaks och af vagnarna stego,"
+    },
+    {
+      "line": 114,
+      "text": "klädde sig vapnen utaf och lade dem neder på jorden"
+    },
+    {
+      "line": 115,
+      "text": "tätt vid hvarandra i rad, blott smalt var emellan dem rummet."
+    },
+    {
+      "line": 116,
+      "text": "Hektor nu skickade af in till staden härolder tvänne"
+    },
+    {
+      "line": 117,
+      "text": "offerlammen att hämta i hast och att Priamos kalla,"
+    },
+    {
+      "line": 118,
+      "text": "medan Talthybios strax af den mäktige drott Agamemnon"
+    },
+    {
+      "line": 119,
+      "text": "sändes till rymliga skeppen åstad med befallning att lammet"
+    },
+    {
+      "line": 120,
+      "text": "hämta, och ej var han ohörsam mot den höge Atriden."
+    },
+    {
+      "line": 121,
+      "text": "Iris då bringade strax hvitarmade Helena budskap"
+    },
+    {
+      "line": 122,
+      "text": "och var Laodike lik, den skönsta af Priamos döttrar,"
+    },
+    {
+      "line": 123,
+      "text": "som hennes svägerska var och Antenorättlingens maka,"
+    },
+    {
+      "line": 124,
+      "text": "med Helikaon förmäld, den kraftige son af Antenor."
+    },
+    {
+      "line": 125,
+      "text": "Henne hon väfvande fann i gemaket på ståtliga väfven,"
+    },
+    {
+      "line": 126,
+      "text": "dubbelmanteln af rödaste garn, där hon striderna väfde,"
+    },
+    {
+      "line": 127,
+      "text": "hvilka för hennes skull under Ares händer fått utstå"
+    },
+    {
+      "line": 128,
+      "text": "hästomtumlande troer och kopparklädde achaier."
+    },
+    {
+      "line": 129,
+      "text": "Trädde till henne då fram snabbfotade Iris och talte:"
+    },
+    {
+      "line": 130,
+      "text": "»Kom nu, du huldaste barn, för att skåda, hur sällsamt bete sig"
+    },
+    {
+      "line": 131,
+      "text": "hästomtumlande troer och kopparklädde achaier!"
+    },
+    {
+      "line": 132,
+      "text": "Dessa, som bragte förut mot hvarandra därute på slätten"
+    },
+    {
+      "line": 133,
+      "text": "härnadens jämmer och längtade jämt till fördärfliga striden,"
+    },
+    {
+      "line": 134,
+      "text": "tigande sitta de nu — ty på striden är vorden en ände —,"
+    },
+    {
+      "line": 135,
+      "text": "stödda mot sköldarna, medan bredvid stå de resliga spjuten."
+    },
+    {
+      "line": 136,
+      "text": "Blott Alexandros själf och den krigiske drott Menelaos"
+    },
+    {
+      "line": 137,
+      "text": "skola nu kämpa om dig med de väldiga spjuten i handen;"
+    },
+    {
+      "line": 138,
+      "text": "den som då segrare blir, hans älskade vif skall du heta.»"
+    },
+    {
+      "line": 139,
+      "text": "Sagdt, och i Helenas barm hon väckte den ljufvaste längtan"
+    },
+    {
+      "line": 140,
+      "text": "till hennes förra gemål och föräldrar och fädernestaden."
+    },
+    {
+      "line": 141,
+      "text": "Hastigt sig höljande in i det silfverglänsande doket,"
+    },
+    {
+      "line": 142,
+      "text": "sprang hon ur kammaren ut, medan ögonen fylldes af tårar,"
+    },
+    {
+      "line": 143,
+      "text": "icke allena, men följd af tvänne betjänande tärnor,"
+    },
+    {
+      "line": 144,
+      "text": "Klymene, blickande stolt, och Aithra, en dotter af Pittheus."
+    },
+    {
+      "line": 145,
+      "text": "Hastigt de lände nu dit, där i muren var Skaiiska porten."
+    },
+    {
+      "line": 146,
+      "text": "Där jämte Priamos själf Thymoites och Panthoos sutto,"
+    },
+    {
+      "line": 147,
+      "text": "Lampos och Klytios med, Hiketaon, en ättling af Ares,"
+    },
+    {
+      "line": 148,
+      "text": "hjälten Antenor jämväl och Ukalegon, rådiga bägge;"
+    },
+    {
+      "line": 149,
+      "text": "dessa, de äldste i folket, sig satt på den Skaiiska porten;"
+    },
+    {
+      "line": 150,
+      "text": "åldern att hvila från vapnen dem bjöd, men de talare gode"
+    },
+    {
+      "line": 151,
+      "text": "voro, cikaderna like i röst, som bland träden i skogen"
+    },
+    {
+      "line": 152,
+      "text": "sitta och sjunga sin sång med en stämma så skör som en lilja;"
+    },
+    {
+      "line": 153,
+      "text": "sådana sutto där nu trojanernas äldste på tornet."
+    },
+    {
+      "line": 154,
+      "text": "Men då de fingo på Helena syn, där hon nalkades tornet,"
+    },
+    {
+      "line": 155,
+      "text": "talte de hviskande så till hvarandra bevingade orden:"
+    },
+    {
+      "line": 156,
+      "text": "»Ej må det klandras, att troer och benskenklädde achaier"
+    },
+    {
+      "line": 157,
+      "text": "tåla så länge att lida besvär för en kvinna så härlig."
+    },
+    {
+      "line": 158,
+      "text": "Sannerligen, hon är som gudinnorna själfva att skåda."
+    },
+    {
+      "line": 159,
+      "text": "Men må hon ändå, så fager hon är, snart segla till hemmet"
+    },
+    {
+      "line": 160,
+      "text": "och här ej stanna till blifvande men för oss själfva och barnen.»"
+    },
+    {
+      "line": 161,
+      "text": "Så de sade, men Priamos själf på Helena ropte:"
+    },
+    {
+      "line": 162,
+      "text": "»Älskade dotter, kom hit och sätt dig här vid min sida,"
+    },
+    {
+      "line": 163,
+      "text": "att du må skåda din förra gemål, dina fränder och vänner'."
+    },
+    {
+      "line": 164,
+      "text": "Ej har du ringaste skuld, all skulden hos gudarne hvilar,"
+    },
+    {
+      "line": 165,
+      "text": "som mig achaierna skickade hit med det grufliga kriget."
+    },
+    {
+      "line": 166,
+      "text": "Nu skall du säga mig namn på den väldige kämpen därborta."
+    },
+    {
+      "line": 167,
+      "text": "Hvem är väl denne achajiske man, så skön och så reslig?"
+    },
+    {
+      "line": 168,
+      "text": "Andra där finnas ju nog, som än högre med hufvudet räcka,"
+    },
+    {
+      "line": 169,
+      "text": "men len så fager har aldrig förut jag sett för mitt öga"
+    },
+    {
+      "line": 170,
+      "text": "eller så ståtlig i skick; han liknar i sanning en konung.»"
+    },
+    {
+      "line": 171,
+      "text": "Svarade honom då Helena strax, den strålande kvinnan:"
+    },
+    {
+      "line": 172,
+      "text": "»Vördnad jag känner för dig och försyn, min dyraste svärfar."
+    },
+    {
+      "line": 173,
+      "text": "Ack att jag döden mig snarare valt än att hit till ditt rike"
+    },
+    {
+      "line": 174,
+      "text": "följa din son och fly bort från brudgemaket och fränder"
+    },
+    {
+      "line": 175,
+      "text": "och från min (dotter späd och de älskliga ungdomsväninnor!"
+    },
+    {
+      "line": 176,
+      "text": "Ack men det skedde ej så, och därför jag smälter i tårar."
+    },
+    {
+      "line": 177,
+      "text": "Nu vill jag säga dig det, som du efterspörjer och frågar."
+    },
+    {
+      "line": 178,
+      "text": "Det är Atriden du ser, vidt härskande drott Agamemnon,"
+    },
+    {
+      "line": 179,
+      "text": "hvilken är både den yppersta kung och den starkaste kämpe,"
+    },
+    {
+      "line": 180,
+      "text": "och som var svåger en gång till mig äreförgätna — ack, fordom.»"
+    },
+    {
+      "line": 181,
+      "text": "Så hon sade, och gubben bröt ut i beundrande loford:"
+    },
+    {
+      "line": 182,
+      "text": "»Säll jag dig prisar, Atrid, du ödets och gudarnes älskling,"
+    },
+    {
+      "line": 183,
+      "text": "du som är härskande drott för achaiers otaliga härsmakt !"
+    },
+    {
+      "line": 184,
+      "text": "Fordom till Frygien drog jag en gång, till det yppiga vinland;"
+    },
+    {
+      "line": 185,
+      "text": "där såg jag frygiske kämpar i mängd och med eldiga hästar,"
+    },
+    {
+      "line": 186,
+      "text": "som voro Otreus' folk och den gudaliknande Mygdons"
+    },
+    {
+      "line": 187,
+      "text": "och hade lägrat sig då utmed floden Sangarios' stränder;"
+    },
+    {
+      "line": 188,
+      "text": "ty ibland vapenförvanter jag själf ju ock räknades hos dem,"
+    },
+    {
+      "line": 189,
+      "text": "uppå den dag amazonernas här liksom manner dem anföll."
+    },
+    {
+      "line": 190,
+      "text": "Icke så många de voro ändå som de sköna achaier.»"
+    },
+    {
+      "line": 191,
+      "text": "Nu på Ulysses den gamle fick syn, och han frågade åter:"
+    },
+    {
+      "line": 192,
+      "text": "»Säg mig nu också, mitt älskade barn, hvem denne kan vara."
+    },
+    {
+      "line": 193,
+      "text": "Ej han med hufvudet räcker så högt som Atrid Agamemnon,"
+    },
+    {
+      "line": 194,
+      "text": "men han sig axelbredare ter och större kring bröstet;"
+    },
+    {
+      "line": 195,
+      "text": "vapnen ifrån sig han lagt på den alluppammande jorden,"
+    },
+    {
+      "line": 196,
+      "text": "själf som en vädur skrider han fram utmed kämparnes leder;"
+    },
+    {
+      "line": 197,
+      "text": "honom förlikna jag vill vid den ulliga gumsen, som vankar"
+    },
+    {
+      "line": 198,
+      "text": "genom en talrik hjord af silfverglänsande tackor.»"
+    },
+    {
+      "line": 199,
+      "text": "Och honom Helena svarade då, Zeusdottern den sköna:"
+    },
+    {
+      "line": 200,
+      "text": "»Det är Laertes' son, den mångförslagne Ulysses,"
+    },
+    {
+      "line": 201,
+      "text": "hvilken i Ithakas rike växt upp, på den kargaste klippö."
+    },
+    {
+      "line": 202,
+      "text": "Mästare är han i hvarje slags list och de slugaste planer.»"
+    },
+    {
+      "line": 203,
+      "text": "Henne Antenor svarade då, den förståndige gamle:"
+    },
+    {
+      "line": 204,
+      "text": "»Där o furstinna, du sade ett ord, som är renaste sanning."
+    },
+    {
+      "line": 205,
+      "text": "Redan en gång han ju varit här förr, den ädle Ulysses,"
+    },
+    {
+      "line": 206,
+      "text": "skickad för din skull hit med den krigiske drott Menelaos;"
+    },
+    {
+      "line": 207,
+      "text": "gästa jag bjöd dem hos mig och förplägade hemma dem vänligt;"
+    },
+    {
+      "line": 208,
+      "text": "bägge jag lärde då känna i grund till gestalt och till tankar."
+    },
+    {
+      "line": 209,
+      "text": "Sedan på tinget de kommit då in bland de troiske männer,"
+    },
+    {
+      "line": 210,
+      "text": "räckte med väldiga skuldrorna högst, när de stodo, Atriden,"
+    },
+    {
+      "line": 211,
+      "text": "men när de sutto ihop, då var mer majestätisk Ulysses."
+    },
+    {
+      "line": 212,
+      "text": "Och när de gjorde förslag och de sade sin mening bland folket,"
+    },
+    {
+      "line": 213,
+      "text": "flytande talade då i församlingen först Menelaos,"
+    },
+    {
+      "line": 214,
+      "text": "kort, men med ljudande kläm, ty han ej mångordighet älskar,"
+    },
+    {
+      "line": 215,
+      "text": "felande ej på ett ord, och var ändå till åren den yngre."
+    },
+    {
+      "line": 216,
+      "text": "Men när därefter sprang upp den mångförslagne Ulysses,"
+    },
+    {
+      "line": 217,
+      "text": "stod han där länge och stirrade ner med blicken i marken,"
+    },
+    {
+      "line": 218,
+      "text": "rörde ej spiran i handen en smul, hvarken fram eller åter,"
+    },
+    {
+      "line": 219,
+      "text": "nej, höll den alldeles still och såg ut till att vara en ovan;"
+    },
+    {
+      "line": 220,
+      "text": "nästan man skulle ha trott, att han ondsint var och en tölper."
+    },
+    {
+      "line": 221,
+      "text": "Men när han se'n ur sitt bröst lät ljuda sin väldiga stämma,"
+    },
+    {
+      "line": 222,
+      "text": "medan de föllo, hans ord, som om vintern det tätaste snöfall,"
+    },
+    {
+      "line": 223,
+      "text": "ingen bland dödliga då med Ulysses förmått att sig mäta."
+    },
+    {
+      "line": 224,
+      "text": "Aldrig vi väntade slikt, då hans hållning vi sågo i början.»"
+    },
+    {
+      "line": 225,
+      "text": "Tredje gången, då Ajas han såg, henne frågade gubben:"
+    },
+    {
+      "line": 226,
+      "text": "»Hvem är den andre achaiern där går, så skön och så reslig?"
+    },
+    {
+      "line": 227,
+      "text": "Högt öfver alla hans hufvud jag ser och hans väldiga skuldror.»"
+    },
+    {
+      "line": 228,
+      "text": "Svarade Helena då, långslöjade, strålande kvinnan:"
+    },
+    {
+      "line": 229,
+      "text": "»Det är den väldige Ajas, ett värn för achaiernas söner."
+    },
+    {
+      "line": 230,
+      "text": "Midt emot honom Idomeneus syns bland Kretensernas skaror"
+    },
+    {
+      "line": 231,
+      "text": "stående stolt som en gud, och kring honom Kretensernas furstar."
+    },
+    {
+      "line": 232,
+      "text": "Ofta han gästade förr hos den krigiske drott Menelaos"
+    },
+    {
+      "line": 233,
+      "text": "hemma i huset hos oss, när han resande kom ifrån Kreta."
+    },
+    {
+      "line": 234,
+      "text": "Nu jag ock alla de öfriga ser af de glädtiga hjältar,"
+    },
+    {
+      "line": 235,
+      "text": "hvilka jag känner så väl och jag äfven vid namn kunde nämna."
+    },
+    {
+      "line": 236,
+      "text": "Tvänne höfdingar dock är jag icke i stånd till att varsna,"
+    },
+    {
+      "line": 237,
+      "text": "hästbetvingaren Kastor och boxaren stark Polydeukes,"
+    },
+    {
+      "line": 238,
+      "text": "köttsliga bröder till mig, ty af samma moder vi föddes."
+    },
+    {
+      "line": 239,
+      "text": "Följde de hären ej åt från det älskliga land Lakedaimon?"
+    },
+    {
+      "line": 240,
+      "text": "Eller de följde väl hit på de hafbefarande skeppen,"
+    },
+    {
+      "line": 241,
+      "text": "fastän de hålla sig nu från de stridande kämparne borta,"
+    },
+    {
+      "line": 242,
+      "text": "skygga för alla de skymfliga ord och det hån, som mig drabbar.»"
+    },
+    {
+      "line": 243,
+      "text": "Sade. Men bröderna famnades re'n af den alstrande jordem"
+    },
+    {
+      "line": 244,
+      "text": "i Lakedaimons bygd, i det älskade fäderneslandet."
+    },
+    {
+      "line": 245,
+      "text": "Nu härolderna förde åstad genom staden till offret"
+    },
+    {
+      "line": 246,
+      "text": "lammen tvänne och fröjdande vin, af landet ett alster,"
+    },
+    {
+      "line": 247,
+      "text": "hälldt på en getskinnslägel, och själf härolden Idaios"
+    },
+    {
+      "line": 248,
+      "text": "bar dem blänkande dryckesbåln och de gyllne pokaler."
+    },
+    {
+      "line": 249,
+      "text": "Fram till den gamle han steg, och talade manande orden:"
+    },
+    {
+      "line": 250,
+      "text": "»Skynda, Laomedons son, ty dig bedja de yppersta alla,"
+    },
+    {
+      "line": 251,
+      "text": "hästomtumlande troer och kopparklädde achaier,"
+    },
+    {
+      "line": 252,
+      "text": "stiga på slätten ner för att sluta det helga fördraget."
+    },
+    {
+      "line": 253,
+      "text": "Ty Alexandros allen och den krigiske drott Menelaos"
+    },
+    {
+      "line": 254,
+      "text": "skola nu kämpa om makan en strid med de väldiga spjuten."
+    },
+    {
+      "line": 255,
+      "text": "Den, som då segrare blir, må hon följa med skatterna alla;"
+    },
+    {
+      "line": 256,
+      "text": "slute de öfriga vänskapsfördrag, och må troerna framgent"
+    },
+    {
+      "line": 257,
+      "text": "bördiga Troja bebo, men achaierna vända till Argos"
+    },
+    {
+      "line": 258,
+      "text": "och till Achaja igen, där kvinnorna äro så fagra.»"
+    },
+    {
+      "line": 259,
+      "text": "Sade; och gubben af rysning betogs, men befallde sitt följe"
+    },
+    {
+      "line": 260,
+      "text": "hästarna genast att spänna för vagn, och de lydde med ifver."
+    },
+    {
+      "line": 261,
+      "text": "Upp uti vagnen steg Priamos själf och drog tömmarna åt sig,"
+    },
+    {
+      "line": 262,
+      "text": "och vid hans sida Antenor tog plats på den präktiga vagnen;"
+    },
+    {
+      "line": 263,
+      "text": "eldiga hästarna trafvade ut genom Skaiiska porten."
+    },
+    {
+      "line": 264,
+      "text": "Men när de kommo till troerna fram och achaiernas söner,"
+    },
+    {
+      "line": 265,
+      "text": "stego af vagnen de ner på den alluppammande jorden,"
+    },
+    {
+      "line": 266,
+      "text": "trädde i midtelrummet så fram mellan härarna båda."
+    },
+    {
+      "line": 267,
+      "text": "Genast sig reste då upp härskarornas drott Agamemnon,"
+    },
+    {
+      "line": 268,
+      "text": "äfven den sluge Ulysses stod upp, härolderna allting"
+    },
+    {
+      "line": 269,
+      "text": "hämtade fram till den heliga eld, och i bålen de vinet"
+    },
+    {
+      "line": 270,
+      "text": "sammangöto, och vatten blef hälldt uppå kungarnes händer."
+    },
+    {
+      "line": 271,
+      "text": "Därpå Atriden med handen drog ut den dolken, han alltid"
+    },
+    {
+      "line": 272,
+      "text": "hängande bar på sin länd invid svärdets väldiga skida,"
+    },
+    {
+      "line": 273,
+      "text": "skar så af lammens hufvuden hår; härolderna sedan"
+    },
+    {
+      "line": 274,
+      "text": "delade håren omkring till de främste achaier och troer."
+    },
+    {
+      "line": 275,
+      "text": "Högt bland dem alla nu bad Agamemnon med lyftade händer:"
+    },
+    {
+      "line": 276,
+      "text": "»Store och prisade Zeus, Allfader, som härskar från Ida!"
+    },
+    {
+      "line": 277,
+      "text": "Helios, lysande Sol, du som allting skådar och hörer!"
+    },
+    {
+      "line": 278,
+      "text": "Äfven I Floder, du Jord och I mäktiga två, som därnere"
+    },
+    {
+      "line": 279,
+      "text": "straffen bland döda enhvar, som i lifvet har svurit en mened!"
+    },
+    {
+      "line": 280,
+      "text": "Varen oss vittnen och hämnare I och på ederna vakten!"
+    },
+    {
+      "line": 281,
+      "text": "Om Alexandros förmår Menelaos att döda i striden,"
+    },
+    {
+      "line": 282,
+      "text": "må han då Helena äga som sin jämte skatterna alla"
+    },
+    {
+      "line": 283,
+      "text": "och vi achaier begifva oss hem på de seglande skeppen;"
+    },
+    {
+      "line": 284,
+      "text": "men därest honom i striden förgör Menelaos den ljuse,"
+    },
+    {
+      "line": 285,
+      "text": "lemne då troerna Helena ut jämte skatterna alla"
+    },
+    {
+      "line": 286,
+      "text": "och till argiverna gälde den bot, som kan skälig befinnas,"
+    },
+    {
+      "line": 287,
+      "text": "hvilken må tjäna tillika som mått för de kommande släkten."
+    },
+    {
+      "line": 288,
+      "text": "Men om ej Priamos själf och Priamos' söner den boten"
+    },
+    {
+      "line": 289,
+      "text": "vilja betala åt mig, sedan väl Alexandros är fallen,"
+    },
+    {
+      "line": 290,
+      "text": "svär jag, att vidare kriga jag skall för den vägrade plikten,"
+    },
+    {
+      "line": 291,
+      "text": "dragande aldrig min väg härifrån, innan seger jag vunnit.»"
+    },
+    {
+      "line": 292,
+      "text": "Sade och strupen på lammen skar af med den mordiska kopparn,"
+    },
+    {
+      "line": 293,
+      "text": "och uppå jorden lade dem ner; de i lemmarna skälfde,"
+    },
+    {
+      "line": 294,
+      "text": "medan de miste sitt lif, sedan kopparen kraften förtagit."
+    },
+    {
+      "line": 295,
+      "text": "Därpå de alla sig vin uti bägarna öste af bålen,"
+    },
+    {
+      "line": 296,
+      "text": "gjutande offer däraf under bön till de evige gudar,"
+    },
+    {
+      "line": 297,
+      "text": "och så talade mången därvid af achaier och troer:"
+    },
+    {
+      "line": 298,
+      "text": "»Store och prisade Zeus och I andra odödlige gudar!"
+    },
+    {
+      "line": 299,
+      "text": "Hvilka som först utaf oss emot ederna kränka de andra,"
+    },
+    {
+      "line": 300,
+      "text": "må deras hjärna så rinna på jord, som vinet nu rinner,"
+    },
+    {
+      "line": 301,
+      "text": "deras och barnens jämväl, och må fiender hustrurna skända!»"
+    },
+    {
+      "line": 302,
+      "text": "Bedjande talte de så, men Kronion ej lyddes till bönen."
+    },
+    {
+      "line": 303,
+      "text": "Tog nu till orda bland dem kung Priamos, Dardanos' ättling:"
+    },
+    {
+      "line": 304,
+      "text": "»Hören, I troer, ett ord och I benskenklädde achaier!"
+    },
+    {
+      "line": 305,
+      "text": "Hem jag fara nu vill till det vindomsusande Troja;"
+    },
+    {
+      "line": 306,
+      "text": "aldrig jag håller det ut att för ögonen skåda en tvekamp"
+    },
+    {
+      "line": 307,
+      "text": "mellan min älskade son och den krigiske drott Menelaos."
+    },
+    {
+      "line": 308,
+      "text": "Zeus allena ju vet och de andra odödlige gudar,"
+    },
+    {
+      "line": 309,
+      "text": "hvilkendera af ödet bestämts att nu sluta i döden.»"
+    },
+    {
+      "line": 310,
+      "text": "Sade den härlige drott och kastade lammen på vagnen,"
+    },
+    {
+      "line": 311,
+      "text": "satte därefter på denna sig upp och drog tömmarna åt sig,"
+    },
+    {
+      "line": 312,
+      "text": "och vid hans sida Antenor steg upp på den präktiga vagnen."
+    },
+    {
+      "line": 313,
+      "text": "Sålunda foro nu hem till Ilion bägge de gamle."
+    },
+    {
+      "line": 314,
+      "text": "Hektor, Priamos' son, och den gudalike Ulysses"
+    },
+    {
+      "line": 315,
+      "text": "stakade platsen för enviget ut och togo därefter"
+    },
+    {
+      "line": 316,
+      "text": "lotter och skakade om i en kopparhjälm för att röna,"
+    },
+    {
+      "line": 317,
+      "text": "hvilkendera som först skulle kopparlansen få slunga."
+    },
+    {
+      "line": 318,
+      "text": "Folket till gudarne bad med högt upplyftade händer,"
+    },
+    {
+      "line": 319,
+      "text": "och så talade mången därvid af achaier och troer:"
+    },
+    {
+      "line": 320,
+      "text": "»Store och prisade Zeus, Allfader, som härskar från Ida!"
+    },
+    {
+      "line": 321,
+      "text": "Hvilkendera af dem, som förvållade krig mellan folken,"
+    },
+    {
+      "line": 322,
+      "text": "låte du honom förgås och nedersjunka i Hades,"
+    },
+    {
+      "line": 323,
+      "text": "men låt oss andra försonas i frid under heliga eder.»"
+    },
+    {
+      "line": 324,
+      "text": "Sagdt. Och med bortvänd blick den store och strålande Hektor"
+    },
+    {
+      "line": 325,
+      "text": "skakade hjälmen, och lotten sprang ut med detsamma för Paris."
+    },
+    {
+      "line": 326,
+      "text": "Folket i leden tog plats, där enhvar flinkhofvade spannet"
+    },
+    {
+      "line": 327,
+      "text": "stående hade och lagda på jord sina prunkande vapen."
+    },
+    {
+      "line": 328,
+      "text": "Men uppå skuldrorna strax han den glänsande rustningen påtog,"
+    },
+    {
+      "line": 329,
+      "text": "Paris, den strålande drott, skönlockiga Helenas make."
+    },
+    {
+      "line": 330,
+      "text": "Benen han omgaf först med de vackra och blänkande skenor,"
+    },
+    {
+      "line": 331,
+      "text": "dem han vid anklarna fäste ihop med spännen af silfver;"
+    },
+    {
+      "line": 332,
+      "text": "därpå han bröstet sig gärdade om med ett skyddande harnesk,"
+    },
+    {
+      "line": 333,
+      "text": "som af sin broder Lykaon han lånt, och det passande tilldrog,"
+    },
+    {
+      "line": 334,
+      "text": "hängde om skuldrorna se'n det silfvernaglade svärdet,"
+    },
+    {
+      "line": 335,
+      "text": "smidt af koppar, och tog på sin arm den väldiga skölden,"
+    },
+    {
+      "line": 336,
+      "text": "satte på kraftiga hufvudet fast sin präktiga stridshjälm,"
+    },
+    {
+      "line": 337,
+      "text": "smyckad med tagelbuske, som vildt nedsvajade ofvan;"
+    },
+    {
+      "line": 338,
+      "text": "tog så sin väldiga lans, som passade honom i handen."
+    },
+    {
+      "line": 339,
+      "text": "Likaså rustade sig den krigiske drott Menelaos."
+    },
+    {
+      "line": 340,
+      "text": "Men då på hvar sin sida de så hade bägge sig väpnat,"
+    },
+    {
+      "line": 341,
+      "text": "trädde i midtelrummet de fram mellan härarna båda,"
+    },
+    {
+      "line": 342,
+      "text": "blickande fruktansvärdt, och häpenhet fattade alla,"
+    },
+    {
+      "line": 343,
+      "text": "hästbetvingande troer och benskensklädde achaier."
+    },
+    {
+      "line": 344,
+      "text": "Redan de stodo helt nära hvarann på den ringade platsen,"
+    },
+    {
+      "line": 345,
+      "text": "skakande spjuten i hand och förbittrade vildt på hvarandra."
+    },
+    {
+      "line": 346,
+      "text": "Först Alexandros nu slungade af långskuggande lansen"
+    },
+    {
+      "line": 347,
+      "text": "mot Menelaos och träffade då i den rundade skölden;"
+    },
+    {
+      "line": 348,
+      "text": "ej den af kopparen bräcktes likväl, utan spetsen på lansen"
+    },
+    {
+      "line": 349,
+      "text": "kröktes mot skölden stark; och därefter Atrid Menelaos"
+    },
+    {
+      "line": 350,
+      "text": "höjde sin kopparlans, och han bad till den höge Kronion:"
+    },
+    {
+      "line": 351,
+      "text": "»Zeus allsmäktige, unna mig hämnd på den mannen mig kränkte;"
+    },
+    {
+      "line": 352,
+      "text": "låt honom dö för min hand, den gudaliknande Paris,"
+    },
+    {
+      "line": 353,
+      "text": "så att man ryser tillbaka ännu i de senaste släkten"
+    },
+    {
+      "line": 354,
+      "text": "för att förnärma en värd, som med huldhet gästen bemötte.»"
+    },
+    {
+      "line": 355,
+      "text": "Sagdt, och han svängde och slungade af långskuggande lansen"
+    },
+    {
+      "line": 356,
+      "text": "mot Priamiden och träffade då i den rundade skölden."
+    },
+    {
+      "line": 357,
+      "text": "Tvärs genom blänkande skölden med ens gick lansen den tunga,"
+    },
+    {
+      "line": 358,
+      "text": "borrade också sig in i hans konstarbetade harnesk"
+    },
+    {
+      "line": 359,
+      "text": "och i hans lifrock fläkte ett hål tätt inne vid lifvet,"
+    },
+    {
+      "line": 360,
+      "text": "men med en böjning kvick vek han undan den rysliga döden."
+    },
+    {
+      "line": 361,
+      "text": "Genast Atriden drog ut sitt silfvernaglade slagsvärd,"
+    },
+    {
+      "line": 362,
+      "text": "svängde det högt och högg till uppå hjälmens bygel, men klingan"
+    },
+    {
+      "line": 363,
+      "text": "sprang emot hjälmen itu och föll ur hans hand uti bitar."
+    },
+    {
+      "line": 364,
+      "text": "Då såg Atriden mot himmelen upp och klagande utbrast:"
+    },
+    {
+      "line": 365,
+      "text": "»Evige Zeus, så förskräcklig som du är af gudarne ingen!"
+    },
+    {
+      "line": 366,
+      "text": "Nu jag mig kände så viss att på Paris få hämnas hans illdåd,"
+    },
+    {
+      "line": 367,
+      "text": "och så går svärdet itu i min hand, och det slungade spjutet"
+    },
+    {
+      "line": 368,
+      "text": "far utan verkan åstad från min arm, och han stupade icke.»"
+    },
+    {
+      "line": 369,
+      "text": "Sade och rusade fram och grep tag uti busken på hjälmen,"
+    },
+    {
+      "line": 370,
+      "text": "vände så Paris och drog honom hän mot achaiernas leder,"
+    },
+    {
+      "line": 371,
+      "text": "medan den prunkande rem, som var spänd under hakan som hjälmband,"
+    },
+    {
+      "line": 372,
+      "text": "snörde om halsen den mjälla så åt, att den mest honom strypte."
+    },
+    {
+      "line": 373,
+      "text": "Också han släpat nu dit honom visst till sin eviga ära,"
+    },
+    {
+      "line": 374,
+      "text": "om Afrodite, den dottern af Zeus, ej det varsnat i tide:"
+    },
+    {
+      "line": 375,
+      "text": "remmen hon sönderslet, som af slaktade oxen var kommen,"
+    },
+    {
+      "line": 376,
+      "text": "och han fick hjälmen tom i sin seniga näfve, Atriden;"
+    },
+    {
+      "line": 377,
+      "text": "och han då hjälmen på stund till de benskenklädde achaier"
+    },
+    {
+      "line": 378,
+      "text": "slungade hän med ett kast, och hans kämpar den togo till vara."
+    },
+    {
+      "line": 379,
+      "text": "Åter han störtade fram med en brinnande längtan att Paris"
+    },
+    {
+      "line": 380,
+      "text": "döda med lansen, men bort Afrodite då räddade denne"
+    },
+    {
+      "line": 381,
+      "text": "lätt, som för gudar det är, och i tätaste töcken fördolde"
+    },
+    {
+      "line": 382,
+      "text": "och honom förde tillbaks till det välluktfyllda gemaket."
+    },
+    {
+      "line": 383,
+      "text": "Själf hon att Helena hämta nu gick, och hon träffade henne"
+    },
+    {
+      "line": 384,
+      "text": "uppe på tornets höjd ibland mängden af troiska kvinnor,"
+    },
+    {
+      "line": 385,
+      "text": "tog då och ryckte så sakta ett tag i ambrosiska skruden"
+    },
+    {
+      "line": 386,
+      "text": "och henne talade till och var lik den bedagade gumman,"
+    },
+    {
+      "line": 387,
+      "text": "hvilken den vackraste ull hade kardat och spunnit åt henne,"
+    },
+    {
+      "line": 388,
+      "text": "medan i Sparta hon bodde ännu, och af henne var älskad;"
+    },
+    {
+      "line": 389,
+      "text": "henne nu alldeles lik, Afrodite till Helena talte:"
+    },
+    {
+      "line": 390,
+      "text": "»Kom! Alexandros dig beder, att hem du nu strax ville komma"
+    },
+    {
+      "line": 391,
+      "text": "Där på den sköna och svarfvade säng i gemaket han sitter,"
+    },
+    {
+      "line": 392,
+      "text": "strålande fager i prunkande dräkt; ej skulle man, tänka,"
+    },
+    {
+      "line": 393,
+      "text": "att han ur envig komme, nej förr, att han skulle till dansen,"
+    },
+    {
+      "line": 394,
+      "text": "eller att nu från den glädtiga dans han sig hvilade litet.»"
+    },
+    {
+      "line": 395,
+      "text": "Sade; men hjärtat i Helenas bröst vid de orden vardt upprördt,"
+    },
+    {
+      "line": 396,
+      "text": "och då hon varsnade nu på gudinnan den bländande halsen"
+    },
+    {
+      "line": 397,
+      "text": "och hennes trånadsväckande barm och de glittrande ögon,"
+    },
+    {
+      "line": 398,
+      "text": "greps hon af häpnad och skräck och svarade henne och sade:"
+    },
+    {
+      "line": 399,
+      "text": "»Grymma, hvi söker du än att med svikliga ord mig bedåra?"
+    },
+    {
+      "line": 400,
+      "text": "Säkert du vidare bort vill mig föra till en af de stora"
+    },
+    {
+      "line": 401,
+      "text": "städer i Frygiens land eller sköna Maioniens rike,"
+    },
+    {
+      "line": 402,
+      "text": "om äfven där någon gunstling du har bland dödliga männer."
+    },
+    {
+      "line": 403,
+      "text": "Därför att nu Menelaos i kamp Alexandros besegrat"
+    },
+    {
+      "line": 404,
+      "text": "och vill till hemmet igen mig afskyvärdaste föra;"
+    },
+    {
+      "line": 405,
+      "text": "därför du alltså dig listade hit med ränker i hjärtat."
+    },
+    {
+      "line": 406,
+      "text": "Gå du till honom och sitt, och dig fjärma från gudarnes vägar,"
+    },
+    {
+      "line": 407,
+      "text": "låt dina fötter ej vandra ditupp till den ljusa Olympen,"
+    },
+    {
+      "line": 408,
+      "text": "men kring den dödlige pjunka alltjämt och pyssla med honom,"
+    },
+    {
+      "line": 409,
+      "text": "tills han dig antingen tar till gemål eller också till piga."
+    },
+    {
+      "line": 410,
+      "text": "Jag, må du tro, går ej vidare dit för att bädda hans läger;"
+    },
+    {
+      "line": 411,
+      "text": "skamligt vore ju slikt; jag af alla trojanskor då framgent"
+    },
+    {
+      "line": 412,
+      "text": "skulle försmädas, och redan förut har jag sorger tillfyllest.»"
+    },
+    {
+      "line": 413,
+      "text": "Vredgad svarade då Afrodite, den höga gudinnan:"
+    },
+    {
+      "line": 414,
+      "text": "»Trotsiga, reta mig ej, att jag ej dig förkastar i vrede"
+    },
+    {
+      "line": 415,
+      "text": "och blir dig lika så hätsk, som jag älskat dig öfver all måtta;"
+    },
+    {
+      "line": 416,
+      "text": "ty jag hos bägge de krigande folk, så achaier som troer,"
+    },
+    {
+      "line": 417,
+      "text": "väcker då rasande hat, och du själf skall gå ömkligen under.»"
+    },
+    {
+      "line": 418,
+      "text": "Så hon sade; men Helena skalf, Zeusdottern den sköna,"
+    },
+    {
+      "line": 419,
+      "text": "höljde i glänsande doket sig in och tigande hemgick,"
+    },
+    {
+      "line": 420,
+      "text": "oförmärkt för enhvar af trojanskorna, förd af gudinnan."
+    },
+    {
+      "line": 421,
+      "text": "Men då de så hade nått Alexandras' präktiga boning,"
+    },
+    {
+      "line": 422,
+      "text": "skyndade tärnorna strax att sig ägna åt sysslorna sina,"
+    },
+    {
+      "line": 423,
+      "text": "medan i höga gemaket gick in den strålande kvinnan."
+    },
+    {
+      "line": 424,
+      "text": "Genast åt henne en stol den ljufligt leende Kypris,"
+    },
+    {
+      "line": 425,
+      "text": "själfva gudinnan, bar fram och ställde den midt emot Paris;"
+    },
+    {
+      "line": 426,
+      "text": "där slog sig Helena ner, den dottern af Zeus med egiden,"
+    },
+    {
+      "line": 427,
+      "text": "vändande ögonen bort, och till maken begabbande talte:"
+    },
+    {
+      "line": 428,
+      "text": "»Kom du nu hem från din kamp? Hade bara du där fått din bane,"
+    },
+    {
+      "line": 429,
+      "text": "fälld af den väldige man, som engång var min älskade make!"
+    },
+    {
+      "line": 430,
+      "text": "Tänk, hvad du skrutit förut, att den krigiske drott Menelaos"
+    },
+    {
+      "line": 431,
+      "text": "ginge ej upp mot dig själf i styrka och kraft och i spjutstrid!"
+    },
+    {
+      "line": 432,
+      "text": "Gå då och mana nu ut den krigiske drott Menelaos"
+    },
+    {
+      "line": 433,
+      "text": "till att i envig kämpa på nytt! Men jag råder för min del,"
+    },
+    {
+      "line": 434,
+      "text": "att du nu slutar med slikt, och ej mer Menelaos den ljuse"
+    },
+    {
+      "line": 435,
+      "text": "möter i envigeskamp för att göra en ände på kriget."
+    },
+    {
+      "line": 436,
+      "text": "Nej, var försiktig, ty eljest hans lans kunde blifva din bane!»"
+    },
+    {
+      "line": 437,
+      "text": "Paris till orda då tog och svarade henne och sade:"
+    },
+    {
+      "line": 438,
+      "text": "»Kvinna, hör upp att med sårande ord mig kränka i sinnet!"
+    },
+    {
+      "line": 439,
+      "text": "Nu Menelaos den segrande blef, han fick hjälp af Athene;"
+    },
+    {
+      "line": 440,
+      "text": "åter en annan gång blir det jag, vi ha gudar vi också."
+    },
+    {
+      "line": 441,
+      "text": "Kom nu och följ mig i bädd, låt i fröjd oss hvila tillsammans!"
+    },
+    {
+      "line": 442,
+      "text": "Aldrig förut har min själ så betagits af kärlekens åtrå,"
+    },
+    {
+      "line": 443,
+      "text": "icke ens då, när jag nyss Lakedaimons tjusande ängder"
+    },
+    {
+      "line": 444,
+      "text": "lemnat och flydde med dig öfver haf på de seglande skeppen"
+    },
+    {
+      "line": 445,
+      "text": "och fick på Kranaes ö uti kärlekslyckja dig famna,"
+    },
+    {
+      "line": 446,
+      "text": "som jag dig älskar nu och är gripen af ljufvaste åtrå.»"
+    },
+    {
+      "line": 447,
+      "text": "Sade, och före till sängen han gick, och hon följde sin make,"
+    },
+    {
+      "line": 448,
+      "text": "och de nu lade sig där i den präktigt snidade sängen."
+    },
+    {
+      "line": 449,
+      "text": "Men genom vimlet Atriden gick fram som ett glupande vilddjur,"
+    },
+    {
+      "line": 450,
+      "text": "sökande jämt att få syn på den gudaliknande Paris."
+    },
+    {
+      "line": 451,
+      "text": "Ingen där mäktade dock ibland troer och vapenförvanter"
+    },
+    {
+      "line": 452,
+      "text": "Paris att peka då ut för den krigiske drott Menelaos;"
+    },
+    {
+      "line": 453,
+      "text": "icke af vänskap de skulle fördolt, om han blott varit synlig,"
+    },
+    {
+      "line": 454,
+      "text": "ty såsom döden själf han förhatlig var för dem alla."
+    },
+    {
+      "line": 455,
+      "text": "Tog då till orda bland dem härskarornas drott Agamemnon:"
+    },
+    {
+      "line": 456,
+      "text": "»Hören mig, troer och dardanerfolk och vapenförvanter!"
+    },
+    {
+      "line": 457,
+      "text": "Segern ju tydligen vanns af den krigiske drott Menelaos:"
+    },
+    {
+      "line": 458,
+      "text": "därför argiviska Helena själf jämte skatterna hennes"
+    },
+    {
+      "line": 459,
+      "text": "lemnen åt oss och betalen den bot, som kan skälig befinnas,"
+    },
+    {
+      "line": 460,
+      "text": "hvilketn må tjäna tillika som mått för de kommande släkten.»"
+    },
+    {
+      "line": 461,
+      "text": "Så var Atridens ord, och achaierna ropade bifall."
+    }
+  ]
+}

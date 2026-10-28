@@ -1,0 +1,2311 @@
+{
+  "work": "odyssey",
+  "lang": "sv",
+  "translator": "Erland Lagerlöf",
+  "edition": "1920, andra upplagan",
+  "book": 10,
+  "status": "COUNT_MATCH_ONLY_UNVERIFIED_ALIGNMENT",
+  "warning": "Versnummer följer OCR-radernas ordning och är ännu inte individuellt kontrollerade mot den grekiska texten.",
+  "expectedGreekVerses": 574,
+  "countMatchesGreek": true,
+  "heading": "TIONDE SÅNGEN.",
+  "argument": "Aiolos. Laistrygonerna. Circe.",
+  "verses": [
+    {
+      "line": 1,
+      "text": "Till den Aioliska ön vi nu kommo.  Denne bebodde"
+    },
+    {
+      "line": 2,
+      "text": "Aiolos, Hippotes' son, en vän till de saliga gudar."
+    },
+    {
+      "line": 3,
+      "text": "Simmande låg hon i sjön, och ogenombrytlig en ringmur"
+    },
+    {
+      "line": 4,
+      "text": "löpte av koppar kring ön, och klipporna reste sig glatta."
+    },
+    {
+      "line": 5,
+      "text": "Ättlingar tolv åt honom det fötts i det höga palatset,"
+    },
+    {
+      "line": 6,
+      "text": "sex av dem voro döttrar, och sex voro blomstrande söner,"
+    },
+    {
+      "line": 7,
+      "text": "och han åt sönerna där hade döttrarna givit till äkta."
+    },
+    {
+      "line": 8,
+      "text": "Dessa var dag hos sin älskade far och sin kärliga moder"
+    },
+    {
+      "line": 9,
+      "text": "sitta till gilles, och bordet är fullt av otaliga rätter;"
+    },
+    {
+      "line": 10,
+      "text": "runtom den doftande boningens gård under dagarna ljuder"
+    },
+    {
+      "line": 11,
+      "text": "glädjesorl och musik, men om natten hos tuktiga makan"
+    },
+    {
+      "line": 12,
+      "text": "sover envar i sin präktiga säng under skönaste täcken."
+    },
+    {
+      "line": 13,
+      "text": "Alltså till dessas stad och det sköna palatset vi kommo."
+    },
+    {
+      "line": 14,
+      "text": "Vänligt han höll i en månad mig kvar och mig frågade noga"
+    },
+    {
+      "line": 15,
+      "text": "både om Ilions makt och achaiernas flotta och hemfärd,"
+    },
+    {
+      "line": 16,
+      "text": "och jag för honom berättade allt, såsom timat det hade."
+    },
+    {
+      "line": 17,
+      "text": "Då jag så önskade resa och bad, att han skulle hjälpa mig,"
+    },
+    {
+      "line": 18,
+      "text": "vägrade han icke alls, men bestyrde då strax om min avfärd."
+    },
+    {
+      "line": 19,
+      "text": "Även han gav mig en hud, som var flådd av en nio års oxe,"
+    },
+    {
+      "line": 20,
+      "text": "däri de tjutande vindarnas blåst han spärrade inne,"
+    },
+    {
+      "line": 21,
+      "text": "ty av Kronion förordnad han var till vindarnas herre,"
+    },
+    {
+      "line": 22,
+      "text": "mäktig att stilla och egga envar, såsom honom det lyste."
+    },
+    {
+      "line": 23,
+      "text": "Säcken på skeppet han band med ett glänsande snöre av silver"
+    },
+    {
+      "line": 24,
+      "text": "noga, att icke den ringaste pust måtte tränga igenom;"
+    },
+    {
+      "line": 25,
+      "text": "men för min resa han skickade fram den susande västan"
+    },
+    {
+      "line": 26,
+      "text": "till att mig föra med manskap och skepp; dock skulle han föga"
+    },
+    {
+      "line": 27,
+      "text": "lyckas däri, och vår ofärd kom av vår egen förvållan."
+    },
+    {
+      "line": 28,
+      "text": "Nio dygn vi nu seglade jämt både dagar och nätter,"
+    },
+    {
+      "line": 29,
+      "text": "och när det tionde kom, steg fädernejorden i sikte;"
+    },
+    {
+      "line": 30,
+      "text": "redan vi eldarna sågo på strand; så nära vi voro."
+    },
+    {
+      "line": 31,
+      "text": "Men uttröttad jag var, och den ljuvliga sömnen mig påkom,"
+    },
+    {
+      "line": 32,
+      "text": "ty under hela vår färd hade skotet jag skött och åt ingen"
+    },
+    {
+      "line": 33,
+      "text": "velat det lämna i hand, för att fortare hinna till hemmet."
+    },
+    {
+      "line": 34,
+      "text": "Men under tiden begynte mitt folk med varandra ett samtal,"
+    },
+    {
+      "line": 35,
+      "text": "ty de förmente, att silver och guld jag förde som gästskänk"
+    },
+    {
+      "line": 36,
+      "text": "med mig från Ailos hem, högsinnade Hippotessonen;"
+    },
+    {
+      "line": 37,
+      "text": "mången då talade så med en menande blick på sin granne:"
+    },
+    {
+      "line": 38,
+      "text": "\"Gudar, hur innerligt kär och värderad den mannen hos alla"
+    },
+    {
+      "line": 39,
+      "text": "människor bliver, så snart som ett land och en stad han besöker."
+    },
+    {
+      "line": 40,
+      "text": "Sköna klenoder i mängd för han med sig tillbaka från Troja,"
+    },
+    {
+      "line": 41,
+      "text": "vilka av bytet han fått, och vi, som ju ändå densamma"
+    },
+    {
+      "line": 42,
+      "text": "färden har prövat, vi komma igen med händerna tomma."
+    },
+    {
+      "line": 43,
+      "text": "Därtill har Aiolos nu i sin vänskap skänkt honom detta."
+    },
+    {
+      "line": 44,
+      "text": "Låtom oss titta nu efter i hast, vad detta kan vara,"
+    },
+    {
+      "line": 45,
+      "text": "vad för en myckenhet silver och guld som gömmes i säcken.\""
+    },
+    {
+      "line": 46,
+      "text": "Sagt, och det onda förslag fick överhanden bland folket;"
+    },
+    {
+      "line": 47,
+      "text": "säcken de öppnade:  strax utrusade vindarna alla,"
+    },
+    {
+      "line": 48,
+      "text": "och i en rivande fart utåt djupet de fördes av stormen"
+    },
+    {
+      "line": 49,
+      "text": "gråtande bort från sin fädernejord, och ur sömnen jag väcktes."
+    },
+    {
+      "line": 50,
+      "text": "Och med förtvivlan betänkte jag då i mitt manliga hjärta,"
+    },
+    {
+      "line": 51,
+      "text": "om jag mig strax över bord skulle kasta och dränka i havet"
+    },
+    {
+      "line": 52,
+      "text": "eller ock tigande tåla och än bland de levande dväljas."
+    },
+    {
+      "line": 53,
+      "text": "Dock, jag fördrog det och härdade ut och i skeppet mig lade,"
+    },
+    {
+      "line": 54,
+      "text": "höljande in mig av sorg.  Men skeppen av rasande stormen"
+    },
+    {
+      "line": 55,
+      "text": "fördes tillbaka till Aiolos' ö under männernas suckan."
+    },
+    {
+      "line": 56,
+      "text": "Där uppå kusten vi stego i land och oss hämtade vatten,"
+    },
+    {
+      "line": 57,
+      "text": "och invid skeppen på stund sig kamraterna lagade middag."
+    },
+    {
+      "line": 58,
+      "text": "Men då vi hade med mat och med dryck oss alla förplägat,"
+    },
+    {
+      "line": 59,
+      "text": "tog jag en härold med och en annan kamrat och begav mig"
+    },
+    {
+      "line": 60,
+      "text": "hän till Aiolos' prisade borg och träffade honom"
+    },
+    {
+      "line": 61,
+      "text": "sittande glad till bords med sin hustru och älskade barnen."
+    },
+    {
+      "line": 62,
+      "text": "Komna till salen fram, vi på tröskeln oss tigande satte"
+    },
+    {
+      "line": 63,
+      "text": "tätt invid posterna ner, och de häpnade alla och frågte:"
+    },
+    {
+      "line": 64,
+      "text": "\"Vad? Du här, Ulysses, igen? Vilken gud är dig avog?"
+    },
+    {
+      "line": 65,
+      "text": "Troget vi sörjde ju dock för din färd, för att komma du måtte"
+    },
+    {
+      "line": 66,
+      "text": "hem till ditt land och ditt hus och varthelst det eljest dig lyste.\""
+    },
+    {
+      "line": 67,
+      "text": "Så de sade, då svarade jag och var hjärtans bedrövad:"
+    },
+    {
+      "line": 68,
+      "text": "\"Mig har mitt dåliga folk och den olycksaliga sömnen"
+    },
+    {
+      "line": 69,
+      "text": "bragt i fördärvet, men hjälpen mig I, som mäkten det göra.\""
+    },
+    {
+      "line": 70,
+      "text": "Så jag sade, i akt att med vänliga ord dem beveka;"
+    },
+    {
+      "line": 71,
+      "text": "alla dock tigande sutto, och så mig svarade fadern:"
+    },
+    {
+      "line": 72,
+      "text": "\"Laga dig genast bort från min ö, du bland levande uslast!"
+    },
+    {
+      "line": 73,
+      "text": "Ej får jag hysa inunder mitt tak eller hjälpa på vägen"
+    },
+    {
+      "line": 74,
+      "text": "sådan man, som förhatlig sig gjort för de saliga gudar."
+    },
+    {
+      "line": 75,
+      "text": "Laga dig bort, då du kommer nu hit så förhatlig för gudar!\""
+    },
+    {
+      "line": 76,
+      "text": "Sade och bort från sin boning mig drev, som suckade svåra."
+    },
+    {
+      "line": 77,
+      "text": "Därifrån vidare seglade vi med bedrövade hjärtan."
+    },
+    {
+      "line": 78,
+      "text": "Modet nu tynade av på mitt folk, som till straff för sin dårskap"
+    },
+    {
+      "line": 79,
+      "text": "måste sig möda med rodd, då ingen oss vidare hjälpte."
+    },
+    {
+      "line": 80,
+      "text": "Sex dygn å rad jag nu färdades fram både dagar och nätter,"
+    },
+    {
+      "line": 81,
+      "text": "men på det sjunde Telepylos hann, den Lamiska fjällstad"
+    },
+    {
+      "line": 82,
+      "text": "i Laistrygonernas land, där den herde, som driver till staden,"
+    },
+    {
+      "line": 83,
+      "text": "växlar ett hälsningsrop med den herde, som driver till fältet."
+    },
+    {
+      "line": 84,
+      "text": "Där kunde den, som ej tarvade sömn, få fördubblad sin daglön,"
+    },
+    {
+      "line": 85,
+      "text": "vallande ömsom med kor och ömsom med ljusare småfä:"
+    },
+    {
+      "line": 86,
+      "text": "knappast har natten gått in, förrän åter det ljusnar till dagen."
+    },
+    {
+      "line": 87,
+      "text": "Då vi nu funno en ypperlig hamn, som på sidorna bägge"
+    },
+    {
+      "line": 88,
+      "text": "inneslutes av klippornas vägg utan ringaste avbrott,"
+    },
+    {
+      "line": 89,
+      "text": "medan vid mynningen ytterst de långt utskjutande armar"
+    },
+    {
+      "line": 90,
+      "text": "gånga varandra till mötes och smalt är själva dess inlopp,"
+    },
+    {
+      "line": 91,
+      "text": "styrde de alla ditin med de dubbelstävade skeppen."
+    },
+    {
+      "line": 92,
+      "text": "Dessa förtöjde de nu i den klippomgärdade hamnen"
+    },
+    {
+      "line": 93,
+      "text": "tätt vid varandra, ty icke en våg sig reste därinne,"
+    },
+    {
+      "line": 94,
+      "text": "stor eller liten, men klaraste lugn sig bredde på vattnet."
+    },
+    {
+      "line": 95,
+      "text": "Själv däremot med mitt beckade skepp jag lade mig ensam"
+    },
+    {
+      "line": 96,
+      "text": "utanför hamnens spets och fästade tågen vid klippan."
+    },
+    {
+      "line": 97,
+      "text": "Därpå besteg jag det skrovliga fjäll för att speja omkring mig:"
+    },
+    {
+      "line": 98,
+      "text": "varken av plog eller människohand var en odling att varsna,"
+    },
+    {
+      "line": 99,
+      "text": "utan vi sågo blott rök, som från jorden sig ringlade uppåt."
+    },
+    {
+      "line": 100,
+      "text": "Några jag sände då ut, för att efterforska de skulle"
+    },
+    {
+      "line": 101,
+      "text": "vad för slags människor där utav markens gröda sig närde;"
+    },
+    {
+      "line": 102,
+      "text": "tvenne jag valde därtill, och jag skickade med dem en härold."
+    },
+    {
+      "line": 103,
+      "text": "Dessa nu gingo och funno en väg, som var banad för vagnar,"
+    },
+    {
+      "line": 104,
+      "text": "vilka där brukade forsla in ved ifrån bergen till staden."
+    },
+    {
+      "line": 105,
+      "text": "Utanför staden de mötte en mö, som hämtade vatten,"
+    },
+    {
+      "line": 106,
+      "text": "stark och reslig till växt, Laistrygonen Antifates' dotter,"
+    },
+    {
+      "line": 107,
+      "text": "just som hon vandrade ner till Artakias skimrande källa,"
+    },
+    {
+      "line": 108,
+      "text": "ty ifrån denna de hämtade jämt sig vatten till staden."
+    },
+    {
+      "line": 109,
+      "text": "Männerna trädde till flickan då fram och frågade henne,"
+    },
+    {
+      "line": 110,
+      "text": "vem som i landet var kung, och vad folk han härskade över."
+    },
+    {
+      "line": 111,
+      "text": "Flickan dem visade strax till sin faders ståtliga boning."
+    },
+    {
+      "line": 112,
+      "text": "Och i palatset de trädde då in, och de funno hans maka;"
+    },
+    {
+      "line": 113,
+      "text": "stor som en bergstopp var hon att se, och de grepos av fasa."
+    },
+    {
+      "line": 114,
+      "text": "Kvinnan sin frejdade man Antifates strax ifrån torget"
+    },
+    {
+      "line": 115,
+      "text": "kallade hem, som den grymmaste död tillärnade männen."
+    },
+    {
+      "line": 116,
+      "text": "Genast han en av kamraterna grep och begynte att äta,"
+    },
+    {
+      "line": 117,
+      "text": "medan de övriga två brådstörtande flydde till skeppen."
+    },
+    {
+      "line": 118,
+      "text": "Då slog i staden han larm, och från alla sidor de starka"
+    },
+    {
+      "line": 119,
+      "text": "Laistrygorna strömmade till, när de kallelsen hörde,"
+    },
+    {
+      "line": 120,
+      "text": "kommo i tusendetal, ej människor like, men jättar."
+    },
+    {
+      "line": 121,
+      "text": "Uppe från klippornas brant de kastade stenar, dem knappast"
+    },
+    {
+      "line": 122,
+      "text": "människa lyftat förmått, och hemskt var att höra från skeppen"
+    },
+    {
+      "line": 123,
+      "text": "skränet av döende män och braket av splittrande bjälkar."
+    },
+    {
+      "line": 124,
+      "text": "Ljustrande männen som fisk, de buro dem hem till ett skräckmål."
+    },
+    {
+      "line": 125,
+      "text": "Medan därinne i hamnen djup de förgjorde de andra,"
+    },
+    {
+      "line": 126,
+      "text": "drog jag från länden mitt eggade svärd och kapade tågen,"
+    },
+    {
+      "line": 127,
+      "text": "vilka mitt mörkblåstammiga skepp vid klipporna höllo."
+    },
+    {
+      "line": 128,
+      "text": "Därpå med manande rop jag befallde de männen, jag hade,"
+    },
+    {
+      "line": 129,
+      "text": "allt vad de orkade genast att ro, så att frälsas vi måtte."
+    },
+    {
+      "line": 130,
+      "text": "Häftigt de sopade havet med rodd i sin ångest för döden."
+    },
+    {
+      "line": 131,
+      "text": "Lyckligt jag frälste mig så från de överhängande klippor"
+    },
+    {
+      "line": 132,
+      "text": "själv med mitt eget skepp, men de övriga skeppen förgingos."
+    },
+    {
+      "line": 133,
+      "text": "Därifrån vidare seglade vi med bedrövade hjärtan,"
+    },
+    {
+      "line": 134,
+      "text": "glada att leva likväl, fastän kära kamrater vi mistat."
+    },
+    {
+      "line": 135,
+      "text": "Därpå jag kom till Aiaie, en ö, där det bodde en mäktig,"
+    },
+    {
+      "line": 136,
+      "text": "fager gudinna med människoröst, skönlockiga Circe."
+    },
+    {
+      "line": 137,
+      "text": "Köttslig syster hon är till den illistige konung Aietes;"
+    },
+    {
+      "line": 138,
+      "text": "bägge de hava till fader den världsupplysande solgud,"
+    },
+    {
+      "line": 139,
+      "text": "och deras moder är Perse, Okeanos' däjliga dotter."
+    },
+    {
+      "line": 140,
+      "text": "Där vid den klippiga strand vi tigande rodde med skeppet"
+    },
+    {
+      "line": 141,
+      "text": "in i en skyddande hamn, och en gud ledsagade färden."
+    },
+    {
+      "line": 142,
+      "text": "Rastande lågo vi där, uppgivna av trötthet och leda,"
+    },
+    {
+      "line": 143,
+      "text": "tvenne nätter å rad och tvenne dagar igenom."
+    },
+    {
+      "line": 144,
+      "text": "Men när den tredje dagen blev tänd av den lockiga Eos,"
+    },
+    {
+      "line": 145,
+      "text": "tog jag i handen mitt spjut och vid sidan mitt eggade slagsvärd,"
+    },
+    {
+      "line": 146,
+      "text": "skyndade bort från mitt skepp och steg upp på en kulle att speja,"
+    },
+    {
+      "line": 147,
+      "text": "om där av människor syntes ett verk eller hördes en stämma."
+    },
+    {
+      "line": 148,
+      "text": "När jag bestigit det skrovliga fjäll och jag skådade kring mig,"
+    },
+    {
+      "line": 149,
+      "text": "såg jag en rök, som steg upp från den vittkringbanade jorden"
+    },
+    {
+      "line": 150,
+      "text": "borta i Circes palats ibland träden och snåren i skogen;"
+    },
+    {
+      "line": 151,
+      "text": "och jag begrundade nu och övervägde i sinnet,"
+    },
+    {
+      "line": 152,
+      "text": "om jag på spaning ditbort skulle gå efter skimrande röken."
+    },
+    {
+      "line": 153,
+      "text": "Men när jag tänkte mig om, så tycktes det bättre mig vara"
+    },
+    {
+      "line": 154,
+      "text": "först att begiva mig ner till mitt skepp uppå stranden av havet,"
+    },
+    {
+      "line": 155,
+      "text": "låta mitt folk få sin mat och skicka dem sedan på spaning."
+    },
+    {
+      "line": 156,
+      "text": "Redan jag nalkades fort till det dubbelstävade skeppet,"
+    },
+    {
+      "line": 157,
+      "text": "då av en gudom, som ömkade mig, där jag vandrade ensam,"
+    },
+    {
+      "line": 158,
+      "text": "skickades rakt i min väg höghornad och ståtlig en kronhjort."
+    },
+    {
+      "line": 159,
+      "text": "Inne från betet i skogen han kom och ville till bäcken"
+    },
+    {
+      "line": 160,
+      "text": "ned för att dricka, ty svårt av den brännande solen han trycktes."
+    },
+    {
+      "line": 161,
+      "text": "Just som han trädde ur buskarna fram, jag mitt uti ryggen"
+    },
+    {
+      "line": 162,
+      "text": "rände mitt spjut, så att kopparens udd stack fram genom buken;"
+    },
+    {
+      "line": 163,
+      "text": "neder till stoftet han föll med ett skri, och livet var borta."
+    },
+    {
+      "line": 164,
+      "text": "Trädande nu på hans kropp, drog jag kopparspjutet ur såret,"
+    },
+    {
+      "line": 165,
+      "text": "lade det sedan ifrån mig igen uppå marken så länge,"
+    },
+    {
+      "line": 166,
+      "text": "medan jag bröt mig en mängd av smidiga kvistar och vidjor;"
+    },
+    {
+      "line": 167,
+      "text": "därav ett famnslångt rep jag mig vred och i ändarna båda"
+    },
+    {
+      "line": 168,
+      "text": "snodde och fötterna band så ihop det väldiga djuret."
+    },
+    {
+      "line": 169,
+      "text": "Därpå med bytet på nacken jag gick till det beckade skeppet,"
+    },
+    {
+      "line": 170,
+      "text": "stödjande mig på mitt spjut, ty omöjligt var att med ena"
+    },
+    {
+      "line": 171,
+      "text": "handen det hålla på skuldrorna kvar, så väldigt var djuret."
+    },
+    {
+      "line": 172,
+      "text": "Snart vid skeppet jag slängde det ner och muntrade folket,"
+    },
+    {
+      "line": 173,
+      "text": "medan med vänliga ord till den ene och andre jag trädde:"
+    },
+    {
+      "line": 174,
+      "text": "\"Vänner, vi skola ej än, huru mycket vi också bedrövas,"
+    },
+    {
+      "line": 175,
+      "text": "gömmas i Hades' hus, förrn skickelsens timma är inne."
+    },
+    {
+      "line": 176,
+      "text": "Därför välan, medan än på vårt skepp finns att äta och dricka,"
+    },
+    {
+      "line": 177,
+      "text": "låtom oss tänka på födan, att ej vi förtvina av hunger.\""
+    },
+    {
+      "line": 178,
+      "text": "Så jag talte, och strax kamraterna lydde min maning,"
+    },
+    {
+      "line": 179,
+      "text": "sprungo ur höljande mantlarna upp och på stranden av havet"
+    },
+    {
+      "line": 180,
+      "text": "sågo med undran och häpnad min hjort, så väldigt var djuret."
+    },
+    {
+      "line": 181,
+      "text": "Men när de skådat sig nöjda därpå och noga den ögnat,"
+    },
+    {
+      "line": 182,
+      "text": "tvådde de händerna se'n och beredde en lysande måltid."
+    },
+    {
+      "line": 183,
+      "text": "Sålunda dagen igenom vi där, tills solen gick neder,"
+    },
+    {
+      "line": 184,
+      "text": "sutto och njöto i ymnighet kött och det ljuvliga vinet."
+    },
+    {
+      "line": 185,
+      "text": "Dock när solen gick ner och aftonskymningen inbröt"
+    },
+    {
+      "line": 186,
+      "text": "gingo på stranden vi alla till ro vid det skvalpande havet."
+    },
+    {
+      "line": 187,
+      "text": "Men när i gryningen sken den rosenfingrade Eos,"
+    },
+    {
+      "line": 188,
+      "text": "bjöd jag kamraterna samlas, och så till dem alla jag talte:"
+    },
+    {
+      "line": 189,
+      "text": "\"Given nu akt på mitt ord, I sorgebetungade bröder!"
+    },
+    {
+      "line": 190,
+      "text": "Vänner, vi veta ju ej, var dagningen är eller mörkret,"
+    },
+    {
+      "line": 191,
+      "text": "ej var den världsupplysande sol går ner under jorden,"
+    },
+    {
+      "line": 192,
+      "text": "ej var hon åter går upp.  Låt oss därför med första betänka,"
+    },
+    {
+      "line": 193,
+      "text": "om någon utväg finns, men själv tror jag ingen det finnes."
+    },
+    {
+      "line": 194,
+      "text": "Ty när jag hade gått upp på den skrovliga klippan att speja,"
+    },
+    {
+      "line": 195,
+      "text": "såg jag, att här är en ö och oändliga havet omkring den."
+    },
+    {
+      "line": 196,
+      "text": "Sakta sig höjer ur böljorna ön, och i mitten av landet"
+    },
+    {
+      "line": 197,
+      "text": "såg jag det stiga upp rök ibland träden och snåren i skogen.\""
+    },
+    {
+      "line": 198,
+      "text": "Så jag talte, men hjärtat på dem var färdigt att brista;"
+    },
+    {
+      "line": 199,
+      "text": "genast i minnet dem rann Laistrygonen Antifates' illdåd"
+    },
+    {
+      "line": 200,
+      "text": "jämte cyklopens våld, den förfärlige människoätarns."
+    },
+    {
+      "line": 201,
+      "text": "Alla de klagade högt, medan ymniga tårar de göto,"
+    },
+    {
+      "line": 202,
+      "text": "men deras klagan och gråt dem båtade icke det minsta."
+    },
+    {
+      "line": 203,
+      "text": "Nu jag räknade dem och mitt benskenpansrade manskap"
+    },
+    {
+      "line": 204,
+      "text": "delte i skaror två och gav vardera skaran en hövding:"
+    },
+    {
+      "line": 205,
+      "text": "en skulle föras av mig, och Eurylochos föra den andra."
+    },
+    {
+      "line": 206,
+      "text": "Och i en kopparhjälm omskakades lotterna genast,"
+    },
+    {
+      "line": 207,
+      "text": "och hugstore Eurylochos lott blev den första, som utföll."
+    },
+    {
+      "line": 208,
+      "text": "Strax han begav sig i väg, och två och tjugo kamrater"
+    },
+    {
+      "line": 209,
+      "text": "gingo då gråtande med och oss lämnade kvar i vår ångest."
+    },
+    {
+      "line": 210,
+      "text": "Snart de nu kommo till Circes palats, som låg i en dalgång,"
+    },
+    {
+      "line": 211,
+      "text": "byggt av polerad sten på en plats med den friaste utsikt."
+    },
+    {
+      "line": 212,
+      "text": "Runtomkring slottet på vakt bergslejon och vargar där lågo,"
+    },
+    {
+      "line": 213,
+      "text": "idel förhäxade män, som hon räckt sin fördärvliga trolldryck."
+    },
+    {
+      "line": 214,
+      "text": "Dessa ej rusade an på mitt folk, men i stället allenast"
+    },
+    {
+      "line": 215,
+      "text": "sprungo på fötter och viftade glatt med svansarna långa."
+    },
+    {
+      "line": 216,
+      "text": "Likasom hundarna svansa med fröjd kring sin herre, som kommer"
+    },
+    {
+      "line": 217,
+      "text": "inifrån bordet, ty alltid åt dem har han med sig en godbit,"
+    },
+    {
+      "line": 218,
+      "text": "likaså lejon med rysliga klor och vargar kring männen"
+    },
+    {
+      "line": 219,
+      "text": "svansade glatt, och de sågo med skräck dessa hiskliga odjur."
+    },
+    {
+      "line": 220,
+      "text": "Stannande utanför dörrn till den fagerlockigas boning,"
+    },
+    {
+      "line": 221,
+      "text": "Circe de hörde, därinne hon sjöng med sin tjusande stämma,"
+    },
+    {
+      "line": 222,
+      "text": "medan vid väven hon gick, den hon vävde så stor och så härlig,"
+    },
+    {
+      "line": 223,
+      "text": "fin, ovansklig och skön, som gudinnornas arbeten äro."
+    },
+    {
+      "line": 224,
+      "text": "Tog då till orda bland dem krigshövdingen, käcke Polites,"
+    },
+    {
+      "line": 225,
+      "text": "vilken mig kärast av manskapet var och mig ärligast mente:"
+    },
+    {
+      "line": 226,
+      "text": "\"Vänner, en kvinna jag hör, som sjunger så härligt därinne,"
+    },
+    {
+      "line": 227,
+      "text": "medan vid väven hon går, och i hela palatset det ljuder,"
+    },
+    {
+      "line": 228,
+      "text": "ja, en gudinna det är eller dödlig.  Skyndom att ropa.\""
+    },
+    {
+      "line": 229,
+      "text": "Så han talte, och nu med ljudelig stämma de ropte."
+    },
+    {
+      "line": 230,
+      "text": "Genast hon kom, och hon öppnade vitt sina strålande dörrar"
+    },
+    {
+      "line": 231,
+      "text": "och bjöd dem in, och besinningslöst de samtliga följde;"
+    },
+    {
+      "line": 232,
+      "text": "endast Eurylochos stannade kvar, ty han anade arglist."
+    },
+    {
+      "line": 233,
+      "text": "In hon dem förde och sitta dem bjöd uppå stolar och troner,"
+    },
+    {
+      "line": 234,
+      "text": "därpå hon blandade ost och mjöl och gyllene honung"
+    },
+    {
+      "line": 235,
+      "text": "uti pramnensiskt vin och blandade även i drycken"
+    },
+    {
+      "line": 236,
+      "text": "olycksbringande gift, att de måtte förgäta sitt hemland."
+    },
+    {
+      "line": 237,
+      "text": "När hon dem bjudit och drycken de tömt, hon strax med sitt trollspö"
+    },
+    {
+      "line": 238,
+      "text": "gav dem ett rapp var och en och stängde dem in i sitt svinhus,"
+    },
+    {
+      "line": 239,
+      "text": "och de av svin både huvud och kropp och grymtning och svinborst"
+    },
+    {
+      "line": 240,
+      "text": "hade nu fått, men förståndet var än, som det varit tillförne."
+    },
+    {
+      "line": 241,
+      "text": "Sålunda stängdes de gråtande in, och Circe framför dem"
+    },
+    {
+      "line": 242,
+      "text": "kastade ållon av bok och av ek jämte röda korneller,"
+    },
+    {
+      "line": 243,
+      "text": "som är den vanliga födan för svin, som sig vältra på jorden."
+    },
+    {
+      "line": 244,
+      "text": "Men Eurylochos vände tillbaks till det beckade skeppet"
+    },
+    {
+      "line": 245,
+      "text": "för att berätta för oss om kamraternas sorgliga öde."
+    },
+    {
+      "line": 246,
+      "text": "Ej han förmådde att tala ett ord, så gärna han ville,"
+    },
+    {
+      "line": 247,
+      "text": "träffad i hjärtat av svåraste sorg, och av tårar hans ögon"
+    },
+    {
+      "line": 248,
+      "text": "fylldes, och klaga försökte han väl, men kunde det icke."
+    },
+    {
+      "line": 249,
+      "text": "Men då vi häpnande nu bestormade honom med frågor,"
+    },
+    {
+      "line": 250,
+      "text": "han oss förtäljde till slut, att förlorade voro de andra:"
+    },
+    {
+      "line": 251,
+      "text": "\"Inåt den skogen, du bjöd, vi vandrade, ädle Ulysses;"
+    },
+    {
+      "line": 252,
+      "text": "snart vi då funno ett ståtligt palats, som låg i en dalgång,"
+    },
+    {
+      "line": 253,
+      "text": "byggt av polerad sten på en plats med den friaste utsikt."
+    },
+    {
+      "line": 254,
+      "text": "Någon där gick under klingande sång vid den resliga vävstoln,"
+    },
+    {
+      "line": 255,
+      "text": "om nu gudinna hon var eller dödlig; då ropte de ljudligt."
+    },
+    {
+      "line": 256,
+      "text": "Genast hon kom, och hon öppnade vitt sina strålande dörrar"
+    },
+    {
+      "line": 257,
+      "text": "och bjöd dem in, och besinningslöst de samtliga följde;"
+    },
+    {
+      "line": 258,
+      "text": "ensam därute jag stannade kvar, ty jag anade arglist."
+    },
+    {
+      "line": 259,
+      "text": "Och de försvunno där alla ihop, och icke en enda"
+    },
+    {
+      "line": 260,
+      "text": "syntes utav dem igen, fast jag satt där och spejade länge.\""
+    },
+    {
+      "line": 261,
+      "text": "Så han sade, men jag över skuldran då slängde mitt stora"
+    },
+    {
+      "line": 262,
+      "text": "silvernaglade kopparsvärd och tog även min båge;"
+    },
+    {
+      "line": 263,
+      "text": "därpå jag bjöd honom föra mig fort på den vägen de vandrat."
+    },
+    {
+      "line": 264,
+      "text": "Men han om knäna mig armarna slog och bad mig bevekligt,"
+    },
+    {
+      "line": 265,
+      "text": "och med bevingade ord han jämrande talte och sade:"
+    },
+    {
+      "line": 266,
+      "text": "\"Tvinga mig ej att gå dit, låt här mig få stanna, o konung!"
+    },
+    {
+      "line": 267,
+      "text": "Ty ej slipper du själv därifrån, det vet jag, och ingen"
+    },
+    {
+      "line": 268,
+      "text": "mäktar du rädda av dem.  Låt oss genast med dessa här andra"
+    },
+    {
+      "line": 269,
+      "text": "fly härifrån, kanske kunna vi än förgörelsen undgå.\""
+    },
+    {
+      "line": 270,
+      "text": "Så han talte, men jag honom svarade genast och sade:"
+    },
+    {
+      "line": 271,
+      "text": "\"Gott, Eurylochos, stanna då du härnere på stranden,"
+    },
+    {
+      "line": 272,
+      "text": "sitt här och ät du och drick vid det rymliga, beckade skeppet!"
+    },
+    {
+      "line": 273,
+      "text": "Men jag själv går åstad, ty för mig är det bjudande nödtvång.\""
+    },
+    {
+      "line": 274,
+      "text": "Sagt, och jag vandrade av uppåt ön ifrån skeppet och havet."
+    },
+    {
+      "line": 275,
+      "text": "När jag då gående kom i den heliga dalen och nära"
+    },
+    {
+      "line": 276,
+      "text": "hunnit det höga palats, giftblanderskan Circe bebodde,"
+    },
+    {
+      "line": 277,
+      "text": "mötte på stigen mig där den guldstavbärande Hermes,"
+    },
+    {
+      "line": 278,
+      "text": "när jag mot huset gick fram; han såg ut som en blomstrande yngling"
+    },
+    {
+      "line": 279,
+      "text": "med nyspirande skägg, uti människans skönaste ålder;"
+    },
+    {
+      "line": 280,
+      "text": "handen till hälsning han gav och talade till mig och sade:"
+    },
+    {
+      "line": 281,
+      "text": "\"Arme, vart är du nu åter på väg här bland klipporna ensam,"
+    },
+    {
+      "line": 282,
+      "text": "vetande ej, vart du går?  Dina vänner därborta hos Circe"
+    },
+    {
+      "line": 283,
+      "text": "äro nu innestängda som svin i de stadiga stior."
+    },
+    {
+      "line": 284,
+      "text": "Kommer du hit för att hjälpa dem ut?  Du själv lär ej dädan"
+    },
+    {
+      "line": 285,
+      "text": "slippa tillbaka igen, men bli kvar, där de övriga äro."
+    },
+    {
+      "line": 286,
+      "text": "Men välan, jag beskydda dig vill och för farorna frälsa."
+    },
+    {
+      "line": 287,
+      "text": "Här skall ett skyddande medel du få, tag det med, när i Circes"
+    },
+    {
+      "line": 288,
+      "text": "salar du träder, så skall från ditt liv det förgörelsen värja."
+    },
+    {
+      "line": 289,
+      "text": "Nu skall jag ge dig besked om Circes fördärvliga anslag."
+    },
+    {
+      "line": 290,
+      "text": "Vindryck lagar hon åt dig, men gift skall hon blanda i drycken."
+    },
+    {
+      "line": 291,
+      "text": "Ej skall hon mäkta ändå att förtrolla dig; sådant den ädla"
+    },
+    {
+      "line": 292,
+      "text": "örten skall hindra, som nu jag dig ger, och jag allt vill dig säga."
+    },
+    {
+      "line": 293,
+      "text": "När med sitt långa, förhäxade spö dig Circe berörer,"
+    },
+    {
+      "line": 294,
+      "text": "drag ifrån länden du själv ditt eggade svärd och mot Circe"
+    },
+    {
+      "line": 295,
+      "text": "rusa då hotande fram, som om henne du ämnade mörda."
+    },
+    {
+      "line": 296,
+      "text": "Då blir hon slagen av skräck och bjuder dig dela sitt läger."
+    },
+    {
+      "line": 297,
+      "text": "Lugna dig då och förvägra det ej hos gudinnan att vila,"
+    },
+    {
+      "line": 298,
+      "text": "att hon må giva dig vännerna lös och bemöta dig gästmilt;"
+    },
+    {
+      "line": 299,
+      "text": "men låt de saligas heliga ed dock först henne svära,"
+    },
+    {
+      "line": 300,
+      "text": "att hon ej annat fördärvligt mot dig skall stämpla i sinnet"
+    },
+    {
+      "line": 301,
+      "text": "eller röva din mandom och kraft, när du kläderna avlagt.\""
+    },
+    {
+      "line": 302,
+      "text": "Talade Hermes och räckte åt mig den skyddande örten,"
+    },
+    {
+      "line": 303,
+      "text": "vilken ur jorden han ryckte nu upp, och beskrev mig dess väsen."
+    },
+    {
+      "line": 304,
+      "text": "Roten på henne var alldeles svart, men blomman var mjölkvit;"
+    },
+    {
+      "line": 305,
+      "text": "gudarna kalla den moly, den bliver fördödliga mänskor"
+    },
+    {
+      "line": 306,
+      "text": "vansklig att gräva ur jorden, men allt ju de evige mäkta."
+    },
+    {
+      "line": 307,
+      "text": "Hermes därefter nu vände igen till den vida Olympen"
+    },
+    {
+      "line": 308,
+      "text": "hän över skogiga ön, men jag själv gick till slottet och Circe,"
+    },
+    {
+      "line": 309,
+      "text": "medan mitt hjärta klappade högt undar vägen av oro."
+    },
+    {
+      "line": 310,
+      "text": "Stående blev jag vid dörrn till den fagerlockigas boning,"
+    },
+    {
+      "line": 311,
+      "text": "där jag ropade högt, och gudinnan hörde min stämma."
+    },
+    {
+      "line": 312,
+      "text": "Genast hon kom, och hon öppnade vitt sina strålande dörrar"
+    },
+    {
+      "line": 313,
+      "text": "och bjöd mig in, och jag följde då med, i mitt hjärta bekymrad."
+    },
+    {
+      "line": 314,
+      "text": "Inne hon förde mig fram till en tron, som var silverbeslagen,"
+    },
+    {
+      "line": 315,
+      "text": "konstarbetad och skön, och en pall var för fötterna anbragt."
+    },
+    {
+      "line": 316,
+      "text": "Strax i en gyllne pokal hon lagade åt mig en vindryck,"
+    },
+    {
+      "line": 317,
+      "text": "medan i drycken hon blandade gift, arglistig i sinnet."
+    },
+    {
+      "line": 318,
+      "text": "Men då hon drycken mig räckt och jag tömt den och icke förvandlats,"
+    },
+    {
+      "line": 319,
+      "text": "rörde hon mig med sitt spö och talade till mig och sade:"
+    },
+    {
+      "line": 320,
+      "text": "\"Gäck nu till stian och lägg dig i lag med kamraterna dina!\""
+    },
+    {
+      "line": 321,
+      "text": "Sagt, men från länden jag drog mitt eggade svärd och mot Circe"
+    },
+    {
+      "line": 322,
+      "text": "rusade hotande fram, som om henne jag ämnade mörda."
+    },
+    {
+      "line": 323,
+      "text": "Skrikande gällt, hon sig kastade ner och tog mig om knäna,"
+    },
+    {
+      "line": 324,
+      "text": "och med bevingade ord hon kvidande talte och sade:"
+    },
+    {
+      "line": 325,
+      "text": "\"Vem då och vadan är du? Var äger du hem och föräldrar?"
+    },
+    {
+      "line": 326,
+      "text": "Häpen jag är, att du ej blev förgjord, när du smakade giftet;"
+    },
+    {
+      "line": 327,
+      "text": "aldrig det någonsin hänt, att en man det giftet motstått,"
+    },
+    {
+      "line": 328,
+      "text": "vilken det druckit, ja bara det fått över tändernas stängsel."
+    },
+    {
+      "line": 329,
+      "text": "Men uti barmen på dig är ett hjärta, som ej kan betvingas."
+    },
+    {
+      "line": 330,
+      "text": "Du är Ulysses förvisst, den rådige hjälten, som alltid"
+    },
+    {
+      "line": 331,
+      "text": "guldstavbärande Hermes har sagt skulle gästa min boning,"
+    },
+    {
+      "line": 332,
+      "text": "när på sitt snabba och beckade skepp ifrån Troja han hemfor."
+    },
+    {
+      "line": 333,
+      "text": "Stick då i skidan ditt rysliga svärd och låt sedan oss båda"
+    },
+    {
+      "line": 334,
+      "text": "stiga tillsammans i bädd, för att där omarmade vila"
+    },
+    {
+      "line": 335,
+      "text": "och bli förenade hult och förtroende få till varandra.\""
+    },
+    {
+      "line": 336,
+      "text": "Så hon talte, men jag då svarade henne och sade:"
+    },
+    {
+      "line": 337,
+      "text": "\"Circe, hur vågar du bedja, att dig jag skall bliva bevågen,"
+    },
+    {
+      "line": 338,
+      "text": "du som här i ditt hus har till svin mina vänner förvandlat"
+    },
+    {
+      "line": 339,
+      "text": "och vill nu fjättra mig själv, och som bara förrädiskt mig bjuder"
+    },
+    {
+      "line": 340,
+      "text": "att i gemaket gå in och vila hos dig på ditt läger"
+    },
+    {
+      "line": 341,
+      "text": "för att mig röva min mandom och kraft, när jag kläderna avlagt."
+    },
+    {
+      "line": 342,
+      "text": "Men jag är villig ej alls till att vila hos dig på ditt läger,"
+    },
+    {
+      "line": 343,
+      "text": "om du ej gitter att gå den högtidliga eden, gudinna,"
+    },
+    {
+      "line": 344,
+      "text": "att du ej annat fördärvligt mot mig skall stämpla i sinnet.\""
+    },
+    {
+      "line": 345,
+      "text": "Så jag sade, och genast hon svor den eden jag ville."
+    },
+    {
+      "line": 346,
+      "text": "Men då hon så hade svurit och gått den äskade eden,"
+    },
+    {
+      "line": 347,
+      "text": "dröjer jag ej, men steg upp på Circes förtjusande läger."
+    },
+    {
+      "line": 348,
+      "text": "Men under tiden sysslade flinkt hennes tärnor i huset;"
+    },
+    {
+      "line": 349,
+      "text": "fyra de äro, som göra sin tjänst i det höga palatset,"
+    },
+    {
+      "line": 350,
+      "text": "älskliga döttrar av källornas språng, av de susande lundar"
+    },
+    {
+      "line": 351,
+      "text": "eller av heliga floder, som lungt framrinna till havet."
+    },
+    {
+      "line": 352,
+      "text": "Härliga purpurhyenden en ibland tärnorna lade"
+    },
+    {
+      "line": 353,
+      "text": "ovanpå stolarnas rad, och linne hon bredde inunder;"
+    },
+    {
+      "line": 354,
+      "text": "medan den andra utav dem i hast framför samtliga stolar"
+    },
+    {
+      "line": 355,
+      "text": "satte fram silverbord och på borden gyllene korgar;"
+    },
+    {
+      "line": 356,
+      "text": "åter den tredje där blandade till ljuvsmakande vinet"
+    },
+    {
+      "line": 357,
+      "text": "uti en silverbål och satte fram gyllne pokaler;"
+    },
+    {
+      "line": 358,
+      "text": "medan den fjärde med vatten kom in och inunder den stora"
+    },
+    {
+      "line": 359,
+      "text": "kitteln tände en flammande eld, så att vattnet blev uppvärmt."
+    },
+    {
+      "line": 360,
+      "text": "Men när så kokade vattnet och sjöd i den glänsande kitteln,"
+    },
+    {
+      "line": 361,
+      "text": "lät hon mig stiga i badet, som blev från den väldiga trefot"
+    },
+    {
+      "line": 362,
+      "text": "blandat behagligen till, och begöt mig på huvud och skuldror;"
+    },
+    {
+      "line": 363,
+      "text": "tills mig ur lemmarna svann den livsförtärande trötthet."
+    },
+    {
+      "line": 364,
+      "text": "Sedan hon hade mig badat och smort med den glänsande oljan"
+    },
+    {
+      "line": 365,
+      "text": "och uti prunkande kläder mig klätt, både mantel och livrock,"
+    },
+    {
+      "line": 366,
+      "text": "förde hon in mig och fram till en tron, som var silverbeslagen,"
+    },
+    {
+      "line": 367,
+      "text": "konstarbetad och skön, och en pall var för fötterna anbragt."
+    },
+    {
+      "line": 368,
+      "text": "Nu en tärna kom fram, som över ett bäcken av silver"
+    },
+    {
+      "line": 369,
+      "text": "vatten på händerna göt ur en vacker och gyllene kanna,"
+    },
+    {
+      "line": 370,
+      "text": "till att den skölja, och flyttade fram ett glänsande matbord."
+    },
+    {
+      "line": 371,
+      "text": "Även den ärade skafferskan kom och ställde på bordet"
+    },
+    {
+      "line": 372,
+      "text": "bröd och rätter i mängd och bjöd av vad huset förmådde."
+    },
+    {
+      "line": 373,
+      "text": "Circe nu bad mig att äta, men ej det mig ville behaga,"
+    },
+    {
+      "line": 374,
+      "text": "utan i tankar jag satt och anade ont i mitt hjärta."
+    },
+    {
+      "line": 375,
+      "text": "Men när då Circe fick se, att jag satt där utan att handen"
+    },
+    {
+      "line": 376,
+      "text": "sträcka mot rätterna fram, och att gruvligt bekymmer mig tryckte,"
+    },
+    {
+      "line": 377,
+      "text": "trädde hon till mig på stund och talte bevingade orden:"
+    },
+    {
+      "line": 378,
+      "text": "\"Varför, Ulysses, sitter du så, som vore du mållös,"
+    },
+    {
+      "line": 379,
+      "text": "ruvande över dig själv, och smakar ej maten och drycken?"
+    },
+    {
+      "line": 380,
+      "text": "Fruktar kanhända du åter ett svek?  Men du inte behöver"
+    },
+    {
+      "line": 381,
+      "text": "frukta numer, jag det svurit ju har med den väldiga eden.\""
+    },
+    {
+      "line": 382,
+      "text": "Så hon talte, men jag svarade då henne och sade:"
+    },
+    {
+      "line": 383,
+      "text": "\"Circe, hur skulle en man, om han äger ett hjärta i bröstet,"
+    },
+    {
+      "line": 384,
+      "text": "förr kunna giva sig ro till att njuta av maten och vinet,"
+    },
+    {
+      "line": 385,
+      "text": "än han kamraterna först ser befriade inför sitt öga?"
+    },
+    {
+      "line": 386,
+      "text": "Därför, om mening du har med att bjuda mig äta och dricka"
+    },
+    {
+      "line": 387,
+      "text": "lös mina kära kamrater då först, att jag skådar dem åter.\""
+    },
+    {
+      "line": 388,
+      "text": "Så jag sade, och Circe då strax gick ut ur palatset,"
+    },
+    {
+      "line": 389,
+      "text": "hållande spöet i hand, och öppnade dörren till stian"
+    },
+    {
+      "line": 390,
+      "text": "och drev dem ut, och de voro att se som nio års galtar."
+    },
+    {
+      "line": 391,
+      "text": "Mitt för gudinnan de ställde sig upp, och hon gick utmed raden,"
+    },
+    {
+      "line": 392,
+      "text": "medan hon alla beströk med ett annat gift, som hon hade."
+    },
+    {
+      "line": 393,
+      "text": "Strax ifrån lemmarna borsten föll av, som hade där alstrats"
+    },
+    {
+      "line": 394,
+      "text": "av det fördärvliga gift, som den mäktiga Circe dem givit."
+    },
+    {
+      "line": 395,
+      "text": "Åter de blevo till män, och föryngrade voro de alla"
+    },
+    {
+      "line": 396,
+      "text": "större till växten än förr och fagrare mycket att skåda."
+    },
+    {
+      "line": 397,
+      "text": "Strax de mig kände igen och kramade alla mig handen,"
+    },
+    {
+      "line": 398,
+      "text": "men utav vemod gräto de se'n, så att hela palatset"
+    },
+    {
+      "line": 399,
+      "text": "genljöd sorgligt av klagan, och rörd blev då själva gudinnan."
+    },
+    {
+      "line": 400,
+      "text": "Trädde då till mig och talade så den gudomliga Circe:"
+    },
+    {
+      "line": 401,
+      "text": "\"Ädle Laertesson, du mångförslagne Ulysses,"
+    },
+    {
+      "line": 402,
+      "text": "vänd nu igen till ditt skepp därnere på stranden av havet."
+    },
+    {
+      "line": 403,
+      "text": "Först I skolen där hala i land det toftade skeppet,"
+    },
+    {
+      "line": 404,
+      "text": "sedan i klyftorna gömma ert gods och hela er redskap;"
+    },
+    {
+      "line": 405,
+      "text": "kom så tillbaka, du själv, och tag med dina kära kamrater.\""
+    },
+    {
+      "line": 406,
+      "text": "Så hon sade; det likade gott mitt manliga hjärta."
+    },
+    {
+      "line": 407,
+      "text": "Ner jag gick till mitt präktiga skepp uppå stranden av havet,"
+    },
+    {
+      "line": 408,
+      "text": "och vid det toftade skeppet jag fann mina kära kamrater"
+    },
+    {
+      "line": 409,
+      "text": "klagande jämmerfullt och gjutande ymniga tårar."
+    },
+    {
+      "line": 410,
+      "text": "Likasom kalvarna hemma på gård, när korna från ängen"
+    },
+    {
+      "line": 411,
+      "text": "vända till fållan igen, då de ätit sig mätta på betet,"
+    },
+    {
+      "line": 412,
+      "text": "löpa emot dem och dansa av fröjd och kunna ej längre"
+    },
+    {
+      "line": 413,
+      "text": "hållas i kättarna kvar och med ideligt bölande ränna"
+    },
+    {
+      "line": 414,
+      "text": "mödrarna kring; så strömmade nu mina män vid min åsyn"
+    },
+    {
+      "line": 415,
+      "text": "gråtande kring mig ihop, och de kände det så i sitt sinne,"
+    },
+    {
+      "line": 416,
+      "text": "som om de voro nu komna igen hem till Ithakas klippö,"
+    },
+    {
+      "line": 417,
+      "text": "och till sin fädernestad, där de födde och fostrade voro;"
+    },
+    {
+      "line": 418,
+      "text": "och med bevingade ord de klagande talte och sade:"
+    },
+    {
+      "line": 419,
+      "text": "\"Konung, vi fröjdas så högt av att skåda dig kommen tillbaka,"
+    },
+    {
+      "line": 420,
+      "text": "som om vi kommit till Ithaka hem, till fädernejorden."
+    },
+    {
+      "line": 421,
+      "text": "Men berätta oss fort om de andra kamraternas ofärd.\""
+    },
+    {
+      "line": 422,
+      "text": "Så de talte, men tröstande jag dem svarte och sade:"
+    },
+    {
+      "line": 423,
+      "text": "\"Först vi skola nu hala i land det toftade skeppet,"
+    },
+    {
+      "line": 424,
+      "text": "sedan i klyftorna gömma vårt gods och hela vår redskap."
+    },
+    {
+      "line": 425,
+      "text": "Rusten er själva så till för att samtliga göra mig följe."
+    },
+    {
+      "line": 426,
+      "text": "Vännerna skolen I se uti Circes gudomliga salar"
+    },
+    {
+      "line": 427,
+      "text": "äta och dricka med fröjd, ty fullt upp vankas på borden.\""
+    },
+    {
+      "line": 428,
+      "text": "Så jag sade, och strax kamraterna lydde min maning."
+    },
+    {
+      "line": 429,
+      "text": "Men Eurylochos ensam bjöd till att dem hålla tillbaka,"
+    },
+    {
+      "line": 430,
+      "text": "och med bevingade ord han talade till dem och sade:"
+    },
+    {
+      "line": 431,
+      "text": "\"Dårar, vart gå vi åstad?  I längten då efter er ofärd?"
+    },
+    {
+      "line": 432,
+      "text": "Viljen I vandra till Circe nu hän, som skall strax oss förvandla"
+    },
+    {
+      "line": 433,
+      "text": "allesammans till svin eller raggiga vargar och lejon,"
+    },
+    {
+      "line": 434,
+      "text": "så att vi tvingade bli att bevaka det stora palatset?"
+    },
+    {
+      "line": 435,
+      "text": "Så ju cyklopen fängslade nyss, då de kommo till honom,"
+    },
+    {
+      "line": 436,
+      "text": "våra kamrater, som vågat sig dit med den djärve Ulysses;"
+    },
+    {
+      "line": 437,
+      "text": "endast för hans dumdristighets skull de förgingos, de också.\""
+    },
+    {
+      "line": 438,
+      "text": "Så han sade, men jag då övervägde i sinnet"
+    },
+    {
+      "line": 439,
+      "text": "att ifrån länden draga på stund långeggade svärdet,"
+    },
+    {
+      "line": 440,
+      "text": "hugga hans huvud utav och låta det rulla på marken,"
+    },
+    {
+      "line": 441,
+      "text": "fast han var nära besläktad med mig; men kamraterna alla"
+    },
+    {
+      "line": 442,
+      "text": "sökte mig lugna med vänliga ord, så den ene som andre:"
+    },
+    {
+      "line": 443,
+      "text": "\"Gudafostrade drott, då låt oss honom, ifall du så tycker,"
+    },
+    {
+      "line": 444,
+      "text": "lämna att stanna härnere på strand för att skeppet bevaka;"
+    },
+    {
+      "line": 445,
+      "text": "men för oss andra åstad bort till Circes gudomliga salar.\""
+    },
+    {
+      "line": 446,
+      "text": "Så de sade; då gingo vi bort från skeppet och havet."
+    },
+    {
+      "line": 447,
+      "text": "Icke Eurylochos heller blev kvar vid det rymliga skeppet,"
+    },
+    {
+      "line": 448,
+      "text": "men med oss andra han gick, förskräckt av min häftiga vrede."
+    },
+    {
+      "line": 449,
+      "text": "Men under tiden i Circes palats våra andra kamrater"
+    },
+    {
+      "line": 450,
+      "text": "badades omsorgsfullt och gnedos med glänsande oljan,"
+    },
+    {
+      "line": 451,
+      "text": "innan de kläddes till sist uti mantel av ylle och livrock;"
+    },
+    {
+      "line": 452,
+      "text": "nu vid ett rikligt mål vi funno dem alla i salen."
+    },
+    {
+      "line": 453,
+      "text": "När de varandra igen då skådade öga mot öga,"
+    },
+    {
+      "line": 454,
+      "text": "gräto de vemodsfullt, så att huset av suckarna genljöd."
+    },
+    {
+      "line": 455,
+      "text": "Trädde då till mig och talade så den gudomliga Circe:"
+    },
+    {
+      "line": 456,
+      "text": "\"Ädla Laertesson, du mångförslagne Ulysses,"
+    },
+    {
+      "line": 457,
+      "text": "väcken ej vemodsklagan på nytt.  Jag vet ju till fullo,"
+    },
+    {
+      "line": 458,
+      "text": "både vad mödor I lidit på hav, där fiskarna simma,"
+    },
+    {
+      "line": 459,
+      "text": "och vilken skada er vållats på land av fientliga männer."
+    },
+    {
+      "line": 460,
+      "text": "Skynden i stället att äta med lust och att dricka av vinet,"
+    },
+    {
+      "line": 461,
+      "text": "ända tills modet igen eder återkommer i bröstet,"
+    },
+    {
+      "line": 462,
+      "text": "sådant i början det var, då I lämnaden fädernejorden,"
+    },
+    {
+      "line": 463,
+      "text": "Ithakas klippiga ö; ty nu är modet och märgen"
+    },
+    {
+      "line": 464,
+      "text": "borta, I tänken ju blott på det farliga havet, och glädjen"
+    },
+    {
+      "line": 465,
+      "text": "finner ej rum i er håg, emedan I lidit så mycket.\""
+    },
+    {
+      "line": 466,
+      "text": "Så hon sade; det likade gott våra manliga hjärtan."
+    },
+    {
+      "line": 467,
+      "text": "Sålunda där vi nu dag efter dag, tills året var ute,"
+    },
+    {
+      "line": 468,
+      "text": "sutto och njöto i ymnighet kött och det ljuvliga vinet."
+    },
+    {
+      "line": 469,
+      "text": "Dock, när året gått om och horerna vände tillbaka,"
+    },
+    {
+      "line": 470,
+      "text": "månader lidit förbi och de långa dagarna kommo,"
+    },
+    {
+      "line": 471,
+      "text": "kallade ut mig en dag mina kära kamrater och sade:"
+    },
+    {
+      "line": 472,
+      "text": "\"Olycksalige, tänk då en gång på ditt fädernerike,"
+    },
+    {
+      "line": 473,
+      "text": "om det av gudarna är dig beskärt att få komma med livet"
+    },
+    {
+      "line": 474,
+      "text": "hem till din präktiga boning igen och fädernejorden.\""
+    },
+    {
+      "line": 475,
+      "text": "Så de sade; det likade gott mitt manliga hjärta."
+    },
+    {
+      "line": 476,
+      "text": "Dagen igenom i salen vi nu, tills solen gick neder,"
+    },
+    {
+      "line": 477,
+      "text": "sutto och njöto i ymnighet kött och det ljuvliga vinet;"
+    },
+    {
+      "line": 478,
+      "text": "dock när solen gick ner och aftonskymningen inbröt,"
+    },
+    {
+      "line": 479,
+      "text": "gingo kamraterna alla till ro i de mörknade salar,"
+    },
+    {
+      "line": 480,
+      "text": "men jag själv steg då upp på Circes förtjusande läger,"
+    },
+    {
+      "line": 481,
+      "text": "famnade bedjande om hennes knän, och gudinnan till bönen"
+    },
+    {
+      "line": 482,
+      "text": "lyddes, och så med bevingade ord jag talte till henne:"
+    },
+    {
+      "line": 483,
+      "text": "\"Circe, håll ord nu med det, som en gång du mig lovat gudinna,"
+    },
+    {
+      "line": 484,
+      "text": "att du skall släppa mig hem; mitt hjärta är stormigt av längtan"
+    },
+    {
+      "line": 485,
+      "text": "och mina vänners med, och de ligga mig över och plåga"
+    },
+    {
+      "line": 486,
+      "text": "jämt med sin klagan och gråt, när icke du själv är tillstädes.\""
+    },
+    {
+      "line": 487,
+      "text": "Så jag sade; då svarade strax den sköna gudinnan:"
+    },
+    {
+      "line": 488,
+      "text": "\"Ädle Laertesson, du mångförslagne Ulysses,"
+    },
+    {
+      "line": 489,
+      "text": "stannen då längre ej alls mot er vilja hos mig här i slottet."
+    },
+    {
+      "line": 490,
+      "text": "Först dock en annan färd eder föreligger att göra"
+    },
+    {
+      "line": 491,
+      "text": "neder till Hades' hus och den hemska Persefones närhet:"
+    },
+    {
+      "line": 492,
+      "text": "det är din lott att Teiresias' själ, den blinde thebanske"
+    },
+    {
+      "line": 493,
+      "text": "siarens, fråga om råd; hans ande är kraftig som fordom;"
+    },
+    {
+      "line": 494,
+      "text": "honom allena Persefone gav att få ännu i döden"
+    },
+    {
+      "line": 495,
+      "text": "hava sin sansning kvar, då de övriga fladdra som skuggor.\""
+    },
+    {
+      "line": 496,
+      "text": "Så hon talte; men hjärtat på mig var färdigt att brista;"
+    },
+    {
+      "line": 497,
+      "text": "bittert jag grät, där på bädden jag satt, och ej ville mitt hjärta"
+    },
+    {
+      "line": 498,
+      "text": "dväljas bland levande mer och skåda den lysande solen."
+    },
+    {
+      "line": 499,
+      "text": "Men då jag tröttnat att så i min vånda mig vrida och gråta,"
+    },
+    {
+      "line": 500,
+      "text": "tog jag till orda igen och svarade henne och sade:"
+    },
+    {
+      "line": 501,
+      "text": "\"Vem då, o Circe, skall visa mig väg uppå denna min resa?"
+    },
+    {
+      "line": 502,
+      "text": "Aldrig for någon ännu på sitt beckade skepp ned till Hades.\""
+    },
+    {
+      "line": 503,
+      "text": "Så jag sade; då svarade strax den sköna gudinnan:"
+    },
+    {
+      "line": 504,
+      "text": "\"Ädle Laertesson, du mångförslagne Ulysses,"
+    },
+    {
+      "line": 505,
+      "text": "var ej bekymrad alls för att ledare sakna på skeppet!"
+    },
+    {
+      "line": 506,
+      "text": "Res blott masten på toft och hissa ditt skinande segel,"
+    },
+    {
+      "line": 507,
+      "text": "sätt dig så ned, och en nordanvind skall föra dig framåt."
+    },
+    {
+      "line": 508,
+      "text": "Men när ditt ilande skepp har seglat Okeanos över"
+    },
+    {
+      "line": 509,
+      "text": "dit, där på lågland kust Persefones tigande lunder"
+    },
+    {
+      "line": 510,
+      "text": "stånda med resliga poppelträd och förtorkade viden,"
+    },
+    {
+      "line": 511,
+      "text": "lägg då med skeppet i land vid Okeanos' virvlande flöde,"
+    },
+    {
+      "line": 512,
+      "text": "och träd så vandringen an i det unkna och mögliga Hades."
+    },
+    {
+      "line": 513,
+      "text": "Där är en plats, där i Acherons flod Periflegeton strömmar"
+    },
+    {
+      "line": 514,
+      "text": "jämte Kokytos, som själv är en arm av det stygiska vattnet;"
+    },
+    {
+      "line": 515,
+      "text": "just där sig vattnen förena med dån, sig reser en klippa;"
+    },
+    {
+      "line": 516,
+      "text": "träng intill henne dig tätt — kom ihåg, vad jag säger dig, hjälte! —"
+    },
+    {
+      "line": 517,
+      "text": "gräv där en grop, som mäter en aln i längden och bredden"
+    },
+    {
+      "line": 518,
+      "text": "gjut så kring denna ett dryckesblot åt alla de döda"
+    },
+    {
+      "line": 519,
+      "text": "först utav honungsmjölk och sedan av ljuvliga vinet"
+    },
+    {
+      "line": 520,
+      "text": "och så av vatten till sist, och mjöl skall du strö därutöver."
+    },
+    {
+      "line": 521,
+      "text": "Bed så en innerlig bön till de dödas flyktiga hamnar;"
+    },
+    {
+      "line": 522,
+      "text": "offer du lova dem skall av en gallko, ypperst i hjorden,"
+    },
+    {
+      "line": 523,
+      "text": "när du till Ithaka länt, och att bålet råga med håvor;"
+    },
+    {
+      "line": 524,
+      "text": "särskilt lova jämväl, att du skall åt Teiresias ensam"
+    },
+    {
+      "line": 525,
+      "text": "offra ett helsvart får, som är skönast av alla du äger."
+    },
+    {
+      "line": 526,
+      "text": "Men när du gjort dina löften och bett till de prisade döda,"
+    },
+    {
+      "line": 527,
+      "text": "då skall ett kolsvart får och en kolsvart gumse du slakta,"
+    },
+    {
+      "line": 528,
+      "text": "böjande offren mot Erebos ner, men själv skall du bortvänd"
+    },
+    {
+      "line": 529,
+      "text": "stå och se ut mot Okeanos' ström.  Då skola i massa"
+    },
+    {
+      "line": 530,
+      "text": "själarna samla sig dit av de hädansomnade döda."
+    },
+    {
+      "line": 531,
+      "text": "Därpå befalla och mana du skall dina trogna kamrater"
+    },
+    {
+      "line": 532,
+      "text": "fåren att taga, som nyss för den mordiska kopparen fallit,"
+    },
+    {
+      "line": 533,
+      "text": "flå dem i hast och dem bränna och fromt till de eviga bedja,"
+    },
+    {
+      "line": 534,
+      "text": "både till Hades' drott och Persefone, hemska gudinnan."
+    },
+    {
+      "line": 535,
+      "text": "Själv skall du draga ditt eggade svärd och med svärdet i handen"
+    },
+    {
+      "line": 536,
+      "text": "sätta dig neder på vakt, att de dödas flyktiga hamnar"
+    },
+    {
+      "line": 537,
+      "text": "blodet ej nalkas, så länge du ej Teiresias frågat."
+    },
+    {
+      "line": 538,
+      "text": "Då skall genast till dig, o konung, siaren komma;"
+    },
+    {
+      "line": 539,
+      "text": "han skall lära din väg och sträckorna säga på färden,"
+    },
+    {
+      "line": 540,
+      "text": "och hur du hemmet skall nå över djupet, där fiskarna simma.\""
+    },
+    {
+      "line": 541,
+      "text": "Så hon sade; och snart gick upp gulltronande Eos."
+    },
+    {
+      "line": 542,
+      "text": "Strax hon klädde mig då i en mantel och även en livrock,"
+    },
+    {
+      "line": 543,
+      "text": "medan hon höljde sig själv i en silverglänsande klädning,"
+    },
+    {
+      "line": 544,
+      "text": "skir och förtjusande skön, och band sig om midjan en gördel,"
+    },
+    {
+      "line": 545,
+      "text": "strålande präktig av guld, och på huvudet fästade slöjan."
+    },
+    {
+      "line": 546,
+      "text": "Genom palatset jag skyndade hän och muntrade folket,"
+    },
+    {
+      "line": 547,
+      "text": "medan med vänliga ord till den ene och andre jag trädde:"
+    },
+    {
+      "line": 548,
+      "text": "\"Nu är att vila ej tid, och att ligga i ljuvliga sömnen."
+    },
+    {
+      "line": 549,
+      "text": "Låtom oss fara!  Besked har jag fått av den mäktiga Circe.\""
+    },
+    {
+      "line": 550,
+      "text": "Så jag talte; det likade gott deras manliga hjärtan."
+    },
+    {
+      "line": 551,
+      "text": "Dock icke därifrån ens fick jag föra mitt folk utan skada."
+    },
+    {
+      "line": 552,
+      "text": "Bland mina män en Elpenor det fanns, som var yngst av dem alla,"
+    },
+    {
+      "line": 553,
+      "text": "varken behjärtad i strid eller särdeles stark i förståndet;"
+    },
+    {
+      "line": 554,
+      "text": "denne där gått och sig lagt för sig själv uppå taket av slottet,"
+    },
+    {
+      "line": 555,
+      "text": "sökande svalka och luft, sedan rusig han blivit av vinet."
+    },
+    {
+      "line": 556,
+      "text": "När han nu trampet och sorlet förnam vid kamraternas uppbrott,"
+    },
+    {
+      "line": 557,
+      "text": "störtade plötsligt han upp och besinnade ej i sin yrsel,"
+    },
+    {
+      "line": 558,
+      "text": "att han tillbaka behövde gå ner utför trappan den långa,"
+    },
+    {
+      "line": 559,
+      "text": "utan föll huvudstupa där ner ifrån taket och bräckte"
+    },
+    {
+      "line": 560,
+      "text": "benet i nacken tvärt, och själen for neder till Hades."
+    },
+    {
+      "line": 561,
+      "text": "När vi då stodo på väg, jag talade så till mitt manskap:"
+    },
+    {
+      "line": 562,
+      "text": "\"Säkert I tron, att vi skola nu hem till fädernejorden"
+    },
+    {
+      "line": 563,
+      "text": "ställa vår färd, men en annan förut är av Circe oss ålagd,"
+    },
+    {
+      "line": 564,
+      "text": "neder till Hades' hus och den hemska Persefones närhet"
+    },
+    {
+      "line": 565,
+      "text": "för att om siaresvar thebanen Teiresias fråga.\""
+    },
+    {
+      "line": 566,
+      "text": "Så jag sade, men hjärtat på dem var färdigt att brista,"
+    },
+    {
+      "line": 567,
+      "text": "neder de satte sig, sleto sitt hår och sig jämrade högljutt,"
+    },
+    {
+      "line": 568,
+      "text": "men deras klagan och gråt dem båtade icke det minsta."
+    },
+    {
+      "line": 569,
+      "text": "Medan vi vandrade nu till vårt skepp uppå stranden av havet,"
+    },
+    {
+      "line": 570,
+      "text": "alla med sorgset mod och gjutande ymniga tårar,"
+    },
+    {
+      "line": 571,
+      "text": "hade ock Circe begivit sig ner till det beckade skeppet,"
+    },
+    {
+      "line": 572,
+      "text": "och hon ett kolsvart får och en kolsvart gumse där bundit;"
+    },
+    {
+      "line": 573,
+      "text": "lätt hon oss glidit förbi, ty vilja sig gudarna dölja,"
+    },
+    {
+      "line": 574,
+      "text": "vem är i stånd att dem se, de måtte nu gå eller komma?"
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 1,
+  "description": "Kuraterade namn och exakt stavade grekiska former. Ej fullständig morfologisk analys.",
+  "entries": [
+    {
+      "id": "hektor",
+      "label": "Hektor",
+      "kind": "person",
+      "aliases": [
+        "Hector",
+        "Hektor"
+      ],
+      "greekForms": [
+        "Ἕκτωρ",
+        "Ἕκτορος",
+        "Ἕκτορι",
+        "Ἕκτορα",
+        "Ἕκτορ"
+      ],
+      "description": "Trojan hero"
+    },
+    {
+      "id": "andromache",
+      "label": "Andromache",
+      "kind": "person",
+      "aliases": [
+        "Andromache",
+        "Andromake",
+        "Andromacha"
+      ],
+      "greekForms": [
+        "Ἀνδρομάχη",
+        "Ἀνδρομάχης",
+        "Ἀνδρομάχῃ",
+        "Ἀνδρομάχην"
+      ],
+      "description": ""
+    },
+    {
+      "id": "achilles",
+      "label": "Akilles",
+      "kind": "person",
+      "aliases": [
+        "Achilles",
+        "Achilleus",
+        "Akilles",
+        "Achill"
+      ],
+      "greekForms": [
+        "Ἀχιλλεύς",
+        "Ἀχιλεὺς",
+        "Ἀχιλλῆος",
+        "Ἀχιλῆος",
+        "Ἀχιλῆϊ",
+        "Ἀχιλλῆϊ",
+        "Ἀχιλλέα",
+        "Ἀχιλῆα",
+        "Ἀχιλεῦ"
+      ],
+      "description": ""
+    },
+    {
+      "id": "odysseus",
+      "label": "Odysseus",
+      "kind": "person",
+      "aliases": [
+        "Ulysses",
+        "Ulysse",
+        "Ulisse",
+        "Odysseus"
+      ],
+      "greekForms": [
+        "Ὀδυσσεύς",
+        "Ὀδυσσεὺς",
+        "Ὀδυσσῆος",
+        "Ὀδυσῆος",
+        "Ὀδυσσῆϊ",
+        "Ὀδυσῆϊ",
+        "Ὀδυσσέα",
+        "Ὀδυσσεῦ"
+      ],
+      "description": ""
+    },
+    {
+      "id": "agamemnon",
+      "label": "Agamemnon",
+      "kind": "person",
+      "aliases": [
+        "Agamemnon"
+      ],
+      "greekForms": [
+        "Ἀγαμέμνων",
+        "Ἀγαμέμνονος",
+        "Ἀγαμέμνονι",
+        "Ἀγαμέμνονα"
+      ],
+      "description": ""
+    },
+    {
+      "id": "menelaos",
+      "label": "Menelaos",
+      "kind": "person",
+      "aliases": [
+        "Menelaus",
+        "Menelaos"
+      ],
+      "greekForms": [
+        "Μενέλαος",
+        "Μενελάου",
+        "Μενελάῳ",
+        "Μενέλαον"
+      ],
+      "description": ""
+    },
+    {
+      "id": "priam",
+      "label": "Priamos",
+      "kind": "person",
+      "aliases": [
+        "Priam",
+        "Priamos"
+      ],
+      "greekForms": [
+        "Πρίαμος",
+        "Πριάμου",
+        "Πριάμῳ",
+        "Πρίαμον"
+      ],
+      "description": ""
+    },
+    {
+      "id": "paris",
+      "label": "Paris / Alexandros",
+      "kind": "person",
+      "aliases": [
+        "Paris",
+        "Alexander",
+        "Alexandros"
+      ],
+      "greekForms": [
+        "Πάρις",
+        "Πάριδος",
+        "Πάριν",
+        "Ἀλέξανδρος",
+        "Ἀλεξάνδρου",
+        "Ἀλέξανδρον"
+      ],
+      "description": ""
+    },
+    {
+      "id": "helena",
+      "label": "Helena",
+      "kind": "person",
+      "aliases": [
+        "Helen",
+        "Helene",
+        "Hélène",
+        "Elena"
+      ],
+      "greekForms": [
+        "Ἑλένη",
+        "Ἑλένης",
+        "Ἑλένῃ",
+        "Ἑλένην"
+      ],
+      "description": ""
+    },
+    {
+      "id": "patroklos",
+      "label": "Patroklos",
+      "kind": "person",
+      "aliases": [
+        "Patroclus",
+        "Patroklos"
+      ],
+      "greekForms": [
+        "Πάτροκλος",
+        "Πατρόκλοιο",
+        "Πατρόκλου",
+        "Πατρόκλῳ",
+        "Πάτροκλον",
+        "Πάτροκλε"
+      ],
+      "description": ""
+    },
+    {
+      "id": "telemachos",
+      "label": "Telemachos",
+      "kind": "person",
+      "aliases": [
+        "Telemachus",
+        "Telemakos",
+        "Telemaco"
+      ],
+      "greekForms": [
+        "Τηλέμαχος",
+        "Τηλεμάχοιο",
+        "Τηλεμάχου",
+        "Τηλεμάχῳ",
+        "Τηλέμαχον"
+      ],
+      "description": ""
+    },
+    {
+      "id": "penelope",
+      "label": "Penelope",
+      "kind": "person",
+      "aliases": [
+        "Penelope",
+        "Pénélope",
+        "Penelope"
+      ],
+      "greekForms": [
+        "Πηνελόπεια",
+        "Πηνελοπείης",
+        "Πηνελοπείῃ",
+        "Πηνελόπειαν",
+        "Πηνελόπη"
+      ],
+      "description": ""
+    },
+    {
+      "id": "nestor",
+      "label": "Nestor",
+      "kind": "person",
+      "aliases": [
+        "Nestor"
+      ],
+      "greekForms": [
+        "Νέστωρ",
+        "Νέστορος",
+        "Νέστορι",
+        "Νέστορα"
+      ],
+      "description": ""
+    },
+    {
+      "id": "diomedes",
+      "label": "Diomedes",
+      "kind": "person",
+      "aliases": [
+        "Diomedes",
+        "Diomede"
+      ],
+      "greekForms": [
+        "Διομήδης",
+        "Διομήδεος",
+        "Διομήδεϊ",
+        "Διομήδεα",
+        "Διόμηδες"
+      ],
+      "description": ""
+    },
+    {
+      "id": "aias",
+      "label": "Aias",
+      "kind": "person",
+      "aliases": [
+        "Ajax",
+        "Aias"
+      ],
+      "greekForms": [
+        "Αἴας",
+        "Αἴαντος",
+        "Αἴαντι",
+        "Αἴαντα"
+      ],
+      "description": ""
+    },
+    {
+      "id": "nausikaa",
+      "label": "Nausikaa",
+      "kind": "person",
+      "aliases": [
+        "Nausicaa",
+        "Nausikaa",
+        "Nausica"
+      ],
+      "greekForms": [
+        "Ναυσικάα",
+        "Ναυσικάας",
+        "Ναυσικάᾳ",
+        "Ναυσικάαν"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kirke",
+      "label": "Kirke",
+      "kind": "person",
+      "aliases": [
+        "Circe",
+        "Kirke"
+      ],
+      "greekForms": [
+        "Κίρκη",
+        "Κίρκης",
+        "Κίρκῃ",
+        "Κίρκην"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kalypso",
+      "label": "Kalypso",
+      "kind": "person",
+      "aliases": [
+        "Calypso",
+        "Kalypso"
+      ],
+      "greekForms": [
+        "Καλυψώ",
+        "Καλυψοῦς",
+        "Καλυψοῖ"
+      ],
+      "description": ""
+    },
+    {
+      "id": "athena",
+      "label": "Athena / Pallas",
+      "kind": "deity",
+      "aliases": [
+        "Pallas",
+        "Athena",
+        "Athene",
+        "Athéna",
+        "Atena",
+        "Pallade"
+      ],
+      "greekForms": [
+        "Ἀθήνη",
+        "Ἀθηναίη",
+        "Ἀθήνης",
+        "Ἀθηναίης",
+        "Ἀθηναίῃ",
+        "Ἀθηναίην",
+        "Ἀθήνην",
+        "Παλλάς",
+        "Παλλάδος",
+        "Παλλάδι",
+        "Παλλάδα"
+      ],
+      "description": ""
+    },
+    {
+      "id": "zeus",
+      "label": "Zeus",
+      "kind": "deity",
+      "aliases": [
+        "Zeus",
+        "Jupiter"
+      ],
+      "greekForms": [
+        "Ζεύς",
+        "Ζεὺς",
+        "Διός",
+        "Διὸς",
+        "Διί",
+        "Διὶ",
+        "Δία",
+        "Ζεῦ"
+      ],
+      "description": ""
+    },
+    {
+      "id": "hera",
+      "label": "Hera",
+      "kind": "deity",
+      "aliases": [
+        "Hera",
+        "Héra",
+        "Giunone",
+        "Juno"
+      ],
+      "greekForms": [
+        "Ἥρη",
+        "Ἥρης",
+        "Ἥρῃ",
+        "Ἥρην"
+      ],
+      "description": ""
+    },
+    {
+      "id": "poseidon",
+      "label": "Poseidon",
+      "kind": "deity",
+      "aliases": [
+        "Poseidon",
+        "Neptune",
+        "Nettuno"
+      ],
+      "greekForms": [
+        "Ποσειδάων",
+        "Ποσειδάωνος",
+        "Ποσειδάωνι",
+        "Ποσειδάωνα",
+        "Ποσειδῶν",
+        "Ποσειδῶνος",
+        "Ποσειδῶνι"
+      ],
+      "description": ""
+    },
+    {
+      "id": "apollon",
+      "label": "Apollon",
+      "kind": "deity",
+      "aliases": [
+        "Apollo",
+        "Apollon"
+      ],
+      "greekForms": [
+        "Ἀπόλλων",
+        "Ἀπόλλωνος",
+        "Ἀπόλλωνι",
+        "Ἀπόλλωνα",
+        "Ἄπολλον"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ares",
+      "label": "Ares",
+      "kind": "deity",
+      "aliases": [
+        "Ares",
+        "Mars"
+      ],
+      "greekForms": [
+        "Ἄρης",
+        "Ἄρηος",
+        "Ἄρηϊ",
+        "Ἄρηα",
+        "Ἄρες"
+      ],
+      "description": ""
+    },
+    {
+      "id": "afrodite",
+      "label": "Afrodite",
+      "kind": "deity",
+      "aliases": [
+        "Aphrodite",
+        "Afrodite",
+        "Venus"
+      ],
+      "greekForms": [
+        "Ἀφροδίτη",
+        "Ἀφροδίτης",
+        "Ἀφροδίτῃ",
+        "Ἀφροδίτην"
+      ],
+      "description": ""
+    },
+    {
+      "id": "artemis",
+      "label": "Artemis",
+      "kind": "deity",
+      "aliases": [
+        "Artemis",
+        "Diana"
+      ],
+      "greekForms": [
+        "Ἄρτεμις",
+        "Ἀρτέμιδος",
+        "Ἀρτέμιδι",
+        "Ἄρτεμιν"
+      ],
+      "description": ""
+    },
+    {
+      "id": "hermes",
+      "label": "Hermes",
+      "kind": "deity",
+      "aliases": [
+        "Hermes",
+        "Mercury",
+        "Mercurio"
+      ],
+      "greekForms": [
+        "Ἑρμῆς",
+        "Ἑρμέω",
+        "Ἑρμῇ",
+        "Ἑρμῆν"
+      ],
+      "description": ""
+    },
+    {
+      "id": "troja",
+      "label": "Troja / Ilion",
+      "kind": "place",
+      "aliases": [
+        "Troja",
+        "Troy",
+        "Troie",
+        "Troia",
+        "Ilion",
+        "Ilios",
+        "Ilium"
+      ],
+      "greekForms": [
+        "Τροίη",
+        "Τροίης",
+        "Τροίῃ",
+        "Τροίην",
+        "Ἴλιος",
+        "Ἰλίου",
+        "Ἰλίῳ",
+        "Ἴλιον",
+        "Ἴλιοιο",
+        "Ἴλιόνδε"
+      ],
+      "description": ""
+    },
+    {
+      "id": "ithaka",
+      "label": "Ithaka",
+      "kind": "place",
+      "aliases": [
+        "Ithaka",
+        "Ithaca",
+        "Ithaque",
+        "Itaca"
+      ],
+      "greekForms": [
+        "Ἰθάκη",
+        "Ἰθάκης",
+        "Ἰθάκῃ",
+        "Ἰθάκην"
+      ],
+      "description": ""
+    },
+    {
+      "id": "olympos",
+      "label": "Olympos",
+      "kind": "place",
+      "aliases": [
+        "Olympus",
+        "Olympos",
+        "Olympen",
+        "Olimpo"
+      ],
+      "greekForms": [
+        "Ὄλυμπος",
+        "Ὀλύμπου",
+        "Ὀλύμπῳ",
+        "Ὄλυμπον"
+      ],
+      "description": ""
+    },
+    {
+      "id": "sparta",
+      "label": "Sparta",
+      "kind": "place",
+      "aliases": [
+        "Sparta",
+        "Sparté"
+      ],
+      "greekForms": [
+        "Σπάρτη",
+        "Σπάρτης",
+        "Σπάρτῃ",
+        "Σπάρτην"
+      ],
+      "description": ""
+    },
+    {
+      "id": "pylos",
+      "label": "Pylos",
+      "kind": "place",
+      "aliases": [
+        "Pylos",
+        "Pylus"
+      ],
+      "greekForms": [
+        "Πύλος",
+        "Πύλου",
+        "Πύλῳ",
+        "Πύλον"
+      ],
+      "description": ""
+    },
+    {
+      "id": "argos",
+      "label": "Argos",
+      "kind": "place",
+      "aliases": [
+        "Argos"
+      ],
+      "greekForms": [
+        "Ἄργος",
+        "Ἄργεος",
+        "Ἄργει",
+        "Ἄργους"
+      ],
+      "description": ""
+    },
+    {
+      "id": "hades",
+      "label": "Hades",
+      "kind": "place",
+      "aliases": [
+        "Hades",
+        "Underworld",
+        "Underjorden"
+      ],
+      "greekForms": [
+        "Ἀΐδης",
+        "Ἀΐδαο",
+        "Ἀΐδεω",
+        "Ἀΐδῃ",
+        "Ἀΐδην",
+        "Ἅιδης",
+        "Ἅιδου"
+      ],
+      "description": ""
+    },
+    {
+      "id": "kreta",
+      "label": "Kreta",
+      "kind": "place",
+      "aliases": [
+        "Crete",
+        "Kreta",
+        "Crète",
+        "Creta"
+      ],
+      "greekForms": [
+        "Κρήτη",
+        "Κρήτης",
+        "Κρήτῃ",
+        "Κρήτην"
+      ],
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homer — Greek Text Explorer</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: Georgia, "Times New Roman", serif; background:#faf9f6; color:#262626; max-width:1000px; margin:40px auto; padding:0 24px; }
+  header { border-bottom:1px solid #ccc; margin-bottom:25px; }
+  h1 { font-size:38px; font-weight:normal; margin-bottom:5px; }
+  .subtitle { color:#777; margin-top:0; }
+  .controls { display:flex; flex-wrap:wrap; gap:12px; margin:20px 0; }
+  select,input,button { font:16px system-ui,sans-serif; padding:10px; border:1px solid #ccc; border-radius:5px; background:white; }
+  input { flex:1; min-width:200px; }
+  button { cursor:pointer; }
+  button:focus-visible, .result:focus-visible { outline:2px solid #245f85; outline-offset:2px; }
+  .verse { display:grid; grid-template-columns:50px minmax(0,1fr); gap:15px; padding:5px 0; font-size:21px; line-height:1.6; }
+  .number { color:#888; font:13px system-ui,sans-serif; padding-top:9px; }
+  .greek { user-select:text; -webkit-user-select:text; overflow-wrap:anywhere; }
+  .greek-word { cursor:pointer; border-radius:3px; }
+  .greek-word:hover { background:#ede6d4; }
+  .greek-word:focus-visible { outline:2px solid #245f85; }
+  .reference { color:#777; font:13px system-ui,sans-serif; }
+  .result { border-bottom:1px solid #eee; padding:12px 0; cursor:pointer; }
+  .result:hover { background:#f0ede7; }
+  .result-text { font-size:20px; line-height:1.7; margin-top:5px; }
+  #content { margin-top:25px; }
+  #hint { font:13px system-ui,sans-serif; color:#777; }
+  #selectionMenu { position:fixed; z-index:50; width:min(295px,calc(100vw - 24px)); background:white; border:1px solid #cfc7b8; border-radius:9px; box-shadow:0 10px 35px #0002; padding:12px; font:14px system-ui,sans-serif; }
+  #selectionMenu[hidden] { display:none; }
+  #selectionText { display:block; font:20px Georgia,"Times New Roman",serif; color:#252525; padding:5px 2px 12px; overflow-wrap:anywhere; max-height:100px; overflow:auto; }
+  #selectionMenu button { width:100%; text-align:left; border:0; border-radius:5px; padding:10px; }
+  #selectionMenu button:hover { background:#eeeae2; }
+  #selectionMenu button + button { margin-top:3px; }
+  #selectionMenu .menuHeader { color:#777; font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+  #selectionMenu .close { float:right; width:auto; padding:2px 7px; font-size:18px; }
+  @media(max-width:600px) { body { margin:20px auto; padding:0 14px; } .verse { font-size:19px; } }
+</style>
+</head>
+<body>
+<header><h1>HOMER</h1><p class="subtitle">Greek Text Explorer · Iliad &amp; Odyssey · 1.2</p></header>
+<div class="controls">
+  <select id="work" aria-label="Poem"><option value="iliad">Iliad</option><option value="odyssey">Odyssey</option></select>
+  <select id="book" aria-label="Book"></select>
+  <button id="previous">← Previous</button><button id="next">Next →</button>
+</div>
+<div class="controls">
+  <input id="search" placeholder="Search Greek text (accents optional)" aria-label="Greek search text">
+  <button id="searchButton">Search both poems</button><button id="clearButton">Clear</button>
+</div>
+<p id="hint">Click a Greek word, or drag across a phrase, to search without a Greek keyboard.</p>
+<p id="status" class="reference" role="status"></p>
+<main id="content"></main>
+<div id="selectionMenu" role="dialog" aria-label="Greek selection search options" hidden>
+  <button class="close" id="closeMenu" aria-label="Close search menu">×</button>
+  <div class="menuHeader">Selected Greek text</div>
+  <span id="selectionText" lang="grc"></span>
+  <button id="exactSearch">Search exact spelling · both poems</button>
+  <button id="accentSearch">Search without accents · both poems</button>
+  <button id="bookSearch">Find in this book</button>
+  <button id="lemmaSearch" hidden>Find all forms of this lemma · Iliad</button>
+  <div id="lemmaInfo" class="reference" style="padding:4px 9px;line-height:1.5" hidden></div>
+  <button id="copySelection">Copy Greek text</button>
+</div>
+<script>
+'use strict';
+let corpus = {};
+let iliadLemmas = null;
+let selectedLemmas = [];
+const workSelect = document.getElementById('work');
+const bookSelect = document.getElementById('book');
+const content = document.getElementById('content');
+const status = document.getElementById('status');
+const searchInput = document.getElementById('search');
+const menu = document.getElementById('selectionMenu');
+const selectionText = document.getElementById('selectionText');
+let selectedGreek = '';
+let selectedSource = null;
+let selectedBook = null;
+let selectedLine = null;
+
+// Accent-free matching is text matching, not lemmatization.
+function normalizeGreek(text) {
+  return text.toLocaleLowerCase('el').normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/ς/g, 'σ');
+}
+function exactGreek(text) { return text.normalize('NFC'); }
+function sameText(a,b,accentFree) {
+  return accentFree ? normalizeGreek(a).includes(normalizeGreek(b)) : exactGreek(a).includes(exactGreek(b));
+}
+function populateBooks() {
+  bookSelect.replaceChildren();
+  for (const book of corpus[workSelect.value] || []) bookSelect.add(new Option('Book ' + book.book, book.book));
+  showBook();
+}
+function greekSpan(verse) {
+  const text = document.createElement('span');
+  text.className='greek'; text.lang='grc'; text.dataset.greekText=verse.text;
+  // Preserve the original Greek and punctuation, make words individually clickable.
+  const tokens = verse.text.match(/\p{L}[\p{L}\p{M}\u1FBD\u1FBF\u1FFE\u2019\u02BC]*|[^\p{L}]+/gu) || [verse.text];
+  for (const token of tokens) {
+    if (/\p{L}/u.test(token)) {
+      const part=document.createElement('span'); part.className='greek-word';
+      part.textContent=token; text.append(part);
+    } else text.append(document.createTextNode(token));
+  }
+  return text;
+}
+function attachVerseRef(span,work,book,line) {
+  span.dataset.work=work; span.dataset.book=book; span.dataset.line=line;
+  return span;
+}
+function showBook(focusLine = null) {
+  closeMenu();
+  const work = workSelect.value;
+  const number = Number(bookSelect.value);
+  const book = (corpus[work] || []).find(b => b.book === number);
+  if (!book) return;
+  content.replaceChildren();
+  status.textContent = `${work === 'iliad' ? 'Iliad' : 'Odyssey'} · Book ${number} · ${book.verses.length} verses`;
+  for (const verse of book.verses) {
+    const row=document.createElement('div'); row.className='verse'; row.id='line-'+verse.line;
+    const n=document.createElement('span'); n.className='number'; n.textContent=verse.line;
+    row.append(n,attachVerseRef(greekSpan(verse),work,number,verse.line)); content.append(row);
+  }
+  if (focusLine !== null) document.getElementById('line-'+focusLine)?.scrollIntoView({block:'center'});
+}
+function searchCorpus(rawQuery, {accentFree=true, currentBookOnly=false}={}) {
+  closeMenu();
+  const query=rawQuery.trim().replace(/\s+/g,' ');
+  if (!query) return;
+  searchInput.value=query;
+  content.replaceChildren();
+  let count=0; const maxDisplayed=300;
+  const sources=currentBookOnly ? [[workSelect.value,corpus[workSelect.value].filter(b=>b.book===Number(bookSelect.value))]] : Object.entries(corpus);
+  for (const [work,books] of sources) for (const book of books) for (const verse of book.verses) {
+    if (!sameText(verse.text,query,accentFree)) continue;
+    count++;
+    if (count>maxDisplayed) continue;
+    const row=document.createElement('div'); row.className='result'; row.tabIndex=0;
+    const ref=document.createElement('div'); ref.className='reference';
+    ref.textContent=`${work==='iliad'?'Iliad':'Odyssey'} ${book.book}.${verse.line}`;
+    const text=attachVerseRef(greekSpan(verse),work,book.book,verse.line); text.classList.add('result-text');
+    row.append(ref,text);
+    const navigate=()=>{workSelect.value=work; populateBooks(); bookSelect.value=String(book.book); showBook(verse.line);};
+    row.addEventListener('click', e=>{ if(!e.target.closest('.greek-word')) navigate(); });
+    row.addEventListener('keydown', e=>{if(e.key==='Enter') navigate();});
+    content.append(row);
+  }
+  status.textContent=`${count} matching verses`+(currentBookOnly?' in this book':'')+(count>maxDisplayed?` (first ${maxDisplayed} displayed)`:'');
+}
+function closeMenu() { menu.hidden=true; selectedGreek=''; selectedSource=null; selectedLemmas=[]; }
+function lemmaCandidates(source, spelling) {
+  if(!iliadLemmas || source?.dataset.work!=='iliad') return [];
+  const key=source.dataset.book+'.'+source.dataset.line;
+  const annotations=iliadLemmas[key] || [];
+  const keyForm=normalizeGreek(spelling);
+  return [...new Set(annotations.filter(w=>normalizeGreek(w[0])===keyForm && w[1]).map(w=>w[1]))];
+}
+function searchLemmas(lemmas) {
+  closeMenu();
+  if(!iliadLemmas || !lemmas.length) return;
+  const keys=new Set(lemmas.map(normalizeGreek));
+  content.replaceChildren();
+  let count=0, limit=300;
+  const matches=Object.entries(iliadLemmas).filter(([ref,words])=>
+    words.some(w=>keys.has(normalizeGreek(w[1] || ''))));
+  for(const [ref,words] of matches) {
+    count++;
+    if(count>limit) continue;
+    const [bookNo,lineNo]=ref.split('.').map(Number);
+    const book=corpus.iliad?.find(b=>b.book===bookNo);
+    const verse=book?.verses.find(v=>v.line===lineNo);
+    if(!verse) continue;
+    const row=document.createElement('div'); row.className='result'; row.tabIndex=0;
+    const label=document.createElement('div'); label.className='reference'; label.textContent='Iliad '+ref;
+    const greek=attachVerseRef(greekSpan(verse),'iliad',bookNo,lineNo);
+    greek.classList.add('result-text');
+    row.append(label,greek);
+    const navigate=()=>{workSelect.value='iliad'; populateBooks();bookSelect.value=String(bookNo);showBook(lineNo);};
+    row.addEventListener('click',e=>{if(!e.target.closest('.greek-word'))navigate();});
+    row.addEventListener('keydown',e=>{if(e.key==='Enter')navigate();});
+    content.append(row);
+  }
+  status.textContent=`${count} Iliad verses annotated with lemma ${lemmas.join(' / ')}`+
+    (count>limit?` (first ${limit} displayed)`:'');
+  searchInput.value=lemmas.join(' / ');
+}
+
+function openMenu(text, rect, source) {
+  const clean=text.trim().replace(/\s+/g,' ');
+  if(!clean || !/[\p{Script=Greek}]/u.test(clean)) return;
+  selectedGreek=clean; selectedSource=source;
+  const isWord=source?.dataset.singleWord==='true';
+  selectedLemmas=isWord ? lemmaCandidates(source,clean) : [];
+  const lemmaButton=document.getElementById('lemmaSearch');
+  const lemmaInfo=document.getElementById('lemmaInfo');
+  lemmaButton.hidden=selectedLemmas.length===0;
+  lemmaInfo.hidden=selectedLemmas.length===0;
+  if(selectedLemmas.length) {
+    lemmaButton.textContent='Find all forms of '+selectedLemmas.join(' / ')+' · Iliad';
+    lemmaInfo.textContent='Treebank lemma: '+selectedLemmas.join(' / ')+
+      ' (Iliad only; some verses and variant spellings are unannotated).';
+  }
+  selectionText.textContent=clean;
+  document.getElementById('bookSearch').textContent=`Find in ${workSelect.value==='iliad'?'Iliad':'Odyssey'} Book ${bookSelect.value}`;
+  menu.hidden=false;
+  const width=menu.getBoundingClientRect().width;
+  menu.style.left=Math.max(12,Math.min(rect.left,innerWidth-width-12))+'px';
+  const height=menu.getBoundingClientRect().height;
+  const below=rect.bottom+8;
+  menu.style.top=(below+height<innerHeight ? below : Math.max(12,rect.top-height-8))+'px';
+}
+function showSelectionOrWord(event) {
+  if(menu.contains(event.target)) return;
+  const greek=event.target.closest?.('.greek');
+  const selection=window.getSelection();
+  if(greek && selection && !selection.isCollapsed && selection.toString().trim()) {
+    const range=selection.getRangeAt(0);
+    // Accept only selections contained in a Greek verse, not UI or result labels.
+    if(greek.contains(range.commonAncestorContainer)) {
+      greek.dataset.singleWord='false';
+      openMenu(selection.toString(),range.getBoundingClientRect(),greek);
+      return;
+    }
+  }
+  if(event.type==='click' && event.target.classList?.contains('greek-word')) {
+    const word=event.target;
+    greek.dataset.singleWord='true';
+    openMenu(word.textContent,word.getBoundingClientRect(),greek);
+    event.stopPropagation();
+    return;
+  }
+  if(!menu.hidden) closeMenu();
+}
+content.addEventListener('mouseup',e=>{
+  if(window.getSelection()?.toString().trim()) showSelectionOrWord(e);
+});
+content.addEventListener('click',showSelectionOrWord);
+content.addEventListener('touchend',e=>{
+  // Mobile long-press selection: give native handles time to settle.
+  if(window.getSelection()?.toString().trim()) showSelectionOrWord(e);
+});
+document.addEventListener('click',e=>{if(!menu.hidden&&!menu.contains(e.target)&&!content.contains(e.target)) closeMenu();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
+document.getElementById('closeMenu').onclick=closeMenu;
+document.getElementById('exactSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:false});
+document.getElementById('accentSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:true});
+document.getElementById('bookSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:true,currentBookOnly:true});
+document.getElementById('lemmaSearch').onclick=()=>searchLemmas([...selectedLemmas]);
+document.getElementById('copySelection').onclick=async()=>{
+  const text=selectedGreek;
+  try { await navigator.clipboard.writeText(text); status.textContent='Copied Greek text: '+text; }
+  catch { searchInput.value=text; searchInput.select(); status.textContent='Greek copied to search field; use ⌘C to copy.'; }
+  closeMenu();
+};
+workSelect.onchange=populateBooks;
+bookSelect.onchange=()=>showBook();
+document.getElementById('searchButton').onclick=()=>searchCorpus(searchInput.value);
+document.getElementById('clearButton').onclick=()=>{searchInput.value='';showBook();};
+searchInput.onkeydown=e=>{if(e.key==='Enter')searchCorpus(searchInput.value);};
+document.getElementById('previous').onclick=()=>{if(bookSelect.selectedIndex>0){bookSelect.selectedIndex--;showBook();}};
+document.getElementById('next').onclick=()=>{if(bookSelect.selectedIndex<bookSelect.options.length-1){bookSelect.selectedIndex++;showBook();}};
+fetch('data/homer.json')
+  .then(response=>{if(!response.ok)throw Error('HTTP '+response.status);return response.json();})
+  .then(data=>{corpus=data;populateBooks();})
+  .catch(error=>{status.textContent='Could not load Homer corpus: '+error.message;});
+fetch('data/iliad_lemmas.json')
+  .then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();})
+  .then(data=>{iliadLemmas=data;})
+  .catch(e=>{console.warn('Iliad lemma index unavailable; ordinary searches still work.',e);});
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+GRANSKADE ARBETSFILER från din Lagerlöf-XML.
+
+206 problematiska OCR-versgränser har setts över: 118 med hopklistrat skiljetecken och 88 med hopklistrade ord.
+Inga tecken har tagits bort och inget versantal har tvingats till samma antal som grekiskan.
+Även om versbrytningarna nu är språkligt rimliga har de INTE verifierats mot tryckt original eller metrisk analys.
+Observera särskilt återstående OCR-stavfel inne i orden. Dessa har inte rättats här.
+
+Installera därför inte som en vetenskapligt korrekturläst version.
