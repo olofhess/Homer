@@ -60,19 +60,19 @@
   <a href="https://historicalresearch.netlify.app/">
   ← Back to Historical Research
 </a>
-<header><h1>HOMER</h1><p class="subtitle">Greek Text Explorer · Iliad &amp; Odyssey · 1.6</p></header>
+<header><h1>HOMER</h1><p class="subtitle">Greek Text Explorer · Iliad &amp; Odyssey · 1.9</p></header>
 <div class="controls">
   <select id="work" aria-label="Poem"><option value="iliad">Iliad</option><option value="odyssey">Odyssey</option></select>
   <select id="book" aria-label="Book"></select>
   <button id="previous">← Previous</button><button id="next">Next →</button>
 </div>
 <div class="controls">
-  <input id="search" placeholder="Search Greek text (accents optional)" aria-label="Greek search text">
+  <input id="search" placeholder="Greek, Achilles Hector, or forms Achilles (selected poem)" aria-label="Greek search text">
   <button id="searchButton">Search both poems</button><button id="clearButton">Clear</button>
 </div>
 <div class="controls"><label for="translationSelect" style="align-self:center;font:14px system-ui,sans-serif">Translation:</label><select id="translationSelect" aria-label="Translation"><option value="none">Greek only</option><option value="sv" selected>Svenska · Erland Lagerlöf</option><option value="en">English · A. T. Murray</option></select></div>
 <p id="translationStatus" class="translation-note" hidden></p>
-<p id="hint">Click a Greek word, or drag across a phrase, to search without a Greek keyboard.</p>
+<p id="hint">Select Iliad or Odyssey, then type Achilles, Achilles Hector, or forms Achilles. Click a Greek noun for classified grammatical forms.</p>
 <p id="status" class="reference" role="status"></p>
 <main id="content"></main>
 <div id="selectionMenu" role="dialog" aria-label="Greek selection search options" hidden>
@@ -84,7 +84,8 @@
   <button id="bookSearch">Find in this book</button>
   <div id="morphInfo" hidden></div>
   <button id="explainWord" hidden>Explain word with ChatGPT · copy question</button>
-  <button id="lemmaSearch" hidden>Find all forms of this lemma · Iliad</button>
+  <button id="nounForms" hidden>Classify noun forms</button>
+  <button id="lemmaSearch" hidden>Find all forms of this lemma</button>
   <div id="lemmaInfo" class="reference" style="padding:4px 9px;line-height:1.5" hidden></div>
   <button id="copySelection">Copy Greek text</button>
 </div>
@@ -93,7 +94,15 @@
 'use strict';
 let corpus = {};
 let iliadLemmas = null;
+let iliadEpithets = null;
+let odysseyLemmas = null;
+let odysseyEpithets = null;
+const workLabel = w => w==='iliad'?'Iliad':'Odyssey';
+const indexFor = w => w==='iliad'?iliadLemmas:odysseyLemmas;
+const epithetsFor = w => w==='iliad'?iliadEpithets:odysseyEpithets;
+const activeWork = () => workSelect.value;
 let selectedLemmas = [];
+let selectedLemmaSequence = [];
 let inSearchView=false;
 const workSelect = document.getElementById('work');
 const bookSelect = document.getElementById('book');
@@ -133,7 +142,7 @@ function sameText(a,b,accentFree) {
 }
 function populateBooks() {
   bookSelect.replaceChildren();
-  for (const book of corpus[workSelect.value] || []) bookSelect.add(new Option('Book ' + book.book, book.book));
+  for (const book of corpus[workSelect.value] || []) bookSelect.add(new Option('Song ' + book.book, book.book));
   showBook();
 }
 function greekSpan(verse) {
@@ -163,7 +172,7 @@ async function showBook(focusLine = null) {
   if(!book) return;
   translationStatus.hidden=true;
   content.replaceChildren();
-  status.textContent=`${work==='iliad'?'Iliad':'Odyssey'} · Book ${number} · ${book.verses.length} verses`;
+  status.textContent=`${work==='iliad'?'Iliad':'Odyssey'} · Song ${number} · ${book.verses.length} verses`;
   const language=translationSelect.value;
   let translation=null;
   if(language!=='none') {
@@ -262,11 +271,88 @@ function searchCorpus(rawQuery, {accentFree=true, currentBookOnly=false}={}) {
   }
   status.textContent=`${count} matching verses`+(currentBookOnly?' in this book':'')+(count>maxDisplayed?` (first ${maxDisplayed} displayed)`:'');
 }
-function closeMenu() { menu.hidden=true; selectedGreek=''; selectedSource=null; selectedLemmas=[]; }
+// Latin-name input is deliberately limited to known names, not guessed transliteration.
+const nameAliases = {
+  achilles:'Ἀχιλλεύς',achilleus:'Ἀχιλλεύς',hector:'Ἕκτωρ',hektor:'Ἕκτωρ',
+  agamemnon:'Ἀγαμέμνων',zeus:'Ζεύς',hera:'Ἥρα',odysseus:'Ὀδυσσεύς',ulysses:'Ὀδυσσεύς',
+  menelaus:'Μενέλαος',athena:'Ἀθήνη',athene:'Ἀθήνη',apollo:'Ἀπόλλων',
+  patroclus:'Πάτροκλος',patroklos:'Πάτροκλος',paris:'Ἀλέξανδρος',
+  priam:'Πρίαμος',andromache:'Ἀνδρομάχη',diomedes:'Διομήδης',
+  aeneas:'Αἰνείας',ajax:'Αἴας',poseidon:'Ποσειδῶν',aphrodite:'Ἀφροδίτη',
+  telemachos:'Τηλέμαχος',telemachus:'Τηλέμαχος',telemachos:'Τηλέμαχος',
+  penelope:'Πηνελόπεια',
+  helena:'Ἑλένη',helen:'Ἑλένη',helene:'Ἑλένη',
+  kalypso:'Καλυψώ',calypso:'Καλυψώ',
+  kirke:'Κίρκη',circe:'Κίρκη',
+  nausikaa:'Ναυσικάα',nausicaa:'Ναυσικάα',
+  alkinoos:'Ἀλκίνοος',alcinous:'Ἀλκίνοος',
+  polyphemos:'Πολύφημος',polyphemus:'Πολύφημος'
+};
+function latinNames(query) {
+  const parts=query.toLowerCase().trim().split(/[\s,;]+/).filter(Boolean);
+  return parts.length && parts.length<=2 && parts.every(p=>nameAliases[p])
+    ?parts.map(p=>nameAliases[p]):null;
+}
+function addEpithetsResult(refs,work=activeWork()) {
+  const limit=300;
+  let shown=0;
+  for(const ref of refs) {
+    if(shown++>=limit)break;
+    const [bookNo,lineNo]=ref.split('.').map(Number);
+    const verse=corpus[work]?.find(b=>b.book===bookNo)?.verses.find(v=>Number(v.line)===lineNo);
+    if(!verse)continue;
+    const row=document.createElement('div');row.className='result';row.tabIndex=0;
+    const label=document.createElement('div');label.className='reference';label.textContent=workLabel(work)+' '+ref;
+    const greek=attachVerseRef(greekSpan(verse),work,bookNo,lineNo);greek.classList.add('result-text');
+    row.append(label,greek);
+    const navigate=()=>{workSelect.value=work;populateBooks();bookSelect.value=String(bookNo);showBook(lineNo);};
+    row.addEventListener('click',e=>{if(!e.target.closest('.greek-word'))navigate();});
+    row.addEventListener('keydown',e=>{if(e.key==='Enter')navigate();});
+    content.append(row);
+  }
+}
+function compareEpithets(first,second,work=activeWork()) {
+  inSearchView=true;document.getElementById('toTop').hidden=false;
+  ++bookRenderToken;translationStatus.hidden=true;closeMenu();content.replaceChildren();
+  const index=epithetsFor(work);
+  if(!index) {status.textContent=workLabel(work)+' epithet index unavailable. Generate it from the '+workLabel(work)+' treebank.';return;}
+  const left=index[first]||{},right=index[second]||{};
+  const shared=Object.keys(left).filter(e=>right[e]).sort((a,b)=>(right[b].length+left[b].length)-(right[a].length+left[a].length));
+  status.textContent=`${shared.length} shared annotated adjective lemmas · ${first} / ${second} · ${workLabel(work)} treebank`;
+  if(!shared.length){content.textContent='No shared adjective dependencies in the available annotations.';return;}
+  const explanation=document.createElement('p');explanation.className='reference';
+  explanation.textContent='Counts are annotated verses with a direct adjective–name dependency, not a complete literary classification of epithets. Click a count to inspect the Greek verses.';
+  content.append(explanation);
+  const table=document.createElement('table');table.style.cssText='border-collapse:collapse;width:100%;max-width:760px;font:16px system-ui,sans-serif';
+  const head=document.createElement('tr');
+  for(const name of ['Adjective lemma',first,second]){const cell=document.createElement('th');cell.textContent=name;cell.style.cssText='padding:10px;text-align:left;border-bottom:1px solid #ccc';head.append(cell);}table.append(head);
+  for(const epithet of shared){
+    const row=document.createElement('tr');const word=document.createElement('td');word.textContent=epithet;word.lang='grc';word.style.cssText='padding:9px;border-bottom:1px solid #eee';row.append(word);
+    for(const data of [left,right]){
+      const cell=document.createElement('td');cell.style.cssText='padding:9px;border-bottom:1px solid #eee';
+      const button=document.createElement('button');button.textContent=String(data[epithet].length);button.title='Show matching Greek verses';
+      button.style.cssText='padding:4px 12px';
+      button.onclick=()=>{content.replaceChildren();status.textContent=`${data[epithet].length} annotated ${workLabel(work)} verses · ${epithet} + ${data===left?first:second}`;
+        const back=document.createElement('button');back.textContent='← Back to comparison';back.onclick=()=>compareEpithets(first,second,work);content.append(back);
+        addEpithetsResult(data[epithet],work);};
+      cell.append(button);row.append(cell);
+    }table.append(row);
+  }content.append(table);
+}
+function searchFromInput(){
+  const query=searchInput.value.trim();const names=latinNames(query);
+  const formQuery=query.match(/^(?:forms|declension|grammatical forms)\s+(.+)$/i);
+  if(formQuery){const requested=latinNames(formQuery[1]);if(requested?.length===1){classifyNounForms(requested);return;}const lemma=formQuery[1].trim();classifyNounForms([lemma]);return;}
+  if(names?.length===2){compareEpithets(...names);return;}
+  if(names?.length===1){if(!indexFor(activeWork())){status.textContent=workLabel(activeWork())+' lemma index unavailable.';return;}searchLemmas(names);return;}
+  searchCorpus(query);
+}
+function closeMenu() { menu.hidden=true; selectedGreek=''; selectedSource=null; selectedLemmas=[]; selectedLemmaSequence=[]; }
 function lemmaCandidates(source, spelling) {
-  if(!iliadLemmas || source?.dataset.work!=='iliad') return [];
+  const index=indexFor(source?.dataset.work);
+  if(!index) return [];
   const key=source.dataset.book+'.'+source.dataset.line;
-  const annotations=iliadLemmas[key] || [];
+  const annotations=index[key] || [];
   const keyForm=normalizeGreek(spelling);
   return [...new Set(annotations.filter(w=>normalizeGreek(w[0])===keyForm && w[1]).map(w=>w[1]))];
 }
@@ -292,8 +378,9 @@ function describeMorph(tag) {
   return parts.join(' · ');
 }
 function wordAnnotations(source,spelling) {
-  if(!iliadLemmas||source?.dataset.work!=='iliad') return [];
-  const words=iliadLemmas[source.dataset.book+'.'+source.dataset.line]||[];
+  const index=indexFor(source?.dataset.work);
+  if(!index)return [];
+  const words=index[source.dataset.book+'.'+source.dataset.line]||[];
   return words.filter(w=>normalizeGreek(w[0])===normalizeGreek(spelling));
 }
 function currentExplanationPrompt(){
@@ -304,61 +391,159 @@ function currentExplanationPrompt(){
   const evidence=forms.length?forms.map(w=>`Lemma: ${w[1]}; Perseus-analys: ${w[2]} (${describeMorph(w[2])})`).join(' / '):'Ingen treebankanalys tillgänglig';
   return `Förklara det homeriska grekiska ordet ${selectedGreek} i ${work} ${b}.${n}.\nGrekisk vers: ${verse}\n${evidence}\nFörklara grundbetydelse, grammatik, användning i versen och eventuellt sammansättning. Skilj belagda uppgifter från tolkning.`;
 }
-function searchLemmas(lemmas) {
+function searchLemmas(lemmas,work=activeWork()) {
   inSearchView=true; document.getElementById("toTop").hidden=false;
   ++bookRenderToken;translationStatus.hidden=true;
   closeMenu();
-  if(!iliadLemmas || !lemmas.length) return;
+  const index=indexFor(work);
+  if(!index || !lemmas.length) {status.textContent=workLabel(work)+' lemma index unavailable.';return;}
   const keys=new Set(lemmas.map(normalizeGreek));
   content.replaceChildren();
   let count=0, limit=300;
-  const matches=Object.entries(iliadLemmas).filter(([ref,words])=>
+  const matches=Object.entries(index).filter(([ref,words])=>
     words.some(w=>keys.has(normalizeGreek(w[1] || ''))));
   for(const [ref,words] of matches) {
     count++;
     if(count>limit) continue;
     const [bookNo,lineNo]=ref.split('.').map(Number);
-    const book=corpus.iliad?.find(b=>b.book===bookNo);
+    const book=corpus[work]?.find(b=>b.book===bookNo);
     const verse=book?.verses.find(v=>v.line===lineNo);
     if(!verse) continue;
     const row=document.createElement('div'); row.className='result'; row.tabIndex=0;
-    const label=document.createElement('div'); label.className='reference'; label.textContent='Iliad '+ref;
-    const greek=attachVerseRef(greekSpan(verse),'iliad',bookNo,lineNo);
+    const label=document.createElement('div'); label.className='reference'; label.textContent=workLabel(work)+' '+ref;
+    const greek=attachVerseRef(greekSpan(verse),work,bookNo,lineNo);
     greek.classList.add('result-text');
     row.append(label,greek);
-    const navigate=()=>{workSelect.value='iliad'; populateBooks();bookSelect.value=String(bookNo);showBook(lineNo);};
+    const navigate=()=>{workSelect.value=work; populateBooks();bookSelect.value=String(bookNo);showBook(lineNo);};
     row.addEventListener('click',e=>{if(!e.target.closest('.greek-word'))navigate();});
     row.addEventListener('keydown',e=>{if(e.key==='Enter')navigate();});
     content.append(row);
   }
-  status.textContent=`${count} Iliad verses annotated with lemma ${lemmas.join(' / ')}`+
+  status.textContent=`${count} ${workLabel(work)} verses annotated with lemma ${lemmas.join(' / ')}`+
     (count>limit?` (first ${limit} displayed)`:'');
   searchInput.value=lemmas.join(' / ');
 }
 
+// Group attested noun forms by Perseus case, number and gender. No paradigms are invented.
+function classifyNounForms(lemmas,work=activeWork()) {
+  inSearchView=true;document.getElementById('toTop').hidden=false;
+  ++bookRenderToken;translationStatus.hidden=true;closeMenu();content.replaceChildren();
+  const index=indexFor(work);
+  if(!index){status.textContent=workLabel(work)+' morphology index unavailable.';return;}
+  const wanted=new Set(lemmas.map(normalizeGreek));
+  const groups=new Map();let occurrences=0;
+  for(const [ref,words] of Object.entries(index)){
+    for(const w of words){
+      if(!wanted.has(normalizeGreek(w[1]||'')))continue;
+      const tag=w[2]||'';
+      if(tag.length<9||tag[0]!=='n')continue;
+      const number=tag[2],gender=tag[6],kase=tag[7];
+      const key=[kase,number,gender,normalizeGreek(w[0])].join('|');
+      if(!groups.has(key))groups.set(key,{kase,number,gender,form:w[0],refs:[],count:0});
+      const group=groups.get(key);group.count++;group.refs.push(ref);occurrences++;
+    }
+  }
+  const cases={n:'Nominative',g:'Genitive',d:'Dative',a:'Accusative',v:'Vocative',l:'Locative'};
+  const numbers={s:'Singular',p:'Plural',d:'Dual'};
+  const genders={m:'Masculine',f:'Feminine',n:'Neuter'};
+  const caseOrder='ngdavl',numberOrder='spd';
+  const rows=[...groups.values()].sort((a,b)=>caseOrder.indexOf(a.kase)-caseOrder.indexOf(b.kase)||numberOrder.indexOf(a.number)-numberOrder.indexOf(b.number)||a.form.localeCompare(b.form,'el'));
+  status.textContent=`${occurrences} annotated noun occurrences · ${rows.length} attested form/class combinations · ${lemmas.join(' / ')} · ${workLabel(work)}`;
+  if(!rows.length){content.textContent=`No noun forms found for this lemma in the available ${workLabel(work)} annotations.`;return;}
+  const note=document.createElement('p');note.className='reference';note.textContent=`Only attested forms in the annotated ${workLabel(work)} are shown. A dash means the morphological feature was not specified. Click a count to see its verses.`;content.append(note);
+  const table=document.createElement('table');table.style.cssText='border-collapse:collapse;width:100%;max-width:850px;font:15px system-ui,sans-serif';
+  const head=document.createElement('tr');for(const title of ['Case','Number','Gender','Greek form','Occurrences']){const th=document.createElement('th');th.textContent=title;th.style.cssText='text-align:left;padding:8px;border-bottom:1px solid #aaa';head.append(th);}table.append(head);
+  for(const item of rows){
+    const tr=document.createElement('tr');
+    for(const value of [cases[item.kase]||'—',numbers[item.number]||'—',genders[item.gender]||'—',item.form]){const td=document.createElement('td');td.textContent=value;td.style.cssText='padding:8px;border-bottom:1px solid #ddd';if(value===item.form)td.lang='grc';tr.append(td);}
+    const td=document.createElement('td');td.style.cssText='padding:8px;border-bottom:1px solid #ddd';const btn=document.createElement('button');btn.textContent=String(item.count);btn.title='Show attested verses';btn.onclick=()=>{
+      content.replaceChildren();status.textContent=`${item.count} annotated occurrences · ${item.form} · ${cases[item.kase]||'Unspecified case'}`;
+      const back=document.createElement('button');back.textContent='← Back to grammatical forms';back.onclick=()=>classifyNounForms(lemmas,work);content.append(back);
+      addEpithetsResult([...new Set(item.refs)],work);
+    };td.append(btn);tr.append(td);table.append(tr);
+  }
+  content.append(table);
+}
+
+// Resolve a selected phrase to an ordered sequence of annotated lemmata.
+// Compact indexes for both poems store tokens in verse order, but no dependency heads.
+function phraseLemmas(source, phrase) {
+  const index=indexFor(source?.dataset.work);
+  if(!index) return [];
+  const words=index[source.dataset.book+'.'+source.dataset.line]||[];
+  const tokens=(phrase.match(/\p{L}[\p{L}\p{M}\u1FBD\u1FBF\u1FFE\u2019\u02BC]*/gu)||[]).map(normalizeGreek);
+  if(tokens.length<2) return [];
+  for(let start=0;start<=words.length-tokens.length;start++) {
+    if(tokens.every((token,i)=>normalizeGreek(words[start+i][0])===token) &&
+       words.slice(start,start+tokens.length).every(w=>w[1])) {
+      return words.slice(start,start+tokens.length).map(w=>w[1]);
+    }
+  }
+  return [];
+}
+function searchLemmaSequence(lemmas,work=activeWork()) {
+  const index=indexFor(work);
+  if(!index || lemmas.length<2) {status.textContent=workLabel(work)+' lemma index unavailable.';return;}
+  inSearchView=true;document.getElementById('toTop').hidden=false;
+  ++bookRenderToken;translationStatus.hidden=true;
+  closeMenu();content.replaceChildren();
+  const wanted=lemmas.map(normalizeGreek);
+  let count=0;const limit=300;
+  for(const [ref,words] of Object.entries(index)) {
+    let matched=false;
+    for(let i=0;i<=words.length-wanted.length;i++) {
+      if(wanted.every((lemma,j)=>normalizeGreek(words[i+j][1]||'')===lemma)) {matched=true;break;}
+    }
+    if(!matched)continue;
+    const [bookNo,lineNo]=ref.split('.').map(Number);
+    const verse=corpus[work]?.find(b=>b.book===bookNo)?.verses.find(v=>Number(v.line)===lineNo);
+    if(!verse)continue;
+    count++;
+    if(count>limit)continue;
+    const row=document.createElement('div');row.className='result';row.tabIndex=0;
+    const label=document.createElement('div');label.className='reference';label.textContent=workLabel(work)+' '+ref;
+    const greek=attachVerseRef(greekSpan(verse),work,bookNo,lineNo);
+    greek.classList.add('result-text');row.append(label,greek);
+    const navigate=()=>{workSelect.value=work;populateBooks();bookSelect.value=String(bookNo);showBook(lineNo);};
+    row.addEventListener('click',e=>{if(!e.target.closest('.greek-word'))navigate();});
+    row.addEventListener('keydown',e=>{if(e.key==='Enter')navigate();});
+    content.append(row);
+  }
+  status.textContent=`${count} ${workLabel(work)} verses matching lemma sequence ${lemmas.join(' + ')}`+
+    (count>limit?` (first ${limit} displayed)`:'');
+  searchInput.value=lemmas.join(' + ');
+}
 function openMenu(text, rect, source) {
   const clean=text.trim().replace(/\s+/g,' ');
   if(!clean || !/[\p{Script=Greek}]/u.test(clean)) return;
   selectedGreek=clean; selectedSource=source;
   const isWord=source?.dataset.singleWord==='true';
   selectedLemmas=isWord ? lemmaCandidates(source,clean) : [];
+  selectedLemmaSequence=isWord ? [] : phraseLemmas(source,clean);
   const morphInfo=document.getElementById('morphInfo');
   const explain=document.getElementById('explainWord');
   const forms=isWord?wordAnnotations(source,clean):[];
   morphInfo.hidden=forms.length===0;
   morphInfo.textContent=forms.map(w=>`Lemma: ${w[1]}\n${describeMorph(w[2])}\nTreebank relation: ${w[3]||'—'}`).join('\n\n');
   explain.hidden=!isWord;
+  const nounButton=document.getElementById('nounForms');
+  nounButton.hidden=!forms.some(w=>w[2]?.[0]==='n' && w[1]);
   const lemmaButton=document.getElementById('lemmaSearch');
   const lemmaInfo=document.getElementById('lemmaInfo');
-  lemmaButton.hidden=selectedLemmas.length===0;
-  lemmaInfo.hidden=selectedLemmas.length===0;
+  lemmaButton.hidden=selectedLemmas.length===0 && selectedLemmaSequence.length===0;
+  lemmaInfo.hidden=lemmaButton.hidden;
   if(selectedLemmas.length) {
-    lemmaButton.textContent='Find all forms of '+selectedLemmas.join(' / ')+' · Iliad';
+    lemmaButton.textContent='Find all forms of '+selectedLemmas.join(' / ')+' · '+workLabel(source.dataset.work);
     lemmaInfo.textContent='Treebank lemma: '+selectedLemmas.join(' / ')+
-      ' (Iliad only; some verses and variant spellings are unannotated).';
+      ' (some verses and variant spellings may be unannotated).';
+  }
+  if(selectedLemmaSequence.length) {
+    lemmaButton.textContent='Find all grammatical forms · '+workLabel(source.dataset.work);
+    lemmaInfo.textContent='Lemma sequence: '+selectedLemmaSequence.join(' + ')+
+      ' (adjacent words in the same order; annotated verses only).';
   }
   selectionText.textContent=clean;
-  document.getElementById('bookSearch').textContent=`Find in ${source?.dataset.work==='iliad'?'Iliad':'Odyssey'} Book ${source?.dataset.book||bookSelect.value}`;
+  document.getElementById('bookSearch').textContent=`Find in ${source?.dataset.work==='iliad'?'Iliad':'Odyssey'} Song ${source?.dataset.book||bookSelect.value}`;
   menu.hidden=false;
   const width=menu.getBoundingClientRect().width;
   menu.style.left=Math.max(12,Math.min(rect.left,innerWidth-width-12))+'px';
@@ -402,7 +587,11 @@ document.getElementById('closeMenu').onclick=closeMenu;
 document.getElementById('exactSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:false});
 document.getElementById('accentSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:true});
 document.getElementById('bookSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:true,currentBookOnly:true});
-document.getElementById('lemmaSearch').onclick=()=>searchLemmas([...selectedLemmas]);
+document.getElementById('nounForms').onclick=()=>classifyNounForms([...selectedLemmas],selectedSource?.dataset.work||activeWork());
+document.getElementById('lemmaSearch').onclick=()=>{
+  if(selectedLemmaSequence.length)searchLemmaSequence([...selectedLemmaSequence],selectedSource?.dataset.work||activeWork());
+  else searchLemmas([...selectedLemmas],selectedSource?.dataset.work||activeWork());
+};
 document.getElementById('explainWord').onclick=async()=>{
   const prompt=currentExplanationPrompt();
   try {await navigator.clipboard.writeText(prompt);status.textContent='Question copied. Paste it into your ChatGPT conversation.';}
@@ -419,19 +608,42 @@ document.getElementById('copySelection').onclick=async()=>{
 workSelect.onchange=populateBooks;
 translationSelect.onchange=()=>showBook();
 bookSelect.onchange=()=>showBook();
-document.getElementById('searchButton').onclick=()=>searchCorpus(searchInput.value);
+document.getElementById('searchButton').onclick=searchFromInput;
 document.getElementById('clearButton').onclick=()=>{searchInput.value='';showBook();};
-searchInput.onkeydown=e=>{if(e.key==='Enter')searchCorpus(searchInput.value);};
+searchInput.onkeydown=e=>{if(e.key==='Enter')searchFromInput();};
 document.getElementById('previous').onclick=()=>{if(bookSelect.selectedIndex>0){bookSelect.selectedIndex--;showBook();}};
 document.getElementById('next').onclick=()=>{if(bookSelect.selectedIndex<bookSelect.options.length-1){bookSelect.selectedIndex++;showBook();}};
 fetch('data/homer.json')
   .then(response=>{if(!response.ok)throw Error('HTTP '+response.status);return response.json();})
-  .then(data=>{corpus=data;populateBooks();})
+  .then(data=>{
+    // Convert the public Poem → Song → Verse schema to the existing
+    // in-memory shape used by search, annotation and translation functions.
+    corpus=Object.fromEntries(Object.entries(data.poems).map(([poem,entry])=>[
+      poem,entry.songs.map(song=>({
+        book:Number(song.song),
+        verses:song.verses.map(verse=>({line:Number(verse.verse),text:verse.text}))
+      }))
+    ]));
+    populateBooks();
+  })
   .catch(error=>{status.textContent='Could not load Homer corpus: '+error.message;});
-fetch('data/iliad_lemmas.json')
-  .then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();})
-  .then(data=>{iliadLemmas=data;})
-  .catch(e=>{console.warn('Iliad lemma index unavailable; ordinary searches still work.',e);});
+// One loader for both poems and both annotation types.
+async function loadAnnotation(work,kind) {
+  const url=`data/${work}_${kind}.json`;
+  try {
+    const response=await fetch(url);
+    if(!response.ok)throw Error('HTTP '+response.status);
+    const data=await response.json();
+    if(kind==='lemmas') {
+      if(work==='iliad')iliadLemmas=data;else odysseyLemmas=data;
+    } else {
+      if(work==='iliad')iliadEpithets=data;else odysseyEpithets=data;
+    }
+  } catch(error) {console.warn(`${work} ${kind} unavailable:`,error);}
+}
+for(const work of ['iliad','odyssey'])
+  for(const kind of ['lemmas','epithets'])loadAnnotation(work,kind);
+
 </script>
 </body>
 </html>
