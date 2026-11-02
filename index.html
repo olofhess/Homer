@@ -68,7 +68,7 @@
 </div>
 <div class="controls">
   <input id="search" placeholder="Greek, Achilles Hector, or forms Achilles (selected poem)" aria-label="Greek search text">
-  <button id="searchButton">Search both poems</button><button id="clearButton">Clear</button>
+  <button id="searchButton">Search both poems</button><button id="fuzzySearchButton" title="Find similar verses in both poems">Similar verses</button><button id="clearButton">Clear</button>
 </div>
 <div class="controls"><label for="translationSelect" style="align-self:center;font:14px system-ui,sans-serif">Translation:</label><select id="translationSelect" aria-label="Translation"><option value="none">Greek only</option><option value="sv" selected>Svenska · Erland Lagerlöf</option><option value="en">English · A. T. Murray</option></select></div>
 <p id="translationStatus" class="translation-note" hidden></p>
@@ -82,6 +82,7 @@
   <button id="exactSearch">Search exact spelling · both poems</button>
   <button id="accentSearch">Search without accents · both poems</button>
   <button id="bookSearch">Find in this book</button>
+  <button id="fuzzySelection" hidden>Find similar verses · both poems</button>
   <div id="morphInfo" hidden></div>
   <button id="explainWord" hidden>Explain word with ChatGPT · copy question</button>
   <button id="nounForms" hidden>Classify noun forms</button>
@@ -513,6 +514,89 @@ function searchLemmaSequence(lemmas,work=activeWork()) {
     (count>limit?` (first ${limit} displayed)`:'');
   searchInput.value=lemmas.join(' + ');
 }
+// Fuzzy formula search. Matches shared lemma order, allowing insertions,
+// omissions and substitutions. Annotation coverage is incomplete; use
+// normalized Greek surface forms where a lemma is missing.
+function fuzzyTokens(text) {
+  return (text.match(/\p{L}[\p{L}\p{M}\u1FBD\u1FBF\u1FFE\u2019\u02BC]*/gu)||[])
+    .map(normalizeGreek).filter(Boolean);
+}
+function fuzzyVerseTokens(work,book,line,text) {
+  const annotations=indexFor(work)?.[`${book}.${line}`];
+  const surface=fuzzyTokens(text);
+  if(!annotations?.length) return surface;
+  // Annotations may omit words or split tokens differently. Never align
+  // different-length arrays positionally: that would invent word identities.
+  const annotated=annotations.map(a=>normalizeGreek(a[1]||a[0]||'')).filter(Boolean);
+  return annotated.length===surface.length ? annotated : surface;
+}
+function fuzzySimilarity(a,b) {
+  if(!a.length||!b.length)return {score:0,shared:0};
+  // Longest common subsequence preserves order but permits gaps.
+  let previous=new Uint16Array(b.length+1);
+  for(const token of a){
+    const current=new Uint16Array(b.length+1);
+    for(let j=1;j<=b.length;j++) current[j]=token===b[j-1]
+      ?previous[j-1]+1:Math.max(previous[j],current[j-1]);
+    previous=current;
+  }
+  const shared=previous[b.length];
+  return {shared,score:2*shared/(a.length+b.length),coverage:shared/a.length};
+}
+function searchSimilarVerses(text,source=null) {
+  const query=text.trim();if(!query)return;
+  if(!Object.keys(corpus).length){status.textContent='Greek corpus is not loaded yet.';return;}
+  let work=source?.dataset.work,book=Number(source?.dataset.book),line=Number(source?.dataset.line);
+  let sourceVerse=work&&book&&line?corpus[work]?.find(b=>b.book===book)?.verses.find(v=>v.line===line):null;
+  // An entered whole verse should use the same lemma representation as
+  // candidate verses. Otherwise surface forms are compared against lemmata.
+  if(!sourceVerse){
+    const normalizedQuery=fuzzyTokens(query).join(' ');
+    outer:for(const [poem,books] of Object.entries(corpus))for(const song of books)for(const verse of song.verses){
+      if(fuzzyTokens(verse.text).join(' ')===normalizedQuery){
+        work=poem;book=song.book;line=verse.line;sourceVerse=verse;break outer;
+      }
+    }
+  }
+  // Compare BOTH surface forms and lemmata. Treebank coverage differs
+  // between verses; a lemma-only comparison can hide literal repetitions.
+  const querySurface=fuzzyTokens(sourceVerse?.text||query);
+  const queryLemmas=sourceVerse?fuzzyVerseTokens(work,book,line,sourceVerse.text):querySurface;
+  if(querySurface.length<3){status.textContent='Select or enter at least three Greek words.';return;}
+  const matches=[];
+  for(const [poem,books] of Object.entries(corpus))for(const song of books)for(const verse of song.verses){
+    const surface=fuzzyTokens(verse.text);
+    const lemmas=fuzzyVerseTokens(poem,song.book,verse.line,verse.text);
+    const bySurface=fuzzySimilarity(querySurface,surface);
+    const byLemma=fuzzySimilarity(queryLemmas,lemmas);
+    const shortQuery=querySurface.length<=6;
+    const similarity=shortQuery
+      ? (bySurface.coverage>=byLemma.coverage?bySurface:byLemma)
+      : (bySurface.score>=byLemma.score?bySurface:byLemma);
+    if(similarity.shared>=3 && (shortQuery?similarity.coverage>=0.75:similarity.score>=0.50))
+      matches.push({poem,book:song.book,verse, ...similarity});
+  }
+  matches.sort((a,b)=>(querySurface.length<=6?b.coverage-a.coverage: b.score-a.score)||b.shared-a.shared||a.poem.localeCompare(b.poem)||a.book-b.book||a.verse.line-b.verse.line);
+  inSearchView=true;document.getElementById('toTop').hidden=false;
+  ++bookRenderToken;translationStatus.hidden=true;closeMenu();content.replaceChildren();
+  const limit=150;
+  status.textContent=`${matches.length} similar verses · both poems · ${querySurface.length} query words`+
+    (matches.length>limit?` (first ${limit} displayed)`:'');
+  const note=document.createElement('p');note.className='reference';
+  note.textContent=querySurface.length<=6?'Short phrase: at least 3 matching words and 75% of the query, in order (gaps allowed).':'Whole verse: at least 3 matching words and 50% similarity (gaps allowed).';
+  content.append(note);
+  for(const hit of matches.slice(0,limit)){
+    const row=document.createElement('div');row.className='result';row.tabIndex=0;
+    const label=document.createElement('div');label.className='reference';
+    label.textContent=`${workLabel(hit.poem)} ${hit.book}.${hit.verse.line} · ${Math.round((querySurface.length<=6?hit.coverage:hit.score)*100)}% · ${hit.shared} shared`;
+    const greek=attachVerseRef(greekSpan(hit.verse),hit.poem,hit.book,hit.verse.line);
+    greek.classList.add('result-text');row.append(label,greek);
+    const navigate=()=>{workSelect.value=hit.poem;populateBooks();bookSelect.value=String(hit.book);showBook(hit.verse.line);};
+    row.addEventListener('click',e=>{if(!e.target.closest('.greek-word'))navigate();});
+    row.addEventListener('keydown',e=>{if(e.key==='Enter')navigate();});
+    content.append(row);
+  }
+}
 function openMenu(text, rect, source) {
   const clean=text.trim().replace(/\s+/g,' ');
   if(!clean || !/[\p{Script=Greek}]/u.test(clean)) return;
@@ -542,6 +626,7 @@ function openMenu(text, rect, source) {
     lemmaInfo.textContent='Lemma sequence: '+selectedLemmaSequence.join(' + ')+
       ' (adjacent words in the same order; annotated verses only).';
   }
+  document.getElementById('fuzzySelection').hidden=isWord;
   selectionText.textContent=clean;
   document.getElementById('bookSearch').textContent=`Find in ${source?.dataset.work==='iliad'?'Iliad':'Odyssey'} Song ${source?.dataset.book||bookSelect.value}`;
   menu.hidden=false;
@@ -587,6 +672,7 @@ document.getElementById('closeMenu').onclick=closeMenu;
 document.getElementById('exactSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:false});
 document.getElementById('accentSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:true});
 document.getElementById('bookSearch').onclick=()=>searchCorpus(selectedGreek,{accentFree:true,currentBookOnly:true});
+document.getElementById('fuzzySelection').onclick=()=>searchSimilarVerses(selectedGreek,selectedSource);
 document.getElementById('nounForms').onclick=()=>classifyNounForms([...selectedLemmas],selectedSource?.dataset.work||activeWork());
 document.getElementById('lemmaSearch').onclick=()=>{
   if(selectedLemmaSequence.length)searchLemmaSequence([...selectedLemmaSequence],selectedSource?.dataset.work||activeWork());
@@ -609,6 +695,7 @@ workSelect.onchange=populateBooks;
 translationSelect.onchange=()=>showBook();
 bookSelect.onchange=()=>showBook();
 document.getElementById('searchButton').onclick=searchFromInput;
+document.getElementById('fuzzySearchButton').onclick=()=>searchSimilarVerses(searchInput.value);
 document.getElementById('clearButton').onclick=()=>{searchInput.value='';showBook();};
 searchInput.onkeydown=e=>{if(e.key==='Enter')searchFromInput();};
 document.getElementById('previous').onclick=()=>{if(bookSelect.selectedIndex>0){bookSelect.selectedIndex--;showBook();}};
